@@ -33,10 +33,6 @@
 - [ ] Update the OG image meta tag in index.html if it doesn't already point to bamegirot.com (it already does — just verify it loads)
 - [ ] Run `~/.npm-global/bin/vercel --prod --yes` to redeploy with the live domain active
 
-## After launch
-
-- [ ] Add negative keywords to Google Ads: `פינוי`, `סוחר עתיקות`, `וינטג'`, `שמאי`, `גמולב`, `buy antique items` (~₪238/month waste)
-
 ## Done
 
 - [x] Business name → במגירות
