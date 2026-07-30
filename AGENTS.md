@@ -34,6 +34,8 @@ Treat these as fixed unless the user explicitly changes them:
 - WhatsApp: `972523321045`.
 - Google Ads account tag: `AW-10933411346`; the conversion label is in the
   click handler near the end of `index.html`.
+- GA4 measurement ID: `G-N75RDS0BKM`, configured through the same `gtag.js`
+  load as the Ads tag. Do not add a second gtag.js script tag.
 - Document language/direction: `<html lang="he" dir="rtl">`.
 
 ## Editing rules
