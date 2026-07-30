@@ -18,6 +18,11 @@ changes.
 - `images/cover.webp` is the optimized hero image. `images/cover.jpg` is kept
   for Open Graph/schema consumers. `images/item-*.webp` are the gallery.
   `images/portrait.webp` is the available portrait asset.
+- Gallery items also have responsive variants `item-NN-{400,600,800}.webp`
+  referenced from `srcset`. Widths within 90% of the original are skipped, so
+  not every item has all three. Replacing a gallery image means regenerating
+  its variants and updating both `srcset` and the `width`/`height` attributes.
+  `check_site.py` does not parse `srcset`; verify those paths by hand.
 - `favicon.svg`, `robots.txt`, `sitemap.xml`, and both `google*.html` files are
   production assets. Do not rename or remove the Google verification files.
 - `TODO.md` tracks business/launch work, not code architecture.
