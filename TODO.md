@@ -4,6 +4,12 @@
 
 - [ ] Review the "קצת עליי" paragraph — confirm Lior is happy with the wording
 
+## Content decisions from repository audit
+
+- [ ] Confirm the "קצת עליי" image. The page currently reuses
+  `images/cover.webp`; `images/portrait.webp` exists but contains a three-person
+  photo and is not referenced.
+
 ## Connect bamegirot.com domain (Wix → Vercel)
 
 **Step 1 — Add domain in Vercel**
@@ -40,7 +46,10 @@
 - [x] Domain → https://www.bamegirot.com/
 - [x] Hero cover image — full-bleed with text overlay
 - [x] 3 real testimonials (מיכל, ליאת, יעל)
-- [x] Portrait photo → images/portrait.jpg (live in "קצת עליי" section)
+- [x] Portrait asset added → images/portrait.webp (not currently used; see audit item)
+- [x] SEO and visible positioning aligned: במגירות evaluates and supports sales;
+      it does not directly purchase the contents
+- [x] Remaining unverified "without cost" claims removed; "without obligation" retained
 - [x] 21 item photos → sold items gallery section
 - [x] Removed all "free evaluation" / "חינם" references
 - [x] Removed all silver / "כסף ישן" references

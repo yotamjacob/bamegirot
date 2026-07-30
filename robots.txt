@@ -1,3 +1,26 @@
 User-agent: *
 Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
+User-agent: Googlebot
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
 Sitemap: https://www.bamegirot.com/sitemap.xml

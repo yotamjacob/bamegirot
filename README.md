@@ -1,102 +1,75 @@
-# Mom's Antique Appraisal — Landing Page
+# במגירות
 
-A single-page Hebrew landing page for an antique/inheritance appraisal service.
-Optimized for Google Ads message-match based on 3 months of real campaign data.
+A production, single-page Hebrew landing site for Lior's antique, estate
+contents, and vintage-item appraisal and sales service:
+[www.bamegirot.com](https://www.bamegirot.com/).
 
-## What's in here
+The site is optimized for WhatsApp enquiries and Google search/ads. It uses
+plain HTML, CSS, and JavaScript with no dependencies or build step.
 
-- `index.html` — the entire site. One file. Plain HTML/CSS/JS, no build step.
-- `README.md` — this file.
-- `.gitignore` — standard ignore list for deploying via Git.
+## Repository
 
-## Design system (so you know what you're editing)
+- `index.html` — all page markup, styles, scripts, SEO metadata, and JSON-LD.
+- `images/` — optimized WebP page images plus the JPEG social-sharing image.
+- `favicon.svg` — site icon.
+- `robots.txt`, `sitemap.xml`, `google*.html` — search-engine assets and
+  ownership verification.
+- `vercel.json` — canonical-host redirects, trailing-slash policy, and response
+  headers for the Vercel deployment.
+- `TODO.md` — operational and content follow-ups.
+- `AGENTS.md` — durable instructions for Codex and other coding agents.
+- `scripts/check_site.py` — fast static checks for common production mistakes.
 
-- **Typography:** Frank Ruhl Libre (display serif) + Heebo (body) — both via Google Fonts.
-- **Colors:** warm ivory background (`#f5efe6`), deep forest green primary (`#2d4a3e`), antique brass accent (`#a67c2e`), WhatsApp green CTAs (`#25D366`).
-- **Direction:** RTL (Hebrew). Language: `he`.
-- **All design tokens** are CSS variables at the top of the `<style>` block — change them there and the whole page updates.
+## Run locally
 
-## Placeholders you need to replace before launch
+From the repository root:
 
-Search the file for these exact strings:
-
-| Placeholder | What to replace with | Appears |
-|---|---|---|
-| `BUSINESS_NAME` | Real business/brand name | ~5 places |
-| `WHATSAPP_NUMBER` | WhatsApp number, digits only with country code, e.g. `972501234567` | 2 places |
-| `YEARS` | Years of experience (e.g. `20`) | 3 places |
-| `FAMILIES+` | Families helped (e.g. `300+`) | 1 place |
-| `TESTIMONIAL_NAME_1` / `TESTIMONIAL_NAME_2` | Real names + cities | 2 places |
-| `YOUR-DOMAIN.co.il` | The actual domain | 2 places (meta tags) |
-| `.img-placeholder` divs | Replace with real `<img>` tags for cover + portrait | 2 places |
-
-Every placeholder has a `<!-- TODO: ... -->` comment right next to it.
-
-## Images
-
-When you have them, create an `images/` folder next to `index.html` and drop in:
-
-- `cover.jpg` — hero image, ideally ~800×1000px (4:5 ratio)
-- `portrait.jpg` — photo of the business owner, square (1:1)
-
-Then in `index.html`, find the two `<div class="img-placeholder">` blocks and replace with:
-
-```html
-<img src="images/cover.jpg" alt="שירות הערכת עתיקות ותכולת דירה" />
-<img src="images/portrait.jpg" alt="BUSINESS_NAME" />
+```sh
+python3 -m http.server 8000
 ```
 
-(Commented-out examples are already there — just uncomment and delete the placeholder div.)
+Open [http://localhost:8000/](http://localhost:8000/). Google Fonts and Ads
+scripts require an internet connection; the page itself and its images are
+local.
 
-## First prompts to try in Claude Code
+## Validate changes
 
-Good first prompts to get used to the workflow:
+```sh
+python3 scripts/check_site.py
+git diff --check
+```
 
-> "Replace all instances of BUSINESS_NAME with [actual name]"
+The checker uses Python's standard library and, when Node.js is available,
+also checks the syntax of inline JavaScript. It verifies local assets, fragment
+links, image alt text, structured data, FAQ/schema parity, production URLs,
+WhatsApp consistency, heading/landmark structure, image dimensions/loading,
+crawl directives, sitemap contents, and Vercel routing configuration.
 
-> "Update the testimonials section. Here are two real ones: [paste text]"
+For layout or interaction changes, also inspect desktop and mobile widths.
+Exercise the FAQ accordion, scroll header, back-to-top button, and WhatsApp
+links.
 
-> "Tighten the hero subhead — make it one sentence shorter"
+## Editing notes
 
-> "Add an image at images/cover.jpg into the hero visual slot, replacing the placeholder"
+- The document is Hebrew and RTL (`lang="he"`, `dir="rtl"`).
+- Shared design tokens are CSS custom properties at the top of the `<style>`
+  block in `index.html`.
+- Visible raster images use WebP. `images/cover.jpg` remains in the repository
+  because Open Graph and schema metadata reference it.
+- FAQ content exists twice: visibly on the page and in `FAQPage` JSON-LD.
+- The production domain and phone number also appear in several metadata,
+  schema, and CTA locations. Keep every copy synchronized.
+- Preserve Lior's first-person feminine voice and do not invent business claims
+  or testimonials.
 
-## Deploying to Vercel via GitHub
+See `AGENTS.md` for the complete editing and review contract.
 
-1. In this folder's terminal:
-   ```
-   git init
-   git add .
-   git commit -m "initial landing page"
-   ```
-2. Create a new empty repo on GitHub, then:
-   ```
-   git remote add origin <YOUR_REPO_URL>
-   git branch -M main
-   git push -u origin main
-   ```
-3. Go to vercel.com → **New Project** → import your GitHub repo → **Deploy**. It's live in ~30 seconds.
-4. In Vercel → Settings → Domains, add your real domain. Vercel will give you DNS records.
-5. In Wix → Domains → Advanced → DNS Records, paste those records. SSL provisions automatically.
+## Deployment
 
-Every `git push` from now on auto-deploys. Very smooth.
+The GitHub repository is connected to the Vercel project `mom-antiques`.
+Changes pushed to the configured production branch are deployed by Vercel.
+Domain and launch follow-ups are tracked in `TODO.md`.
 
-## Keyword strategy baked into this page
-
-Based on 3 months of Google Ads data (Jan–Apr 2026), the converting keyword pattern is `קונה [category]` — NOT inheritance/clearance framing. The page now mirrors this pattern in:
-
-- H1
-- Section titles
-- All 12 category tiles
-- Meta tags
-- Schema.org `makesOffer` list
-
-Top converters weighted into the page, in order:
-1. קונה עתיקות (6 conv, ₪56 CPA, 11.5% CR)
-2. קונה תכולת דירה (3 conv, ₪110 CPA)
-3. הערכת עתיקות (2 conv, ₪14 CPA, 33% CR) — biggest magnet
-4. קונה ציורים, sell antique, מי קונה כלי כסף, קונה עתיקות יד שניה (2 conv each)
-5. קונה יודאיקה, קונה כסף ישן, מכירת עתיקות באינטרנט (1 conv each)
-
-## After launch — Google Ads cleanup (separate job)
-
-About ₪238/month is wasted on zero-converting keywords. When you're ready, add as **negative keywords**: `פינוי`, `סוחר עתיקות`, `וינטג'` (if not selling vintage clothing), `שמאי`, `גמולב`, `buy antique items` (English broad burning budget).
+Do not run a production deployment or change DNS/analytics identifiers as part
+of an ordinary content or design edit unless that action was explicitly
+requested.
