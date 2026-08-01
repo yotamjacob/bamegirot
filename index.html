@@ -840,6 +840,8 @@
     }
     .site-footer address a { color: var(--color-bg); }
     .site-footer address a:hover { text-decoration: underline; }
+    .footer-guides a { color: var(--color-bg); opacity: 0.85; }
+    .footer-guides a:hover { text-decoration: underline; opacity: 1; }
     .footer-copy {
       width: 100%;
       padding-top: 1rem;
@@ -1461,6 +1463,9 @@
         <a href="tel:+972523321045">טלפון: <bdi>052-332-1045</bdi></a>
         <a href="https://www.bamegirot.com/">אתר: <bdi>www.bamegirot.com</bdi></a>
       </address>
+      <div class="footer-guides">
+        <a href="/guides/inherited-apartment-contents/">מדריך: מה עושים עם תכולת דירה של נפטר?</a>
+      </div>
       <div class="footer-copy">ליאור בוכשטב · במגירות · &copy; 2026</div>
     </div>
   </footer>
@@ -1517,13 +1522,19 @@
 
     backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
-    // Google Ads — fire conversion on every WhatsApp link click
-    document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
-      link.addEventListener('click', () => {
-        gtag('event', 'conversion', {
-          'send_to': 'AW-10933411346/F_bFCM_o-J4cEJK8ut0o'
-        });
+    // Google Ads — fire lead conversions. 'beacon' transport survives the
+    // page unloading when the WhatsApp / phone app takes over on mobile.
+    const trackLead = sendTo => () => {
+      gtag('event', 'conversion', {
+        'send_to': sendTo,
+        'transport_type': 'beacon'
       });
+    };
+    document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
+      link.addEventListener('click', trackLead('AW-10933411346/F_bFCM_o-J4cEJK8ut0o'));
+    });
+    document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+      link.addEventListener('click', trackLead('AW-10933411346/U4JGCLrCm9ocEJK8ut0o'));
     });
   </script>
 </body>

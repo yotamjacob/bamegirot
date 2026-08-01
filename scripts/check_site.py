@@ -200,7 +200,10 @@ def main() -> int:
         errors.append(f"links target missing IDs: {', '.join(missing_fragments)}")
 
     missing_assets = sorted(
-        reference for reference in set(parser.local_assets) if not (ROOT / reference).is_file()
+        reference
+        for reference in set(parser.local_assets)
+        if not (ROOT / reference).is_file()
+        and not (ROOT / reference / "index.html").is_file()
     )
     if missing_assets:
         errors.append(f"missing local assets: {', '.join(missing_assets)}")
@@ -319,7 +322,8 @@ def main() -> int:
     required_snippets = {
         "canonical production domain": "https://www.bamegirot.com/",
         "Google Ads account tag": "AW-10933411346",
-        "Google Ads conversion label": "AW-10933411346/F_bFCM_o-J4cEJK8ut0o",
+        "Google Ads conversion label (WhatsApp)": "AW-10933411346/F_bFCM_o-J4cEJK8ut0o",
+        "Google Ads conversion label (phone click)": "AW-10933411346/U4JGCLrCm9ocEJK8ut0o",
         "Open Graph fallback image": "https://www.bamegirot.com/images/cover.jpg",
         "owner full name": "ליאור בוכשטב",
         "main service area": "מרכז ישראל",
@@ -348,8 +352,15 @@ def main() -> int:
         sitemap_urls = [
             node.text for node in sitemap_root.findall("sm:url/sm:loc", namespace)
         ]
-        if sitemap_urls != [CANONICAL_URL]:
-            errors.append("sitemap.xml must contain only the canonical homepage")
+        expected_urls = [CANONICAL_URL] + [
+            f"{CANONICAL_URL}{page.parent.relative_to(ROOT)}/"
+            for page in sorted(ROOT.glob("guides/*/index.html"))
+        ]
+        if sitemap_urls != expected_urls:
+            errors.append(
+                "sitemap.xml must list the canonical homepage and every guide page: "
+                + ", ".join(expected_urls)
+            )
     except ET.ParseError as exc:
         errors.append(f"sitemap.xml is invalid XML: {exc}")
 
