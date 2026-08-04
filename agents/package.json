@@ -1,0 +1,18 @@
+{
+  "name": "bamegirot-agents",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lead and referral-partner research digest for bamegirot.com. Deliberately scoped to this folder — the site itself is a zero-build static site and must stay that way, so there is no package.json at the repo root.",
+  "scripts": {
+    "digest": "node digest.js",
+    "digest:daily": "node digest.js --daily",
+    "digest:dry": "node digest.js --dry-run",
+    "digest:smoke": "node digest.js --smoke"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,12 @@
+# The published site is the static files at the repo root plus guides/ and
+# images/. Everything below is tooling and must never reach production.
+#
+# agents/ in particular carries a package.json — without this file Vercel would
+# detect it and stop treating this as a zero-build static site.
+agents/
+scripts/
+.github/
+AGENTS.md
+CLAUDE.md
+TODO.md
+README.md

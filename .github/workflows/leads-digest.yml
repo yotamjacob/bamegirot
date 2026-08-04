@@ -1,0 +1,160 @@
+name: Leads digest
+
+# Morning delivery, Asia/Jerusalem. Two independent problems are solved here:
+#
+# 1. DST. GitHub cron is UTC-only with no DST awareness, so a single expression
+#    drifts an hour twice a year.
+#      04:00 UTC = 07:00 IDT (summer) | 06:00 IST (winter)
+#      05:00 UTC = 08:00 IDT          | 07:00 IST
+#
+# 2. DROPPED FIRINGS. GitHub's scheduler silently skips a large share of cron
+#    events. A schedule with one slot per day will quietly miss days.
+#
+# Defence in depth, same shape as the egg-breaker digest that has been running
+# reliably:
+#   * several morning slots — any ONE of them landing delivers the digest
+#   * a local-hour window so it always arrives at a sensible morning time
+#   * a guard so only the FIRST success on a given day actually runs
+#
+# CADENCE
+#   Sunday (start of the Israeli work week) → FULL run: partners + opportunities
+#                                             + market intel. Always emails,
+#                                             even when empty, so a quiet week
+#                                             is never confused with a dead cron.
+#   Mon-Sat                                 → DAILY run: opportunities only.
+#                                             Emails only when there is
+#                                             something new.
+on:
+  schedule:
+    - cron: '0 4 * * *'    # 07:00 IDT / 06:00 IST
+    - cron: '0 5 * * *'    # 08:00 IDT / 07:00 IST
+    - cron: '30 5 * * *'   # backup
+    - cron: '0 6 * * *'    # backup
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Run mode'
+        required: true
+        default: 'dry-run'
+        type: choice
+        options: [dry-run, smoke, test, daily, full]
+
+env:
+  TZ_NAME: Asia/Jerusalem
+  HOUR_MIN: '7'    # earliest acceptable local hour
+  HOUR_MAX: '9'    # latest acceptable local hour
+
+permissions:
+  contents: write   # commit the updated agents/seen.json
+  actions: read     # the guard reads this workflow's own run history
+
+concurrency:
+  group: leads-digest
+  cancel-in-progress: false
+
+jobs:
+  guard:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+      mode: ${{ steps.check.outputs.mode }}
+    steps:
+      - name: Decide whether this firing should run, and in which mode
+        id: check
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+
+          # Manual runs always proceed, using the mode the operator picked.
+          if [ "${{ github.event_name }}" != "schedule" ]; then
+            echo "manual run — proceeding"
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            echo "mode=${{ github.event.inputs.mode }}" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Only fire inside the local morning window, so backup slots don't
+          # deliver at an odd hour.
+          H=$(TZ="$TZ_NAME" date +%-H)
+          echo "local hour in $TZ_NAME: $H (window ${HOUR_MIN}-${HOUR_MAX})"
+          if [ "$H" -lt "$HOUR_MIN" ] || [ "$H" -gt "$HOUR_MAX" ]; then
+            echo "outside window — skip"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Only the first success today runs — the extra slots exist purely as
+          # insurance against dropped firings.
+          TODAY=$(TZ="$TZ_NAME" date +%Y-%m-%d)
+          RAN=$(gh run list -R "$GITHUB_REPOSITORY" --workflow leads-digest.yml \
+                  --status success --created ">=$TODAY" --json databaseId --jq length)
+          echo "successful digest runs since $TODAY: $RAN"
+          if [ "$RAN" -ne 0 ]; then
+            echo "already ran today — skip"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          # Sunday (local) gets the full three-track report; the rest of the
+          # week gets the cheap, time-sensitive opportunities scan only.
+          DOW=$(TZ="$TZ_NAME" date +%u)   # 1=Mon … 7=Sun
+          if [ "$DOW" -eq 7 ]; then
+            echo "Sunday — full run"; echo "mode=full" >> "$GITHUB_OUTPUT"
+          else
+            echo "weekday — daily run"; echo "mode=daily" >> "$GITHUB_OUTPUT"
+          fi
+          echo "run=true" >> "$GITHUB_OUTPUT"
+
+  digest:
+    needs: guard
+    if: needs.guard.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      # The site itself is a zero-build static site with no root package.json.
+      # The agent's dependencies live in agents/ and are installed only here.
+      - name: Install agent dependencies
+        working-directory: agents
+        run: npm install --no-audit --no-fund
+
+      - name: Run digest
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          RESEND_API_KEY:    ${{ secrets.RESEND_API_KEY }}
+          DIGEST_FROM:       ${{ secrets.DIGEST_FROM }}
+          DIGEST_TO:         ${{ secrets.DIGEST_TO }}
+        run: |
+          case "${{ needs.guard.outputs.mode }}" in
+            smoke)   node agents/digest.js --smoke ;;
+            dry-run) node agents/digest.js --dry-run ;;
+            test)    node agents/digest.js --test ;;
+            daily)   node agents/digest.js --daily ;;
+            *)       node agents/digest.js ;;
+          esac
+
+      - name: Upload dry-run preview
+        if: needs.guard.outputs.mode == 'dry-run'
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-preview
+          path: agents/preview.html
+          if-no-files-found: warn
+
+      # seen.json is the de-duplication state — worthless if it doesn't persist.
+      - name: Persist de-duplication state
+        run: |
+          if git diff --quiet -- agents/seen.json; then
+            echo "no state change"; exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add agents/seen.json
+          git commit -m "chore(digest): record reported items [skip ci]"
+          git push

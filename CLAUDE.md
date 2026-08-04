@@ -43,6 +43,38 @@ Visual/interaction changes only: `python3 -m http.server 8000`, then check a
 narrow mobile viewport *and* desktop. Exercise the FAQ accordion, scroll
 header, back-to-top, and WhatsApp links.
 
+## The leads agent (`agents/`)
+
+Separate from the site. A research agent that emails a Hebrew RTL digest of
+referral prospects and live opportunities in the Haifa–Be'er Sheva band.
+
+```
+agents/digest.js    tracks, dedup, rendering, Resend delivery
+agents/prompts.js   the three research prompts — tune wording here
+agents/seen.json    dedup state, COMMITTED (CI pushes it back)
+.github/workflows/leads-digest.yml   Sunday = full run, Mon-Sat = daily scan
+```
+
+```sh
+cd agents && npm install
+node agents/digest.js --dry-run    # research + render to agents/preview.html
+node agents/digest.js --smoke      # send a stub email, no research
+```
+
+Two things that are load-bearing and easy to break:
+
+- **`package.json` lives in `agents/`, never at the repo root.** A root
+  `package.json` makes Vercel stop treating this as a zero-build static site.
+  `.vercelignore` excludes `agents/`, `scripts/`, `.github/` and the `.md`
+  files from the deployment for the same reason.
+- **Lior appraises estates and manages the sale — she does not buy contents.**
+  `prompts.js` says so explicitly. Any copy the agent drafts must respect it.
+
+The prompts also forbid three things absolutely: touching anything behind a
+login (Facebook groups included), contacting anyone off an obituary or shiva
+notice, and sending anything automatically. Every draft is for a human to
+review. Keep those rules if you rewrite the prompts.
+
 ## Deployment
 
 ```sh

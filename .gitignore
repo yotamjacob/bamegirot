@@ -17,6 +17,11 @@ desktop.ini
 # Vercel
 .vercel/
 
+# Agent runtime (agents/seen.json IS tracked — it is the dedup state)
+agents/node_modules/
+agents/preview*.html
+agents/package-lock.json
+
 # Logs
 *.log
 npm-debug.log*
