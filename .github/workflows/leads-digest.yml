@@ -141,7 +141,7 @@ jobs:
           esac
 
       - name: Upload dry-run preview
-        if: needs.guard.outputs.mode == 'dry-run'
+        if: contains(fromJSON('["dry-run","daily-dry"]'), needs.guard.outputs.mode)
         uses: actions/upload-artifact@v4
         with:
           name: digest-preview
