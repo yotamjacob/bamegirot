@@ -204,11 +204,16 @@ async function structure(findings, schema, label) {
         'single most useful thing in them.\n' +
         '- `best_action` is one concrete sentence naming the one thing worth ' +
         'doing first.\n' +
-        '- `actionable` (where the schema has it) is TRUE only if there is a ' +
-        'real, useful thing a human could do about this item TODAY. Set it ' +
-        'FALSE for anything stale, unreachable, unverifiable, out of area, a ' +
-        'commercial dealer, or that you yourself concluded should not be ' +
-        'contacted. Be strict: it gates whether an email is sent at all.\n\n' +
+        '- `actionable` (where the schema has it) is TRUE only for a SPECIFIC, ' +
+        'IDENTIFIABLE person or listing that Lior could contact today: it is ' +
+        'recent, inside Haifa–Be\'er Sheva, and has a reachable public contact ' +
+        'route. Set it FALSE for everything else — including stale posts, ' +
+        'login-walled sources, commercial dealers, anything unverified, and ' +
+        'anything whose suggested action is to browse a website, monitor a ' +
+        'surface, establish a habit, or look into a general observation. ' +
+        '"There is a site worth checking manually" is NOT actionable. Be ' +
+        'strict: this flag alone decides whether an email is sent, and a ' +
+        'false positive trains the reader to ignore the digest.\n\n' +
         '--- RESEARCH NOTES ---\n' + findings,
     }],
   });
