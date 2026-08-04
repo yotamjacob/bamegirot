@@ -161,8 +161,9 @@ async function research(prompt, label) {
       type: 'web_search_20260209',
       name: 'web_search',
       max_uses: 30,
-      // Hebrew-language results for an Israeli service area.
-      user_location: { type: 'approximate', country: 'IL' },
+      // No `user_location` — the tool rejects country code IL. Localisation
+      // comes from the prompts, which search in Hebrew and name the service
+      // area explicitly.
       ...(BLOCKED_HOSTS.length ? { blocked_domains: BLOCKED_HOSTS } : {}),
     }],
     messages: [{ role: 'user', content: prompt }],
