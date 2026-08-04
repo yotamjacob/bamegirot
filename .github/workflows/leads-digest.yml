@@ -37,7 +37,7 @@ on:
         required: true
         default: 'dry-run'
         type: choice
-        options: [dry-run, smoke, test, daily, full]
+        options: [dry-run, daily-dry, smoke, test, daily, full]
 
 env:
   TZ_NAME: Asia/Jerusalem
@@ -133,7 +133,8 @@ jobs:
         run: |
           case "${{ needs.guard.outputs.mode }}" in
             smoke)   node agents/digest.js --smoke ;;
-            dry-run) node agents/digest.js --dry-run ;;
+            dry-run)   node agents/digest.js --dry-run ;;
+            daily-dry) node agents/digest.js --daily --dry-run ;;
             test)    node agents/digest.js --test ;;
             daily)   node agents/digest.js --daily ;;
             *)       node agents/digest.js ;;
