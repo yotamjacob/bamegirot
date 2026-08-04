@@ -203,7 +203,12 @@ async function structure(findings, schema, label) {
         '- `summary` must be at most two sentences: how many items, and the ' +
         'single most useful thing in them.\n' +
         '- `best_action` is one concrete sentence naming the one thing worth ' +
-        'doing first.\n\n' +
+        'doing first.\n' +
+        '- `actionable` (where the schema has it) is TRUE only if there is a ' +
+        'real, useful thing a human could do about this item TODAY. Set it ' +
+        'FALSE for anything stale, unreachable, unverifiable, out of area, a ' +
+        'commercial dealer, or that you yourself concluded should not be ' +
+        'contacted. Be strict: it gates whether an email is sent at all.\n\n' +
         '--- RESEARCH NOTES ---\n' + findings,
     }],
   });
@@ -260,6 +265,10 @@ const OPPORTUNITIES_SCHEMA = envelope({
   snippet:         { type: 'string' },
   signal_strength: { type: 'string' },
   suggested_action:{ type: 'string' },
+  // Gates whether the daily scan emails at all. A run that surfaces five
+  // candidates and rejects all five must stay silent — "new" is not the same
+  // as "worth your morning".
+  actionable:      { type: 'boolean' },
 });
 
 const INTEL_SCHEMA = envelope({
@@ -332,9 +341,13 @@ function partnerRow(it) {
 }
 
 function opportunityRow(it) {
-  const strong = /strong|חזק/i.test(String(it.signal_strength || ''));
+  // Explicit flag from the structuring step, not a guess at the free-text
+  // signal string — that field is written in Hebrew and varies run to run.
+  const strong = it.actionable !== false;
+  const tag = strong ? '' :
+    `<span style="font:700 11px ${FONT};color:#6b7280;background:#f3f4f6;padding:2px 7px;border-radius:4px">נבדק ונפסל</span>`;
   return card(`
-    <div style="font:700 16px/1.35 ${FONT};color:#111827">${esc(it.source)}
+    <div style="font:700 16px/1.35 ${FONT};color:#111827">${esc(it.source)} ${tag}
       <span style="font:400 13px;color:#9ca3af">· ${esc(it.date)}</span></div>
     <div style="margin-top:3px;font:400 13px/1.5 ${FONT}">${linkify(it.url)}</div>
     ${field('אזור:', it.location)}
@@ -481,12 +494,18 @@ async function main() {
   const data = { partners: skipped, opportunities: skipped, intel: skipped };
   active.forEach((t, i) => { data[t] = filterNew(structured[i], seen[t], t); });
 
-  const total = active.reduce((n, t) => n + data[t].items.length, 0);
-  log(`new this run: ${active.map(t => `${t}=${data[t].items.length}`).join(', ')}`);
+  // Tracks without an `actionable` field are actionable by definition: a
+  // partner prospect or a market finding is always something to act on.
+  const isActionable = it => it.actionable !== false;
+
+  const total      = active.reduce((n, t) => n + data[t].items.length, 0);
+  const actionable = active.reduce((n, t) => n + data[t].items.filter(isActionable).length, 0);
+  log(`new this run: ${active.map(t => `${t}=${data[t].items.length}`).join(', ')} · actionable=${actionable}`);
 
   const html = renderEmail(dateStr, data, mode);
   const label = mode === 'daily' ? 'סריקה יומית' : 'דוח שבועי';
-  const subject = `${IS_TEST ? '[TEST] ' : ''}במגירות · ${label} — ${dateStr}${total ? ` (${total} חדשים)` : ''}`;
+  const count = mode === 'daily' ? actionable : total;
+  const subject = `${IS_TEST ? '[TEST] ' : ''}במגירות · ${label} — ${dateStr}${count ? ` (${count} חדשים)` : ''}`;
 
   if (DRY_RUN) {
     const out = path.join(__dirname, 'preview.html');
@@ -495,33 +514,40 @@ async function main() {
     return;
   }
 
-  // Silence policy: an empty daily scan is the common case and must not train
-  // the inbox to ignore this sender. The weekly run always sends, so a quiet
-  // week is never confused with a broken cron.
-  if (total === 0 && mode === 'daily' && !IS_TEST) {
-    log('nothing new on the daily scan — not sending');
-    seen.runs.push({ at: now.toISOString(), mode, total: 0, sent: false });
-    if (seen.runs.length > 100) seen.runs = seen.runs.slice(-100);
-    saveSeen(seen);
-    return;
-  }
-
-  await sendEmail(subject, html);
-
-  // Only record items AFTER a successful send, so a delivery failure doesn't
-  // silently swallow a run's findings.
+  // Recording is the same on both paths below, so define it once. Items are
+  // only ever recorded after the send decision has been honoured, so a
+  // delivery failure never silently swallows a run's findings.
   const record = it => ({
     key: keyOf(it), nameKey: nameKeyOf(it),
     name: labelOf(it), url: it.url || '',
   });
-  for (const t of active) seen[t].push(...data[t].items.map(record));
-  seen.runs.push({
-    at: now.toISOString(), mode, total, sent: true,
-    ...Object.fromEntries(active.map(t => [t, data[t].items.length])),
-  });
-  if (seen.runs.length > 100) seen.runs = seen.runs.slice(-100);
-  saveSeen(seen);
-  log('seen.json updated');
+  const commit = sent => {
+    for (const t of active) seen[t].push(...data[t].items.map(record));
+    seen.runs.push({
+      at: now.toISOString(), mode, total, actionable, sent,
+      ...Object.fromEntries(active.map(t => [t, data[t].items.length])),
+    });
+    if (seen.runs.length > 100) seen.runs = seen.runs.slice(-100);
+    saveSeen(seen);
+    log('seen.json updated');
+  };
+
+  // Silence policy. The gate is ACTIONABLE items, not new ones: a scan that
+  // surfaces five candidates and correctly rejects all five has found nothing
+  // worth your morning, and sending it anyway is how a digest gets ignored.
+  // The weekly run always sends, so a quiet week is never confused with a
+  // broken cron.
+  //
+  // Rejected items are still recorded — otherwise the same dead listings would
+  // resurface and be re-researched every single day.
+  if (actionable === 0 && mode === 'daily' && !IS_TEST) {
+    log(`nothing actionable on the daily scan (${total} examined) — not sending`);
+    commit(false);
+    return;
+  }
+
+  await sendEmail(subject, html);
+  commit(true);
 }
 
 if (require.main === module) {

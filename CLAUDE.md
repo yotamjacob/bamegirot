@@ -55,6 +55,12 @@ agents/seen.json    dedup state, COMMITTED (CI pushes it back)
 .github/workflows/leads-digest.yml   Sunday = full run, Mon-Sat = daily scan
 ```
 
+The daily scan emails only when at least one opportunity comes back with
+`actionable: true` — a scan that surfaces five candidates and rejects all five
+has found nothing worth the reader's morning. Rejected items are still written
+to `seen.json` so they aren't re-researched tomorrow. The Sunday run always
+sends, so a quiet week never looks like a dead cron.
+
 ```sh
 cd agents && npm install
 node agents/digest.js --dry-run    # research + render to agents/preview.html
