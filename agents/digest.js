@@ -179,11 +179,27 @@ async function research(prompt, label) {
   return text;
 }
 
-/** Stage 2 — structure free-form findings into JSON. No tools, so no citations. */
+/**
+ * Stage 2 — structure free-form findings into JSON. No tools, so no citations.
+ *
+ * Never throws. Research is by far the expensive half of a run, so one track
+ * failing to structure must not discard the two that succeeded — it degrades to
+ * an empty section and names itself in the log instead.
+ */
 async function structure(findings, schema, label) {
+  try {
+    return await structureOnce(findings, schema, label);
+  } catch (e) {
+    const detail = e && e.status ? `${e.status} ${e.message}` : String(e && e.message || e);
+    log(`[${label}] STRUCTURING FAILED: ${detail}`);
+    return { summary: `שגיאה בעיבוד ממצאי ${label} — המחקר בוצע אך לא נשמר.`, best_action: '', items: [] };
+  }
+}
+
+async function structureOnce(findings, schema, label) {
   const empty = { summary: 'לא נמצאו ממצאים חדשים בהרצה הזו.', best_action: '', items: [] };
   if (!findings.trim()) return empty;
-  log(`[${label}] structuring…`);
+  log(`[${label}] structuring… (${findings.length} chars in)`);
   const msg = await getClient().messages.create({
     model: MODEL,
     max_tokens: 16000,
