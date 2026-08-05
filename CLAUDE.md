@@ -76,10 +76,12 @@ Two things that are load-bearing and easy to break:
 - **Lior appraises estates and manages the sale — she does not buy contents.**
   `prompts.js` says so explicitly. Any copy the agent drafts must respect it.
 
-The prompts also forbid three things absolutely: touching anything behind a
-login (Facebook groups included), contacting anyone off an obituary or shiva
-notice, and sending anything automatically. Every draft is for a human to
-review. Keep those rules if you rewrite the prompts.
+The prompts forbid four things absolutely: touching anything behind a login
+(Facebook groups included), contacting anyone off an obituary or shiva notice,
+sending anything automatically, and **any lawyer, law firm or notary as a
+referral target** (standing decision, 2026-08-05 — they were the original
+priority-1 category and were removed on request). Every draft is for a human to
+review. Keep all four rules if you rewrite the prompts.
 
 ## Deployment
 

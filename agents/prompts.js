@@ -70,6 +70,11 @@ HARD RULES — these are absolute:
   - Respect grief. These are families dealing with death and loss. Never
     recommend contacting someone based on an obituary, a death notice, or a
     shiva announcement. That is the single hardest line here — do not cross it.
+  - NO LAWYERS. Do not research, report, rank, or draft outreach to lawyers,
+    law firms, notaries, or legal practices of any kind — including estate,
+    inheritance, probate and צוואות/עזבונות practices. This is a standing
+    business decision, not a quality judgement: skip them entirely and spend
+    the effort on the other categories. It applies to every track.
   - Drafted outreach messages must be written in natural, warm Hebrew.
 `.trim();
 
@@ -97,17 +102,15 @@ the valuation themselves. Each good relationship is a recurring source of
 referrals — this is worth far more than any single lead.
 
 Priority order:
-  1. Estate & inheritance lawyers (עורכי דין ירושה, צוואות, עזבונות) — they meet
-     the family before anyone else and are constantly asked "what do we do with
-     all the stuff?"
-  2. Apartment clearance companies (פינוי דירות, פינוי תכולה, פינוי עזבונות) —
+  1. Apartment clearance companies (פינוי דירות, פינוי תכולה, פינוי עזבונות) —
      they are hired to throw things away and routinely destroy value they cannot
      identify. Lior is the person who tells them what NOT to skip.
-  3. Estate/probate accountants and family mediators handling עזבון division
-  4. Real estate agents specialising in inherited apartments and מכירת דירת ירושה
-  5. Moving companies and storage firms (הובלות, אחסון) serving downsizing seniors
-  6. Assisted-living / senior-housing transition services (דיור מוגן) — families
+  2. Estate/probate accountants and family mediators handling עזבון division
+  3. Real estate agents specialising in inherited apartments and מכירת דירת ירושה
+  4. Moving companies and storage firms (הובלות, אחסון) serving downsizing seniors
+  5. Assisted-living / senior-housing transition services (דיור מוגן) — families
      downsizing a parent's home into a single room
+  6. Home organisers and downsizing/decluttering services (סדרנות, ארגון בתים)
   7. Appraisers and auction houses who do NOT cover household contents and would
      rather refer it out than turn it down
 
@@ -143,13 +146,14 @@ GO DEEPER THAN A DIRECTORY LISTING. For every prospect:
     real business, not a scraped listing farm.
 
 Vary your search angles across runs. Try Hebrew queries such as:
-  עורך דין ירושה [city] · עורך דין צוואות ועזבונות · פינוי דירות [city] ·
-  פינוי תכולת דירה · פינוי עזבון · מכירת דירת ירושה · שמאי תכולה ·
-  הובלות דיור מוגן · ליווי משפחות בפינוי בית · ניהול עזבון
+  פינוי דירות [city] · פינוי תכולת דירה · פינוי עזבון · מכירת דירת ירושה ·
+  שמאי תכולה · הובלות דיור מוגן · אחסון רהיטים · ליווי משפחות בפינוי בית ·
+  סדרנות וארגון בתים · מעבר לדיור מוגן · מתווך דירות ירושה
+Do NOT run lawyer queries (עורך דין / משרד עורכי דין / נוטריון) at all.
 
-Aim for 6-12 strong, verified prospects. Depth beats breadth: one lawyer with a
-real name, a verified practice area and a tailored Hebrew opener is worth more
-than ten scraped directory rows.
+Aim for 6-12 strong, verified prospects. Depth beats breadth: one clearance
+company with a named owner, a verified service area and a tailored Hebrew opener
+is worth more than ten scraped directory rows.
 
 Write your findings as clear prose with explicit links. A separate step will
 structure them, so focus on being accurate and complete rather than on format.
