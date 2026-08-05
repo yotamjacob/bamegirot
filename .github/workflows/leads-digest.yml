@@ -7,8 +7,10 @@ name: Leads digest
 #      04:00 UTC = 07:00 IDT (summer) | 06:00 IST (winter)
 #      05:00 UTC = 08:00 IDT          | 07:00 IST
 #
-# 2. DROPPED FIRINGS. GitHub's scheduler silently skips a large share of cron
-#    events. A schedule with one slot per day will quietly miss days.
+# 2. DROPPED AND DELAYED FIRINGS. GitHub's scheduler silently skips cron events
+#    and, when it does fire, can run them HOURS late — measured here on
+#    2026-08-05 at 1.4-2.4h across all four slots. A schedule with one slot per
+#    day, or a tight delivery window, will quietly miss days.
 #
 # Defence in depth, same shape as the egg-breaker digest that has been running
 # reliably:
@@ -41,8 +43,13 @@ on:
 
 env:
   TZ_NAME: Asia/Jerusalem
-  HOUR_MIN: '7'    # earliest acceptable local hour
-  HOUR_MAX: '9'    # latest acceptable local hour
+  # Observed 2026-08-05: GitHub fired all four slots 1.4-2.4 HOURS late, so the
+  # 04:00 UTC slot landed at 09:21 local — the exact edge of the original 7-9
+  # window. Another 40 minutes of drift and the day would have been skipped
+  # silently. The window exists only to stop a backup slot delivering overnight,
+  # so it costs nothing to make it generous.
+  HOUR_MIN: '6'    # earliest acceptable local hour
+  HOUR_MAX: '13'   # latest acceptable local hour
 
 permissions:
   contents: write   # commit the updated agents/seen.json
