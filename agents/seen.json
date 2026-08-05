@@ -1,6 +1,58 @@
 {
   "partners": [],
-  "opportunities": [],
+  "opportunities": [
+    {
+      "key": "bamegirot.co.il",
+      "nameKey": "bamegirotcoil",
+      "name": "bamegirot.co.il",
+      "url": "https://bamegirot.co.il"
+    },
+    {
+      "key": "agora.co.il/cache/2026-04/3158267_o.asp",
+      "nameKey": "agoracoil",
+      "name": "agora.co.il",
+      "url": "https://www.agora.co.il/cache/2026-04/3158267_o.asp"
+    },
+    {
+      "key": "ad.co.il/ad/13237078",
+      "nameKey": "adcoil",
+      "name": "ad.co.il",
+      "url": "https://www.ad.co.il/ad/13237078"
+    },
+    {
+      "key": "ad.co.il/c/18",
+      "nameKey": "adcoilלוחתכולותבית",
+      "name": "ad.co.il — לוח תכולות בית",
+      "url": "https://www.ad.co.il/c/18?sp34=2835"
+    },
+    {
+      "key": "collect.co.il/forum.aspx",
+      "nameKey": "collectcoilפורוםעתיקותומטבעותעתיקים",
+      "name": "collect.co.il — פורום עתיקות ומטבעות עתיקים",
+      "url": "http://www.collect.co.il/forum.aspx?f=3"
+    },
+    {
+      "key": "gemoplus.co.il/topics/%d7%a2%d7%96%d7%a8%d7%94-%d7%91%d7%96%d7%99%d7%94%d7%95%d7%99-%d7%94%d7%a6%d7%99%d7%99%d7%a8-%d7%95%d7%94%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a9%d7%95%d7%95%d7%99-%d7%aa%d7%9e%d7%95%d7%a0%d7%94",
+      "nameKey": "gemopluscoilעמודנושאיםציבורי",
+      "name": "gemoplus.co.il — עמוד נושאים ציבורי",
+      "url": "https://gemoplus.co.il/topics/%D7%A2%D7%96%D7%A8%D7%94-%D7%91%D7%96%D7%99%D7%94%D7%95%D7%99-%D7%94%D7%A6%D7%99%D7%99%D7%A8-%D7%95%D7%94%D7%A2%D7%A8%D7%9B%D7%AA-%D7%A9%D7%95%D7%95%D7%99-%D7%AA%D7%9E%D7%95%D7%A0%D7%94/"
+    },
+    {
+      "key": "facebook (מטא-דאטה בחיפוש בלבד)",
+      "nameKey": "facebookמטאדאטהבחיפושבלבד",
+      "name": "Facebook (מטא-דאטה בחיפוש בלבד)",
+      "url": ""
+    }
+  ],
   "intel": [],
-  "runs": []
+  "runs": [
+    {
+      "at": "2026-08-05T06:22:12.357Z",
+      "mode": "daily",
+      "total": 7,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 7
+    }
+  ]
 }
