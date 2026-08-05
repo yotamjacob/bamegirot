@@ -1,5 +1,90 @@
 {
-  "partners": [],
+  "partners": [
+    {
+      "key": "guykamri-law.co.il",
+      "nameKey": "קמריושותעודגיאקמרי",
+      "name": "קמרי ושות' — עו\"ד גיא קמרי",
+      "url": "https://guykamri-law.co.il/"
+    },
+    {
+      "key": "ygoldlaw.co.il",
+      "nameKey": "יצחקגולדשטייןעורכיונוטריון",
+      "name": "יצחק גולדשטיין — משרד עורכי דין ונוטריון",
+      "url": "https://ygoldlaw.co.il/"
+    },
+    {
+      "key": "malkiely.co.il",
+      "nameKey": "דןמלכיאליעורכיונוטריון",
+      "name": "דן מלכיאלי — משרד עורכי דין ונוטריון",
+      "url": "https://malkiely.co.il/"
+    },
+    {
+      "key": "doron-aharoni.com",
+      "nameKey": "דורוןאהרוניעורכי",
+      "name": "דורון אהרוני, משרד עורכי דין",
+      "url": "https://doron-aharoni.com/"
+    },
+    {
+      "key": "hhlaw.org.il",
+      "nameKey": "עודלעניינימשפחהחגיתהלויושות",
+      "name": "עו\"ד לענייני משפחה חגית הלוי ושות'",
+      "url": "https://www.hhlaw.org.il/"
+    },
+    {
+      "key": "cleaningcompany4polishing.co.il",
+      "nameKey": "טופפולישפינוידירותוניקיון",
+      "name": "טופ פוליש — פינוי דירות וניקיון",
+      "url": "https://www.cleaningcompany4polishing.co.il/"
+    },
+    {
+      "key": "ahimlevi.co.il",
+      "nameKey": "אחיםלויהובלות",
+      "name": "אחים לוי הובלות",
+      "url": "https://ahimlevi.co.il/"
+    },
+    {
+      "key": "baliseder.co.il",
+      "nameKey": "באליסדרענבלשחםגליק",
+      "name": "בא לי סדר — ענבל שחם-גליק",
+      "url": "https://baliseder.co.il/"
+    },
+    {
+      "key": "doctor-seder.co.il",
+      "nameKey": "דוקטורסדררוניתגור",
+      "name": "דוקטור סדר — רונית גור",
+      "url": "https://www.doctor-seder.co.il/"
+    },
+    {
+      "key": "house-eviction.co.il/about.aspx",
+      "nameKey": "שיפינוידירה",
+      "name": "שי פינוי דירה",
+      "url": "https://house-eviction.co.il/About.aspx"
+    },
+    {
+      "key": "mefanim.co.il",
+      "nameKey": "המפנים",
+      "name": "המפנים",
+      "url": "https://mefanim.co.il/"
+    },
+    {
+      "key": "drorpinuiem.co.il",
+      "nameKey": "דרורפינויים",
+      "name": "דרור פינויים",
+      "url": "https://www.drorpinuiem.co.il/"
+    },
+    {
+      "key": "pinui-bazman.co.il",
+      "nameKey": "פינויבזמן",
+      "name": "פינוי בזמן",
+      "url": "https://www.pinui-bazman.co.il/"
+    },
+    {
+      "key": "il.bidspirit.com",
+      "nameKey": "tirochekedemwinnersbidspirit",
+      "name": "Tiroche / Kedem / Winners / Bidspirit",
+      "url": "https://il.bidspirit.com/"
+    }
+  ],
   "opportunities": [
     {
       "key": "bamegirot.co.il",
@@ -42,9 +127,94 @@
       "nameKey": "facebookמטאדאטהבחיפושבלבד",
       "name": "Facebook (מטא-דאטה בחיפוש בלבד)",
       "url": ""
+    },
+    {
+      "key": "m.homeless.co.il/yad2/viewad,1022169.aspx",
+      "nameKey": "homelesscoil",
+      "name": "homeless.co.il",
+      "url": "https://m.homeless.co.il/yad2/viewad,1022169.aspx"
+    },
+    {
+      "key": "prog.co.il/threads/%d7%9e%d7%9b%d7%99%d7%a8%d7%aa-%d7%9b%d7%9c%d7%99-%d7%9b%d7%a1%d7%a3-%d7%99%d7%93-%d7%a9%d7%a0%d7%99%d7%94-%d7%9e%d7%99-%d7%9e%d7%94-%d7%90%d7%99%d7%9a-%d7%95%d7%90%d7%99%d7%a4%d7%94.945803",
+      "nameKey": "progcoil",
+      "name": "prog.co.il",
+      "url": "https://www.prog.co.il/threads/מכירת-כלי-כסף-יד-שניה-מי-מה-איך-ואיפה.945803/"
+    },
+    {
+      "key": "il.bidspirit.com/ui/home",
+      "nameKey": "bidspirit",
+      "name": "bidspirit",
+      "url": "https://il.bidspirit.com/ui/home?lang=he"
+    },
+    {
+      "key": "gsale.co.il/sales",
+      "nameKey": "gsalecoil",
+      "name": "gsale.co.il",
+      "url": "https://gsale.co.il/sales/"
+    },
+    {
+      "key": "justanswer.com/antiques/v8eze-lot-israeli-stamps.html",
+      "nameKey": "justanswercom",
+      "name": "justanswer.com",
+      "url": "https://www.justanswer.com/antiques/v8eze-lot-israeli-stamps.html"
+    },
+    {
+      "key": "m.homeless.co.il/yad2/11",
+      "nameKey": "homelesscoilלוחתכולתדירה",
+      "name": "homeless.co.il — לוח תכולת דירה",
+      "url": "https://m.homeless.co.il/yad2/11?inumber3=46&inumber4=1501"
     }
   ],
-  "intel": [],
+  "intel": [
+    {
+      "key": "antique.org.il",
+      "nameKey": "מתחרהמרכזיתאוצרותמהביתרעננה",
+      "name": "מתחרה מרכזית — אוצרות מהבית (רעננה)",
+      "url": "https://antique.org.il/"
+    },
+    {
+      "key": "gemoplus.co.il/%d7%a9%d7%99%d7%a8%d7%95%d7%aa%d7%99%d7%9d_%d7%9e%d7%a7%d7%a6%d7%95%d7%a2%d7%99%d7%99%d7%9d/private",
+      "nameKey": "עוגןתמחורציבוריגמולבgemolab",
+      "name": "עוגן תמחור ציבורי — גמולב / GemoLab",
+      "url": "https://gemoplus.co.il/שירותים_מקצועיים/private/"
+    },
+    {
+      "key": "bamegirot.co.il",
+      "nameKey": "בעייתנראות1פיצולדומיינים",
+      "name": "בעיית נראות #1 — פיצול דומיינים",
+      "url": "https://www.bamegirot.co.il/"
+    },
+    {
+      "key": "drorpinuiem.co.il/%d7%9e%d7%90%d7%9e%d7%a8%d7%99%d7%9d/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%97%d7%a4%d7%a6%d7%99%d7%9d-%d7%a9%d7%9c-%d7%a0%d7%a4%d7%98%d7%a8",
+      "nameKey": "בעייתנראות2השאילתהשלמדריךהדגל",
+      "name": "בעיית נראות #2 — השאילתה של מדריך הדגל",
+      "url": "https://www.drorpinuiem.co.il/מאמרים/פינוי-חפצים-של-נפטר/"
+    },
+    {
+      "key": "haasfan.co.il/collections-evaluation",
+      "nameKey": "ארבעהפעריתוכןשאנשיםאמיתייםשואליםעליהם",
+      "name": "ארבעה פערי תוכן שאנשים אמיתיים שואלים עליהם",
+      "url": "https://www.haasfan.co.il/collections-evaluation/"
+    },
+    {
+      "key": "kolzchut.org.il/he/%d7%94%d7%92%d7%a9%d7%aa_%d7%91%d7%a7%d7%a9%d7%94_%d7%9e%d7%a7%d7%95%d7%95%d7%a0%d7%aa_%d7%9c%d7%a7%d7%91%d7%9c%d7%aa_%d7%a6%d7%95_%d7%99%d7%a8%d7%95%d7%a9%d7%94",
+      "nameKey": "שלושעובדותרגולטוריותשכדאילהלהחזיק",
+      "name": "שלוש עובדות רגולטוריות שכדאי לה להחזיק",
+      "url": "https://www.kolzchut.org.il/he/הגשת_בקשה_מקוונת_לקבלת_צו_ירושה"
+    },
+    {
+      "key": "creators.spotify.com/pod/profile/16388",
+      "nameKey": "ערוץפודקאסטעולםהירושה",
+      "name": "ערוץ — פודקאסט \"עולם הירושה\"",
+      "url": "https://creators.spotify.com/pod/profile/16388/"
+    },
+    {
+      "key": "levi-itzhak.co.il/%d7%a1%d7%a7%d7%a8%d7%99-%d7%93%d7%99%d7%a8%d7%95%d7%aa",
+      "nameKey": "שניפתחישוקצמודיםהערכהלביטוחואגרגטור",
+      "name": "שני פתחי שוק צמודים — הערכה לביטוח ואגרגטור",
+      "url": "https://levi-itzhak.co.il/סקרי-דירות"
+    }
+  ],
   "runs": [
     {
       "at": "2026-08-05T06:22:12.357Z",
@@ -53,6 +223,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 7
+    },
+    {
+      "at": "2026-08-05T10:38:57.197Z",
+      "mode": "full",
+      "total": 28,
+      "actionable": 22,
+      "sent": true,
+      "partners": 14,
+      "opportunities": 6,
+      "intel": 8
     }
   ]
 }
