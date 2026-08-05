@@ -216,10 +216,13 @@ async function structureOnce(findings, schema, label) {
         '- Drop anything outside the Haifa–Be\'er Sheva service band.\n' +
         '- Write `summary`, `best_action` and all free-text item fields in ' +
         'HEBREW. Keep URLs, business names and proper nouns as they are.\n' +
-        '- `summary` must be at most two sentences: how many items, and the ' +
-        'single most useful thing in them.\n' +
+        '- `summary` must be at most two sentences: how many items you ' +
+        'examined, how many are actionable, and the single most useful thing ' +
+        'among the ACTIONABLE ones. Items marked not-actionable are recorded ' +
+        'but never shown to the reader, so never build the summary around one.\n' +
         '- `best_action` is one concrete sentence naming the one thing worth ' +
-        'doing first.\n' +
+        'doing first, and must refer to an ACTIONABLE item. Leave it an empty ' +
+        'string if nothing is actionable.\n' +
         '- `actionable` (where the schema has it) is TRUE only for a SPECIFIC, ' +
         'IDENTIFIABLE person or listing that Lior could contact today: it is ' +
         'recent, inside Haifa–Be\'er Sheva, and has a reachable public contact ' +
@@ -362,13 +365,11 @@ function partnerRow(it) {
 }
 
 function opportunityRow(it) {
-  // Explicit flag from the structuring step, not a guess at the free-text
-  // signal string — that field is written in Hebrew and varies run to run.
-  const strong = it.actionable !== false;
-  const tag = strong ? '' :
-    `<span style="font:700 11px ${FONT};color:#6b7280;background:#f3f4f6;padding:2px 7px;border-radius:4px">נבדק ונפסל</span>`;
+  // Non-actionable items never reach here — they are filtered out before
+  // rendering (see `display` in main). Anything shown is worth acting on.
+  const strong = true;
   return card(`
-    <div style="font:700 16px/1.35 ${FONT};color:#111827">${esc(it.source)} ${tag}
+    <div style="font:700 16px/1.35 ${FONT};color:#111827">${esc(it.source)}
       <span style="font:400 13px;color:#9ca3af">· ${esc(it.date)}</span></div>
     <div style="margin-top:3px;font:400 13px/1.5 ${FONT}">${linkify(it.url)}</div>
     ${field('אזור:', it.location)}
@@ -523,10 +524,18 @@ async function main() {
   const actionable = active.reduce((n, t) => n + data[t].items.filter(isActionable).length, 0);
   log(`new this run: ${active.map(t => `${t}=${data[t].items.length}`).join(', ')} · actionable=${actionable}`);
 
-  const html = renderEmail(dateStr, data, mode);
+  // What gets EMAILED is actionable items only. Checked-and-rejected findings
+  // are noise in an inbox — but they are still recorded below, so tomorrow's
+  // scan doesn't re-research the same dead listings. The section summary still
+  // states how many were examined, so a quiet section reads as "we looked"
+  // rather than "nothing ran".
+  const display = Object.fromEntries(
+    Object.entries(data).map(([t, sec]) => [t, { ...sec, items: sec.items.filter(isActionable) }]),
+  );
+
+  const html = renderEmail(dateStr, display, mode);
   const label = mode === 'daily' ? 'סריקה יומית' : 'דוח שבועי';
-  const count = mode === 'daily' ? actionable : total;
-  const subject = `${IS_TEST ? '[TEST] ' : ''}במגירות · ${label} — ${dateStr}${count ? ` (${count} חדשים)` : ''}`;
+  const subject = `${IS_TEST ? '[TEST] ' : ''}במגירות · ${label} — ${dateStr}${actionable ? ` (${actionable} חדשים)` : ''}`;
 
   if (DRY_RUN) {
     const out = path.join(__dirname, 'preview.html');
