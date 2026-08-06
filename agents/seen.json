@@ -163,6 +163,24 @@
       "nameKey": "homelesscoilלוחתכולתדירה",
       "name": "homeless.co.il — לוח תכולת דירה",
       "url": "https://m.homeless.co.il/yad2/11?inumber3=46&inumber4=1501"
+    },
+    {
+      "key": "facebook (קבוצות)",
+      "nameKey": "facebookקבוצות",
+      "name": "Facebook (קבוצות)",
+      "url": ""
+    },
+    {
+      "key": "yad2.co.il/market/collections/furniture_household-contents",
+      "nameKey": "yad2homelessעמודיקטגוריה",
+      "name": "yad2 / homeless — עמודי קטגוריה",
+      "url": "https://www.yad2.co.il/market/collections/furniture_household-contents"
+    },
+    {
+      "key": "tlgrm.co.il/%d7%a7%d7%a0%d7%99%d7%95%d7%aa",
+      "nameKey": "tlgrmcoil",
+      "name": "tlgrm.co.il",
+      "url": "https://www.tlgrm.co.il/%D7%A7%D7%A0%D7%99%D7%95%D7%AA"
     }
   ],
   "intel": [
@@ -233,6 +251,14 @@
       "partners": 14,
       "opportunities": 6,
       "intel": 8
+    },
+    {
+      "at": "2026-08-06T06:25:09.334Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
