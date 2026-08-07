@@ -181,6 +181,12 @@
       "nameKey": "tlgrmcoil",
       "name": "tlgrm.co.il",
       "url": "https://www.tlgrm.co.il/%D7%A7%D7%A0%D7%99%D7%95%D7%AA"
+    },
+    {
+      "key": "forum-otzar-hatorah.co.il/threads/%d7%90%d7%95%d7%a1%d7%a3-%d7%a4%d7%a8%d7%98%d7%99-%d7%a7%d7%98%d7%9f-%d7%9c%d7%9e%d7%9b%d7%99%d7%a8%d7%94-%d7%a1%d7%a4%d7%a8%d7%99%d7%9d-%d7%99%d7%a9%d7%a0%d7%99%d7%9d-%d7%95%d7%a2%d7%95%d7%aa%d7%a7%d7%99-%d7%a8%d7%91%d7%a0%d7%99%d7%9d.17899",
+      "nameKey": "forumotzarhatorahcoil",
+      "name": "forum-otzar-hatorah.co.il",
+      "url": "https://forum-otzar-hatorah.co.il/threads/אוסף-פרטי-קטן-למכירה-ספרים-ישנים-ועותקי-רבנים.17899/"
     }
   ],
   "intel": [
@@ -259,6 +265,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-08-07T05:29:52.313Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
