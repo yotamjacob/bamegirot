@@ -187,6 +187,42 @@
       "nameKey": "forumotzarhatorahcoil",
       "name": "forum-otzar-hatorah.co.il",
       "url": "https://forum-otzar-hatorah.co.il/threads/אוסף-פרטי-קטן-למכירה-ספרים-ישנים-ועותקי-רבנים.17899/"
+    },
+    {
+      "key": "agora.co.il/cache/2026-02/3136090_o.asp",
+      "nameKey": "agoracoilלוחמסירהחינם",
+      "name": "agora.co.il — לוח מסירה חינם",
+      "url": "https://www.agora.co.il/cache/2026-02/3136090_o.asp"
+    },
+    {
+      "key": "aysha-il.myshopify.com",
+      "nameKey": "ayshailmyshopifycom",
+      "name": "aysha-il.myshopify.com",
+      "url": "https://aysha-il.myshopify.com/"
+    },
+    {
+      "key": "קבוצות פייסבוק (מטא-דאטה בלבד, לא נצפה בפועל)",
+      "nameKey": "קבוצותפייסבוקמטאדאטהבלבדלאנצפהבפועל",
+      "name": "קבוצות פייסבוק (מטא-דאטה בלבד, לא נצפה בפועל)",
+      "url": ""
+    },
+    {
+      "key": "myproduct.co.il/reshut-harabim/latest.php",
+      "nameKey": "myproductcoilהלוחהפתוחרשותהרבים",
+      "name": "myproduct.co.il — \"הלוח הפתוח\" / רשות הרבים",
+      "url": "https://myproduct.co.il/reshut-harabim/latest.php?category=request"
+    },
+    {
+      "key": "sellall.me",
+      "nameKey": "sellallme",
+      "name": "sellall.me",
+      "url": "https://sellall.me"
+    },
+    {
+      "key": "garage-sale-lyart.vercel.app",
+      "nameKey": "garagesalelyartvercelapp",
+      "name": "garage-sale-lyart.vercel.app",
+      "url": "https://garage-sale-lyart.vercel.app"
     }
   ],
   "intel": [
@@ -273,6 +309,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-08-08T04:50:03.875Z",
+      "mode": "daily",
+      "total": 6,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 6
     }
   ]
 }
