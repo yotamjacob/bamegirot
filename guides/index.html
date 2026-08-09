@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>מדריכים למשפחה שירשה דירה מלאה בחפצים | במגירות</title>
-  <meta name="description" content="חמישה מדריכים שכתבתי למשפחות שעומדות מול תכולת דירה: מאיפה מתחילים, מה לבדוק לפני שמזמינים פינוי, איך מזהים פריט בעל ערך, מה קובע את השווי ואיך מחליטים." />
+  <meta name="description" content="מדריכים למשפחות שעומדות מול תכולת דירה: מאיפה מתחילים, מה לבדוק לפני שמזמינים פינוי, ואיך מעריכים רהיטים, פורצלן, קריסטל, כלי כסף ותמונות ממוסגרות." />
   <link rel="canonical" href="https://www.bamegirot.com/guides/" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
@@ -12,7 +12,7 @@
   <meta property="og:locale" content="he_IL" />
   <meta property="og:site_name" content="במגירות" />
   <meta property="og:title" content="מדריכים למשפחה שירשה דירה מלאה בחפצים" />
-  <meta property="og:description" content="חמישה מדריכים למשפחות שעומדות מול תכולת דירה — מהשלב הראשון ועד ההחלטה." />
+  <meta property="og:description" content="מדריכים למשפחות שעומדות מול תכולת דירה — מהשלב הראשון ועד הערכה לפי סוג פריט." />
   <meta property="og:url" content="https://www.bamegirot.com/guides/" />
   <meta property="og:image" content="https://www.bamegirot.com/images/cover.jpg" />
 
@@ -24,7 +24,7 @@
         "@type": "CollectionPage",
         "@id": "https://www.bamegirot.com/guides/#collection",
         "name": "מדריכים למשפחה שירשה דירה מלאה בחפצים",
-        "description": "חמישה מדריכים שכתבתי למשפחות שעומדות מול תכולת דירה: מאיפה מתחילים, מה לבדוק לפני שמזמינים פינוי, איך מזהים פריט בעל ערך, מה קובע את השווי ואיך מחליטים.",
+        "description": "מדריכים למשפחות שעומדות מול תכולת דירה: מאיפה מתחילים, מה לבדוק לפני שמזמינים פינוי, ואיך מעריכים רהיטים, פורצלן, קריסטל, כלי כסף ותמונות ממוסגרות.",
         "inLanguage": "he",
         "url": "https://www.bamegirot.com/guides/",
         "isPartOf": { "@id": "https://www.bamegirot.com/#website" },
@@ -36,7 +36,7 @@
         "@id": "https://www.bamegirot.com/guides/#list",
         "name": "מדריכים",
         "itemListOrder": "https://schema.org/ItemListOrderAscending",
-        "numberOfItems": 5,
+        "numberOfItems": 10,
         "itemListElement": [
           {
             "@type": "ListItem",
@@ -67,6 +67,36 @@
             "position": 5,
             "url": "https://www.bamegirot.com/guides/sell-donate-or-keep/",
             "name": "ירושה: למכור, לתרום או לשמור?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "url": "https://www.bamegirot.com/guides/vintage-furniture-value/",
+            "name": "כמה שווה רהיט עתיק? מה באמת קובע את המחיר"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "url": "https://www.bamegirot.com/guides/porcelain-and-ceramics-value/",
+            "name": "כמה שווה מערכת פורצלן ישנה?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "url": "https://www.bamegirot.com/guides/crystal-and-glass-value/",
+            "name": "כמה שווה קריסטל ישן?"
+          },
+          {
+            "@type": "ListItem",
+            "position": 9,
+            "url": "https://www.bamegirot.com/guides/silver-and-metalware-value/",
+            "name": "כלי כסף או ציפוי? איך לדעת מה יש לכם ביד"
+          },
+          {
+            "@type": "ListItem",
+            "position": 10,
+            "url": "https://www.bamegirot.com/guides/framed-art-value/",
+            "name": "כמה שווה תמונה ממוסגרת ישנה?"
           }
         ]
       },
@@ -157,7 +187,15 @@
       border-bottom: 1px solid var(--color-border);
     }
     .intro { margin-bottom: 0.5rem; }
-    .guide-list { list-style: none; margin: 2rem 0 0; padding: 0; }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.3rem, 3.6vw, 1.6rem);
+      color: var(--color-primary);
+      margin: 2.75rem 0 0.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--color-border);
+    }
+    .guide-list { list-style: none; margin: 1.5rem 0 0; padding: 0; }
     .guide-list > li { margin-bottom: 1.1rem; }
     .guide-card {
       display: block;
@@ -183,7 +221,7 @@
       color: var(--color-accent);
       margin-bottom: 0.2rem;
     }
-    .guide-card h2 {
+    .guide-card h3 {
       font-family: var(--font-display);
       font-size: clamp(1.1rem, 3.2vw, 1.35rem);
       line-height: 1.35;
@@ -256,45 +294,88 @@
     <p class="byline">ליאור בוכשטב · במגירות · הערכת תכולת דירה ועזבונות, מרכז ישראל</p>
 
     <p class="intro">רוב המשפחות שפונות אליי מגיעות באותו רגע: צריך לפנות דירה, יש בה חפצים של חיים שלמים, ואף אחד לא יודע מה מכל זה שווה משהו. כתבתי את המדריכים האלה כדי שתוכלו להתחיל לבד — בלי לשלם, בלי להתחייב, וגם אם בסוף לא תפנו אליי בכלל.</p>
-    <p>הם מסודרים לפי הסדר שבו הדברים בדרך כלל קורים. אם אתם בלחץ זמן ומשאית כבר הוזמנה, דלגו ישר לשני.</p>
+    <p>המדריכים הראשונים מסודרים לפי הסדר שבו הדברים בדרך כלל קורים. אם אתם בלחץ זמן ומשאית כבר הוזמנה, דלגו ישר לשני. ואם כבר יש בידיים פריט מסוים ואתם רק רוצים לדעת מה קובע את הערך שלו — <a href="#by-item">רדו לחלק שמסודר לפי סוג פריט</a>.</p>
+
+    <h2 class="section-title">שלב אחרי שלב</h2>
 
     <ol class="guide-list">
       <li>
         <a class="guide-card" href="/guides/inherited-apartment-contents/">
           <span class="guide-step">מתחילים כאן</span>
-          <h2>מה עושים עם תכולת דירה של נפטר?</h2>
+          <h3>מה עושים עם תכולת דירה של נפטר?</h3>
           <p>המדריך המלא מהצד של המשפחה: מה לבדוק לפני שמפנים, איך מזהים פריטים בעלי ערך, ולמה כדאי הערכה בלתי תלויה.</p>
         </a>
       </li>
       <li>
         <a class="guide-card" href="/guides/before-clearance-checklist/">
           <span class="guide-step">לפני הפינוי</span>
-          <h2>לפני שמזמינים פינוי דירה — הצ'קליסט המלא</h2>
+          <h3>לפני שמזמינים פינוי דירה — הצ'קליסט המלא</h3>
           <p>מזמינים פינוי דירה? רגע. הצ'קליסט הזה עובר על כל מה שכדאי לבדוק לפני שהמשאית מגיעה — כדי ששום דבר בעל ערך לא ייסע איתה בטעות.</p>
         </a>
       </li>
       <li>
         <a class="guide-card" href="/guides/is-it-valuable-signs/">
           <span class="guide-step">בזמן המיון</span>
-          <h2>10 סימנים שאולי ירשתם משהו ששווה כסף</h2>
+          <h3>10 סימנים שאולי ירשתם משהו ששווה כסף</h3>
           <p>ציור חתום, חותמת בתחתית של כלי, ספר ישן בבוידעם — מה כדאי לחפש לפני שזורקים, ומה אסור לעשות עד שבודקים.</p>
         </a>
       </li>
       <li>
         <a class="guide-card" href="/guides/what-affects-value/">
           <span class="guide-step">מבינים את המספר</span>
-          <h2>מה קובע כמה שווה פריט ישן?</h2>
+          <h3>מה קובע כמה שווה פריט ישן?</h3>
           <p>למה שני ציורים דומים שווים סכומים שונים לגמרי? מצב, נדירות, מקור וביקוש — ולמה המחירים שאתם רואים באינטרנט מטעים.</p>
         </a>
       </li>
       <li>
         <a class="guide-card" href="/guides/sell-donate-or-keep/">
           <span class="guide-step">מחליטים</span>
-          <h2>ירושה: למכור, לתרום או לשמור?</h2>
+          <h3>ירושה: למכור, לתרום או לשמור?</h3>
           <p>איך מחליטים מה עושים עם חפצים שירשתם — בלי חרטות ובלי ריבים במשפחה. מסגרת החלטה פשוטה לשלוש הדרכים.</p>
         </a>
       </li>
     </ol>
+
+    <h2 class="section-title" id="by-item">לפי סוג פריט</h2>
+    <p>אלה העמודים שעונים על השאלה שמקלידים בשתיים בלילה — כמה שווה הדבר הזה שאני מחזיק ביד. בכל אחד מהם: מה קובע את הערך, מה כדאי לדעת מראש, ומה אסור לעשות לפני שבודקים.</p>
+
+    <ul class="guide-list">
+      <li>
+        <a class="guide-card" href="/guides/vintage-furniture-value/">
+          <span class="guide-step">רהיטים</span>
+          <h3>כמה שווה רהיט עתיק? מה באמת קובע את המחיר</h3>
+          <p>שידה, מזנון או שולחן שנשארו בדירה — מה מפריד בין רהיט ששווה כסף לרהיט שעולה כסף לפנות.</p>
+        </a>
+      </li>
+      <li>
+        <a class="guide-card" href="/guides/porcelain-and-ceramics-value/">
+          <span class="guide-step">פורצלן וקרמיקה</span>
+          <h3>כמה שווה מערכת פורצלן ישנה?</h3>
+          <p>איפה מסתתר הסימן שקובע את הערך, ולמה דווקא המערכת השלמה היא בדרך כלל האכזבה.</p>
+        </a>
+      </li>
+      <li>
+        <a class="guide-card" href="/guides/crystal-and-glass-value/">
+          <span class="guide-step">קריסטל וזכוכית</span>
+          <h3>כמה שווה קריסטל ישן?</h3>
+          <p>איך מבדילים בין קריסטל שיש לו שוק לבין זכוכית מעוטרת — והאכזבה הכי שכיחה בקטגוריה.</p>
+        </a>
+      </li>
+      <li>
+        <a class="guide-card" href="/guides/silver-and-metalware-value/">
+          <span class="guide-step">כלי כסף ומתכת</span>
+          <h3>כלי כסף או ציפוי? איך לדעת מה יש לכם ביד</h3>
+          <p>איך קוראים את החותמות בתחתית, מה ההבדל בין 925 ל־EPNS, ולמה אסור לצחצח.</p>
+        </a>
+      </li>
+      <li>
+        <a class="guide-card" href="/guides/framed-art-value/">
+          <span class="guide-step">תמונות ואמנות</span>
+          <h3>כמה שווה תמונה ממוסגרת ישנה?</h3>
+          <p>איך מבדילים בין יצירה מקורית להדפס, ולמה דווקא הגב של התמונה מספר את הסיפור החשוב.</p>
+        </a>
+      </li>
+    </ul>
 
     <div class="callout">
       <p>שווה לומר את זה במפורש: אני מעריכה את התכולה ומלווה את המכירה — אני לא קונה ממכם את החפצים. מי שנותן לכם את ההערכה לא אמור להיות מי שקונה מכם את הפריט, וזו הסיבה שהמדריכים האלה יכולים להגיד לכם גם שמשהו לא שווה כלום.</p>
