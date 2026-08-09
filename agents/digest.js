@@ -200,9 +200,13 @@ async function structureOnce(findings, schema, label) {
   const empty = { summary: 'לא נמצאו ממצאים חדשים בהרצה הזו.', best_action: '', items: [] };
   if (!findings.trim()) return empty;
   log(`[${label}] structuring… (${findings.length} chars in)`);
-  const msg = await getClient().messages.create({
+  // Streamed, and with real headroom. Hebrew tokenises far less efficiently
+  // than English, and the partners track has produced 14 items in one run —
+  // at 16k the JSON was cut mid-string and the whole track was discarded as a
+  // parse error. Above ~16k a non-streaming call also risks an SDK timeout.
+  const stream = getClient().messages.stream({
     model: MODEL,
-    max_tokens: 16000,
+    max_tokens: 64000,
     output_config: {
       effort: 'medium',
       format: { type: 'json_schema', schema },
@@ -237,12 +241,22 @@ async function structureOnce(findings, schema, label) {
     }],
   });
 
+  const msg = await stream.finalMessage();
+
   if (msg.stop_reason === 'refusal') return empty;
+
+  // Truncation has its own message. It used to surface as an unterminated-string
+  // parse error, which reads like a model failure and hides the real cause.
+  if (msg.stop_reason === 'max_tokens') {
+    log(`[${label}] TRUNCATED at max_tokens (${msg.usage.output_tokens} out-tokens) — findings discarded`);
+    return { ...empty, summary: 'הממצאים היו ארוכים מדי לעיבוד בהרצה הזו.' };
+  }
+
   const text = msg.content.filter(b => b.type === 'text').map(b => b.text).join('');
   try {
     return JSON.parse(text);
   } catch (e) {
-    log(`[${label}] JSON parse failed: ${e.message}`);
+    log(`[${label}] JSON parse failed (stop_reason=${msg.stop_reason}): ${e.message}`);
     return { ...empty, summary: 'לא הצלחתי לבנות את הממצאים בהרצה הזו.' };
   }
 }

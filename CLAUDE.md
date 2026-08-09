@@ -11,20 +11,23 @@ Zero-build static site. No package manager, no framework, no server code.
 Everything visible lives in one file.
 
 ```
-index.html   1,479 lines — ALL markup, CSS, JS, meta, JSON-LD
-  1-200      head: meta, OG/Twitter, JSON-LD @graph, gtag
-  202-978    <style> (design tokens in :root at the top)
-  987-1400   header, hero, #how-it-works, #sold-items, #about,
+index.html   ~1,560 lines — the homepage: ALL its markup, CSS, JS, meta, JSON-LD
+  1-210      head: meta, OG/Twitter, JSON-LD @graph, gtag
+  211-992    <style> (design tokens in :root at the top)
+  995-1450   header, hero, #how-it-works, #sold-items, #about,
              #faq, #whatsapp-cta, #expertise
-  1401-1479  footer + inline JS (accordion, scroll header,
-             back-to-top, WhatsApp conversion click handler)
+  1450-end   footer (incl. both guide link groups) + inline JS
+             (accordion, scroll header, back-to-top, WhatsApp
+             conversion click handler)
+guides/      the hub + ten guide pages — see "The guides" below
 images/      cover.webp (hero) · cover.jpg (OG/schema only) ·
              item-01..21.webp (gallery) · portrait.webp (unused)
 scripts/check_site.py   the validator — run it, don't hand-verify
 ```
 
-Never read `index.html` whole. Locate first:
-`rg -n '<term>' index.html`, then read that range only.
+Line numbers drift with every edit — treat them as a rough map, not an index.
+Never read `index.html` whole. Locate first: `rg -n '<term>' index.html`, then
+read that range only.
 
 ## Every change ends with
 
@@ -107,17 +110,32 @@ Remote is pinned to the **personal** account:
 Keep the username in the URL. The macOS keychain otherwise resolves HTTPS
 GitHub to the work account (`yotam-jacob`), which must not touch this repo.
 
-## Repo state on takeover (2026-07-30)
+## The guides
 
-A large uncommitted SEO/content overhaul from the previous agent is sitting in
-the working tree and is **not committed and not deployed**. The live site still
-serves the old `71851da` build.
+Eleven pages hang off `/guides/`, all committed and live.
 
-- `index.html` — new title/description/OG/Twitter set, JSON-LD rewritten from a
-  flat `LocalBusiness` into a connected `@graph` (6 entities, 7 FAQs)
-- `robots.txt` — per-bot rules incl. `OAI-SearchBot`, `PerplexityBot`
-- `sitemap.xml` — `lastmod` dropped
-- `vercel.json`, `AGENTS.md`, `scripts/check_site.py` — new, untracked
+```
+guides/index.html          the hub — two sections, and the ItemList that
+                           must stay in step with what's actually there
+guides/<slug>/index.html   five process guides (what to do, in what order)
+                           + five per-item-type pages (<thing>-value)
+```
 
-`check_site.py` passes on all of it. It needs the user's review of the Hebrew
-copy before it ships, since it changes the public positioning.
+Each page is standalone: its own copy of the design tokens, the WhatsApp
+button, and the gtag conversion handler. There is no shared stylesheet — that
+is the cost of staying zero-build, so a token change means editing every file.
+
+Adding a guide means four edits, and `check_site.py` fails if you miss the
+third: the new directory, a card on the hub, a `sitemap.xml` entry, and the
+hub's `ItemList` (`numberOfItems` plus a `ListItem`).
+
+**Item-type pages must be illustrated with real photographs from estates Lior
+handled** — that is the whole reason they beat a buyer's page on the same
+query. `images/item-01..21.webp` is the entire available library. Judaica,
+silver, and signed paintings have no photography, which is why those pages do
+not exist despite the site claiming those categories; build them when Lior
+supplies photos, not before.
+
+Copy is shipped without Lior's review (user's standing decision, 2026-08-09).
+Keep it accurate to the positioning: she appraises and accompanies the sale,
+and never buys the contents.
