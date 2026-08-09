@@ -223,6 +223,24 @@
       "nameKey": "garagesalelyartvercelapp",
       "name": "garage-sale-lyart.vercel.app",
       "url": "https://garage-sale-lyart.vercel.app"
+    },
+    {
+      "key": "agora.co.il/cache/2026-04/3160250_o.asp",
+      "nameKey": "agora",
+      "name": "Agora",
+      "url": "https://www.agora.co.il/cache/2026-04/3160250_o.asp"
+    },
+    {
+      "key": "facebook (מטא-דאטה של קבוצה)",
+      "nameKey": "facebookמטאדאטהשלקבוצה",
+      "name": "Facebook (מטא-דאטה של קבוצה)",
+      "url": ""
+    },
+    {
+      "key": "giventake.net/listings",
+      "nameKey": "giventakenet",
+      "name": "giventake.net",
+      "url": "https://www.giventake.net/listings"
     }
   ],
   "intel": [
@@ -273,6 +291,54 @@
       "nameKey": "שניפתחישוקצמודיםהערכהלביטוחואגרגטור",
       "name": "שני פתחי שוק צמודים — הערכה לביטוח ואגרגטור",
       "url": "https://levi-itzhak.co.il/סקרי-דירות"
+    },
+    {
+      "key": "estimation-of-israel.com",
+      "nameKey": "מתחרהחדשestimationofisraelיהודהמאיראשוןל",
+      "name": "מתחרה חדש: Estimation-of-Israel (יהודה מאי), ראשון לציון",
+      "url": "https://www.estimation-of-israel.com"
+    },
+    {
+      "key": "house-eviction.co.il/%d7%94%d7%93%d7%a8%d7%9a-%d7%94%d7%98%d7%95%d7%91%d7%94-%d7%91%d7%99%d7%95%d7%aa%d7%a8-%d7%9c%d7%90%d7%a8%d7%92%d7%9f-%d7%9e%d7%9b%d7%99%d7%a8%d7%aa-%d7%97%d7%a6%d7%a8",
+      "nameKey": "חברותפינוימוכרותניהולמכירתעיזבוןוקונותחש",
+      "name": "חברות פינוי מוכרות ניהול מכירת עיזבון וקונות חשיפה בתקשורת מיינסטרים",
+      "url": "https://www.house-eviction.co.il/הדרך-הטובה-ביותר-לארגן-מכירת-חצר/"
+    },
+    {
+      "key": "konehagun.co.il/%d7%94%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a9%d7%95%d7%95%d7%99-%d7%a6%d7%99%d7%95%d7%a8%d7%99%d7%9d-%d7%a2%d7%aa%d7%99%d7%a7%d7%99%d7%9d",
+      "nameKey": "קונההשתלטבקידוםפרוגרמטיעלשאילתותהערכתשוו",
+      "name": "קונה השתלט בקידום פרוגרמטי על שאילתות \"הערכת שווי [פריט]\"",
+      "url": "https://konehagun.co.il/הערכת-שווי-ציורים-עתיקים/"
+    },
+    {
+      "key": "facebook.com/liorbuchshtav",
+      "nameKey": "נראותבביטויהמרכזיביותרעולהדףהפייסבוקשלהו",
+      "name": "נראות: בביטוי המרכזי ביותר עולה דף הפייסבוק שלה ולא bamegirot.com",
+      "url": "https://www.facebook.com/liorbuchshtav/"
+    },
+    {
+      "key": "yosefus.com/page68.asp",
+      "nameKey": "פערתוכןלאןבעצםתורמיםאתזההתשובההמעשיתבידי",
+      "name": "פער תוכן: \"לאן בעצם תורמים את זה\" — התשובה המעשית בידי חברה שקונה תכולות",
+      "url": "https://www.yosefus.com/page68.asp"
+    },
+    {
+      "key": "emekshaveh.org/he/residents_antiquities_rights",
+      "nameKey": "רגולציהשהיאיכולהלהחזיקבאמינותחוקהעתיקות",
+      "name": "רגולציה שהיא יכולה להחזיק באמינות: חוק העתיקות",
+      "url": "https://emekshaveh.org/he/residents_antiquities_rights/"
+    },
+    {
+      "key": "hasolidit.com/kehila/threads/%d7%a2%d7%aa%d7%99%d7%93-%d7%94-%d7%91%d7%95%d7%9c%d7%99%d7%9d-%d7%9c%d7%90%d7%9f.30768",
+      "nameKey": "פערתוכןאוספיבוליםומטבעותבירושהשבהםהתשובה",
+      "name": "פער תוכן: אוספי בולים ומטבעות בירושה, שבהם התשובה הכנה היא השיווק",
+      "url": "https://www.hasolidit.com/kehila/threads/עתיד-ה-בולים-לאן.30768/"
+    },
+    {
+      "key": "il.bidspirit.com",
+      "nameKey": "כלכלתהמכירותהפומביותשאףאחדלאמסבירלמשפחות",
+      "name": "כלכלת המכירות הפומביות שאף אחד לא מסביר למשפחות",
+      "url": "https://il.bidspirit.com"
     }
   ],
   "runs": [
@@ -317,6 +383,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 6
+    },
+    {
+      "at": "2026-08-09T04:58:14.533Z",
+      "mode": "full",
+      "total": 11,
+      "actionable": 8,
+      "sent": true,
+      "partners": 0,
+      "opportunities": 3,
+      "intel": 8
     }
   ]
 }
