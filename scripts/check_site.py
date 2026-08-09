@@ -352,7 +352,7 @@ def main() -> int:
         sitemap_urls = [
             node.text for node in sitemap_root.findall("sm:url/sm:loc", namespace)
         ]
-        expected_urls = [CANONICAL_URL] + [
+        expected_urls = [CANONICAL_URL, f"{CANONICAL_URL}guides/"] + [
             f"{CANONICAL_URL}{page.parent.relative_to(ROOT)}/"
             for page in sorted(ROOT.glob("guides/*/index.html"))
         ]

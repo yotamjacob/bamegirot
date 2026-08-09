@@ -39,7 +39,8 @@
         "@id": "https://www.bamegirot.com/guides/sell-donate-or-keep/#breadcrumbs",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "במגירות", "item": "https://www.bamegirot.com/" },
-          { "@type": "ListItem", "position": 2, "name": "ירושה: למכור, לתרום או לשמור?" }
+          { "@type": "ListItem", "position": 2, "name": "מדריכים", "item": "https://www.bamegirot.com/guides/" },
+          { "@type": "ListItem", "position": 3, "name": "ירושה: למכור, לתרום או לשמור?" }
         ]
       }
     ]
@@ -101,6 +102,7 @@
       font-size: 0.95rem;
     }
     .top-strip a:hover { text-decoration: underline; }
+    .top-strip-sep { color: var(--color-bg); opacity: 0.5; margin: 0 0.5rem; }
     .wrap {
       max-width: 720px;
       margin: 0 auto;
@@ -182,9 +184,11 @@
 </head>
 <body>
 
-  <div class="top-strip">
+  <nav class="top-strip" aria-label="ניווט פירורי לחם">
     <a href="https://www.bamegirot.com/">→ במגירות — הערכת תכולת דירה ועזבונות</a>
-  </div>
+    <span class="top-strip-sep" aria-hidden="true">·</span>
+    <a href="/guides/">כל המדריכים</a>
+  </nav>
 
   <main class="wrap">
     <article>
