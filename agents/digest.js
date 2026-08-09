@@ -200,6 +200,10 @@ async function structureOnce(findings, schema, label) {
   const empty = { summary: 'לא נמצאו ממצאים חדשים בהרצה הזו.', best_action: '', items: [] };
   if (!findings.trim()) return empty;
   log(`[${label}] structuring… (${findings.length} chars in)`);
+  // Read the gate off the schema rather than a per-track flag, so the two can
+  // never drift apart. A track whose items carry no `actionable` field is not
+  // filtered (see isActionable), and must not be told to talk as if it were.
+  const gated = 'actionable' in (schema.properties?.items?.items?.properties || {});
   // Streamed, and with real headroom. Hebrew tokenises far less efficiently
   // than English, and the partners track has produced 14 items in one run —
   // at 16k the JSON was cut mid-string and the whole track was discarded as a
@@ -220,24 +224,37 @@ async function structureOnce(findings, schema, label) {
         '- Drop anything outside the Haifa–Be\'er Sheva service band.\n' +
         '- Write `summary`, `best_action` and all free-text item fields in ' +
         'HEBREW. Keep URLs, business names and proper nouns as they are.\n' +
-        '- `summary` must be at most two sentences: how many items you ' +
-        'examined, how many are actionable, and the single most useful thing ' +
-        'among the ACTIONABLE ones. Items marked not-actionable are recorded ' +
-        'but never shown to the reader, so never build the summary around one.\n' +
-        '- `best_action` is one concrete sentence naming the one thing worth ' +
-        'doing first, and must refer to an ACTIONABLE item. Leave it an empty ' +
-        'string if nothing is actionable.\n' +
-        '- `actionable` (where the schema has it) is TRUE only for a SPECIFIC, ' +
-        'IDENTIFIABLE person or listing that Lior could contact today: it is ' +
-        'recent, inside Haifa–Be\'er Sheva, and has a reachable public contact ' +
-        'route. Set it FALSE for everything else — including stale posts, ' +
-        'login-walled sources, commercial dealers, anything unverified, and ' +
-        'anything whose suggested action is to browse a website, monitor a ' +
-        'surface, establish a habit, or look into a general observation. ' +
-        '"There is a site worth checking manually" is NOT actionable. Be ' +
-        'strict: this flag alone decides whether an email is sent, and a ' +
-        'false positive trains the reader to ignore the digest.\n\n' +
-        '--- RESEARCH NOTES ---\n' + findings,
+        (gated
+          ? '- `summary` must be at most two sentences: how many items you ' +
+            'examined, how many are actionable, and the single most useful ' +
+            'thing among the ACTIONABLE ones. Items marked not-actionable are ' +
+            'recorded but never shown to the reader, so never build the ' +
+            'summary around one.\n' +
+            '- `best_action` is one concrete sentence naming the one thing ' +
+            'worth doing first, and must refer to an ACTIONABLE item. Leave ' +
+            'it an empty string if nothing is actionable.\n' +
+            '- `actionable` is TRUE only for a SPECIFIC, IDENTIFIABLE person ' +
+            'or listing that Lior could contact today: it is recent, inside ' +
+            'Haifa–Be\'er Sheva, and has a reachable public contact route. ' +
+            'Set it FALSE for everything else — including stale posts, ' +
+            'login-walled sources, commercial dealers, anything unverified, ' +
+            'and anything whose suggested action is to browse a website, ' +
+            'monitor a surface, establish a habit, or look into a general ' +
+            'observation. "There is a site worth checking manually" is NOT ' +
+            'actionable. Be strict: this flag alone decides whether an email ' +
+            'is sent, and a false positive trains the reader to ignore the ' +
+            'digest.\n'
+          // No `actionable` field on this track, so every item it returns is
+          // shown. Saying "none of these are actionable" above a page of
+          // rendered cards is the contradiction this branch exists to avoid.
+          : '- Every item you return WILL be shown to the reader in full. ' +
+            'There is no actionability filter on this track, so never write ' +
+            'that nothing is actionable or that no action is recommended.\n' +
+            '- `summary` must be at most two sentences: how many items you ' +
+            'examined, and what the most useful one tells Lior.\n' +
+            '- `best_action` is one concrete sentence naming the single thing ' +
+            'worth doing first in light of these findings.\n') +
+        '\n--- RESEARCH NOTES ---\n' + findings,
     }],
   });
 
