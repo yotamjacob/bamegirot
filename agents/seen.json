@@ -241,6 +241,24 @@
       "nameKey": "giventakenet",
       "name": "giventake.net",
       "url": "https://www.giventake.net/listings"
+    },
+    {
+      "key": "lemesira.co.il/ads/%d7%aa%d7%9b%d7%95%d7%9c%d7%aa-%d7%93%d7%99%d7%a8%d7%94",
+      "nameKey": "lemesiracoil",
+      "name": "lemesira.co.il",
+      "url": "https://lemesira.co.il/ads/%D7%AA%D7%9B%D7%95%D7%9C%D7%AA-%D7%93%D7%99%D7%A8%D7%94/"
+    },
+    {
+      "key": "yad2.co.il/products/garage-sale",
+      "nameKey": "yad2מדורמכירותחצר",
+      "name": "yad2 — מדור מכירות חצר",
+      "url": "https://www.yad2.co.il/products/garage-sale?category=76"
+    },
+    {
+      "key": "facebook (תוצאות מטא-דאטה בחיפוש)",
+      "nameKey": "facebookתוצאותמטאדאטהבחיפוש",
+      "name": "Facebook (תוצאות מטא-דאטה בחיפוש)",
+      "url": ""
     }
   ],
   "intel": [
@@ -393,6 +411,14 @@
       "partners": 0,
       "opportunities": 3,
       "intel": 8
+    },
+    {
+      "at": "2026-08-10T05:20:24.115Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 1,
+      "sent": true,
+      "opportunities": 3
     }
   ]
 }
