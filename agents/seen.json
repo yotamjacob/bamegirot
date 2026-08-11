@@ -259,6 +259,30 @@
       "nameKey": "facebookתוצאותמטאדאטהבחיפוש",
       "name": "Facebook (תוצאות מטא-דאטה בחיפוש)",
       "url": ""
+    },
+    {
+      "key": "facebook.com/groups/2592363064409431/posts",
+      "nameKey": "facebookקבוצהסגורה",
+      "name": "Facebook (קבוצה סגורה)",
+      "url": "facebook.com/groups/2592363064409431/posts/"
+    },
+    {
+      "key": "instagram.com/p/doeht0odb0d",
+      "nameKey": "instagram",
+      "name": "Instagram",
+      "url": "instagram.com/p/DOEHT0oDB0D/"
+    },
+    {
+      "key": "winwin.co.il",
+      "nameKey": "winwincoilcallilcoilmadascoilzehcancoila",
+      "name": "winwin.co.il / callil.co.il / madas.co.il / zehcan.co.il / agora",
+      "url": "winwin.co.il"
+    },
+    {
+      "key": "yosefus.com",
+      "nameKey": "תוצאותמסחריותסוחריםוחברותפינוי",
+      "name": "תוצאות מסחריות (סוחרים וחברות פינוי)",
+      "url": "yosefus.com"
     }
   ],
   "intel": [
@@ -419,6 +443,14 @@
       "actionable": 1,
       "sent": true,
       "opportunities": 3
+    },
+    {
+      "at": "2026-08-11T05:01:16.595Z",
+      "mode": "daily",
+      "total": 4,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 4
     }
   ]
 }
