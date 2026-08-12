@@ -283,6 +283,36 @@
       "nameKey": "תוצאותמסחריותסוחריםוחברותפינוי",
       "name": "תוצאות מסחריות (סוחרים וחברות פינוי)",
       "url": "yosefus.com"
+    },
+    {
+      "key": "haasfan.co.il/stamps",
+      "nameKey": "haasfancoil",
+      "name": "haasfan.co.il",
+      "url": "https://www.haasfan.co.il/stamps/"
+    },
+    {
+      "key": "portaleshkol.co.il/apartment-contents-for-sale",
+      "nameKey": "portaleshkolcoil",
+      "name": "portaleshkol.co.il",
+      "url": "https://www.portaleshkol.co.il/apartment-contents-for-sale/"
+    },
+    {
+      "key": "facebook",
+      "nameKey": "facebook",
+      "name": "Facebook",
+      "url": ""
+    },
+    {
+      "key": "stips.co.il",
+      "nameKey": "stipscoilhasoliditcomgemolabcoil",
+      "name": "stips.co.il / hasolidit.com / gemo-lab.co.il",
+      "url": "https://www.stips.co.il"
+    },
+    {
+      "key": "מודעות פריט בודד (לוחות יד שנייה)",
+      "nameKey": "מודעותפריטבודדלוחותידשנייה",
+      "name": "מודעות פריט בודד (לוחות יד שנייה)",
+      "url": ""
     }
   ],
   "intel": [
@@ -451,6 +481,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 4
+    },
+    {
+      "at": "2026-08-12T05:26:52.959Z",
+      "mode": "daily",
+      "total": 5,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 5
     }
   ]
 }
