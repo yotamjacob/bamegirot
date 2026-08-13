@@ -313,6 +313,48 @@
       "nameKey": "מודעותפריטבודדלוחותידשנייה",
       "name": "מודעות פריט בודד (לוחות יד שנייה)",
       "url": ""
+    },
+    {
+      "key": "d.co.il/80093604/46080",
+      "nameKey": "מדריךעסקיספרייתספקים",
+      "name": "מדריך עסקי / ספריית ספקים",
+      "url": "https://www.d.co.il/80093604/46080/"
+    },
+    {
+      "key": "meshumashim.info",
+      "nameKey": "אתריפינוידירותוסוחריעתיקות",
+      "name": "אתרי פינוי דירות וסוחרי עתיקות",
+      "url": "https://www.meshumashim.info/"
+    },
+    {
+      "key": "haasfan.co.il/product-category/furniture",
+      "nameKey": "לוחמודעותהאספן",
+      "name": "לוח מודעות האספן",
+      "url": "https://www.haasfan.co.il/product-category/furniture/"
+    },
+    {
+      "key": "bidspirit.com",
+      "nameKey": "בתימכירותפומביות",
+      "name": "בתי מכירות פומביות",
+      "url": "https://www.bidspirit.com/"
+    },
+    {
+      "key": "telegram-group.com",
+      "nameKey": "ספריותערוציטלגרם",
+      "name": "ספריות ערוצי טלגרם",
+      "url": "https://telegram-group.com/"
+    },
+    {
+      "key": "collect.co.il",
+      "nameKey": "פורומיםואתרישאלות",
+      "name": "פורומים ואתרי שאלות",
+      "url": "https://www.collect.co.il/"
+    },
+    {
+      "key": "ygoldlaw.co.il",
+      "nameKey": "תוכןיעריכת",
+      "name": "תוכן משרדי עריכת דין",
+      "url": "https://www.ygoldlaw.co.il/"
     }
   ],
   "intel": [
@@ -489,6 +531,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 5
+    },
+    {
+      "at": "2026-08-13T05:29:57.492Z",
+      "mode": "daily",
+      "total": 7,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 7
     }
   ]
 }
