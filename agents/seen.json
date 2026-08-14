@@ -355,6 +355,24 @@
       "nameKey": "תוכןיעריכת",
       "name": "תוכן משרדי עריכת דין",
       "url": "https://www.ygoldlaw.co.il/"
+    },
+    {
+      "key": "m.homeless.co.il/yad2/viewad,1025929.aspx",
+      "nameKey": "homelessmhomelesscoil",
+      "name": "Homeless (m.homeless.co.il)",
+      "url": "https://m.homeless.co.il/yad2/viewad,1025929.aspx"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,971866.aspx",
+      "nameKey": "homeless",
+      "name": "Homeless",
+      "url": "https://www.homeless.co.il/yad2/viewad,971866.aspx"
+    },
+    {
+      "key": "קבוצות פייסבוק (מכירת תכולת דירה, פשפשוק, יד 2 למכירה ומסירה, מכירות חצר וגראז' סיילס)",
+      "nameKey": "קבוצותפייסבוקמכירתתכולתדירהפשפשוקיד2למכי",
+      "name": "קבוצות פייסבוק (מכירת תכולת דירה, פשפשוק, יד 2 למכירה ומסירה, מכירות חצר וגראז' סיילס)",
+      "url": ""
     }
   ],
   "intel": [
@@ -539,6 +557,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 7
+    },
+    {
+      "at": "2026-08-14T05:27:46.568Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
