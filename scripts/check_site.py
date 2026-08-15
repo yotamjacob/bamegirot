@@ -328,7 +328,10 @@ def main() -> int:
         "owner full name": "ליאור בוכשטב",
         "main service area": "מרכז ישראל",
         "visible telephone": "052-332-1045",
-        "direct-purchase clarification": "היא אינה קונה את התכולה ישירות.",
+        # Guards the same positioning as before — the buyer is a third party,
+        # so the appraisal is independent — but stated forwards. Copy here
+        # leads with what Lior does, never with what she is not.
+        "independent-appraisal positioning": "הפריטים נמכרים לקונים בשוק, כך שההערכה נשארת עצמאית.",
     }
     for label, snippet in required_snippets.items():
         if snippet not in source:
