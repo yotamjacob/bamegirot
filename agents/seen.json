@@ -373,6 +373,42 @@
       "nameKey": "קבוצותפייסבוקמכירתתכולתדירהפשפשוקיד2למכי",
       "name": "קבוצות פייסבוק (מכירת תכולת דירה, פשפשוק, יד 2 למכירה ומסירה, מכירות חצר וגראז' סיילס)",
       "url": ""
+    },
+    {
+      "key": "facebook.com/groups/2592363064409431",
+      "nameKey": "facebookמטאדאטהמחיפושבלבד",
+      "name": "Facebook (מטא-דאטה מחיפוש בלבד)",
+      "url": "https://facebook.com/groups/2592363064409431"
+    },
+    {
+      "key": "shairis.azurewebsites.net",
+      "nameKey": "shairisazurewebsitesnetהמכירההשכונתית",
+      "name": "shairis.azurewebsites.net — \"המכירה השכונתית\"",
+      "url": "https://shairis.azurewebsites.net"
+    },
+    {
+      "key": "askp.co.il",
+      "nameKey": "askpcoilaskpeople",
+      "name": "askp.co.il (AskPeople)",
+      "url": "https://askp.co.il"
+    },
+    {
+      "key": "hasolidit.com",
+      "nameKey": "hasoliditcomריהוטישןהערכתשווי",
+      "name": "hasolidit.com — \"ריהוט ישן - הערכת שווי\"",
+      "url": "https://hasolidit.com"
+    },
+    {
+      "key": "זווית שאלות הערכת שווי (fxp, tapuz, מודעות פרטיות מתוארכות)",
+      "nameKey": "זוויתשאלותהערכתשוויfxptapuzמודעותפרטיותמ",
+      "name": "זווית שאלות הערכת שווי (FXP, Tapuz, מודעות פרטיות מתוארכות)",
+      "url": ""
+    },
+    {
+      "key": "תצפית תוכן — שליטת חברות פינוי וסוחרים בעמוד הראשון",
+      "nameKey": "תצפיתתוכןשליטתחברותפינויוסוחריםודהראשון",
+      "name": "תצפית תוכן — שליטת חברות פינוי וסוחרים בעמוד הראשון",
+      "url": ""
     }
   ],
   "intel": [
@@ -565,6 +601,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-08-15T04:23:16.171Z",
+      "mode": "daily",
+      "total": 6,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 6
     }
   ]
 }
