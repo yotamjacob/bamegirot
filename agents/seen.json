@@ -83,6 +83,66 @@
       "nameKey": "tirochekedemwinnersbidspirit",
       "name": "Tiroche / Kedem / Winners / Bidspirit",
       "url": "https://il.bidspirit.com/"
+    },
+    {
+      "key": "pinuidirot.co.il",
+      "nameKey": "גלהפינויים",
+      "name": "גל הפינויים",
+      "url": "https://pinuidirot.co.il/"
+    },
+    {
+      "key": "mlpinui.co.il",
+      "nameKey": "המרכזלפינוידירה",
+      "name": "המרכז לפינוי דירה",
+      "url": "https://mlpinui.co.il/"
+    },
+    {
+      "key": "maavarim-tlv.co.il",
+      "nameKey": "מעברים",
+      "name": "מעברים",
+      "url": "https://www.maavarim-tlv.co.il/"
+    },
+    {
+      "key": "galithamesaderet.com",
+      "nameKey": "גליתהמסדרת",
+      "name": "גלית המסדרת",
+      "url": "https://galithamesaderet.com/"
+    },
+    {
+      "key": "5starhovalot.co.il",
+      "nameKey": "הובלות5כוכבים",
+      "name": "הובלות 5 כוכבים",
+      "url": "https://www.5starhovalot.co.il/"
+    },
+    {
+      "key": "messudarot.co.il",
+      "nameKey": "מסודרות",
+      "name": "מסודרות",
+      "url": "https://messudarot.co.il/"
+    },
+    {
+      "key": "goldfactor.co.il",
+      "nameKey": "גולדפקטור",
+      "name": "גולד פקטור",
+      "url": "https://goldfactor.co.il/"
+    },
+    {
+      "key": "droryael.com/services/assisted-living",
+      "nameKey": "יעלדרורפתרונותדיורלגילהשלישי",
+      "name": "יעל דרור — פתרונות דיור לגיל השלישי",
+      "url": "https://www.droryael.com/services/assisted-living/"
+    },
+    {
+      "key": "eliasaf.co.il",
+      "nameKey": "אליסףאביטלשמאותמקרקעין",
+      "name": "אליסף אביטל — שמאות מקרקעין",
+      "url": "https://eliasaf.co.il/"
+    },
+    {
+      "key": "yosefus.com",
+      "nameKey": "יוסףהאוסף",
+      "name": "יוסף האוסף",
+      "url": "https://yosefus.com/"
     }
   ],
   "opportunities": [
@@ -409,6 +469,24 @@
       "nameKey": "תצפיתתוכןשליטתחברותפינויוסוחריםודהראשון",
       "name": "תצפית תוכן — שליטת חברות פינוי וסוחרים בעמוד הראשון",
       "url": ""
+    },
+    {
+      "key": "facebook (קבוצה)",
+      "nameKey": "facebookקבוצה",
+      "name": "Facebook (קבוצה)",
+      "url": ""
+    },
+    {
+      "key": "gemoplus.co.il/topics/%d7%96%d7%99%d7%94%d7%95%d7%99-%d7%95%d7%94%d7%a2%d7%a8%d7%9b%d7%94-%d7%a9%d7%9c-%d7%a6%d7%99%d7%95%d7%a8",
+      "nameKey": "gemopluscoil",
+      "name": "gemoplus.co.il",
+      "url": "https://gemoplus.co.il/topics/זיהוי-והערכה-של-ציור/"
+    },
+    {
+      "key": "tlgrm.co.il",
+      "nameKey": "telegramספריותערוצים",
+      "name": "Telegram (ספריות ערוצים)",
+      "url": "https://tlgrm.co.il"
     }
   ],
   "intel": [
@@ -507,6 +585,78 @@
       "nameKey": "כלכלתהמכירותהפומביותשאףאחדלאמסבירלמשפחות",
       "name": "כלכלת המכירות הפומביות שאף אחד לא מסביר למשפחות",
       "url": "https://il.bidspirit.com"
+    },
+    {
+      "key": "egoziart.blog",
+      "nameKey": "מתחרהסמכותיחדשגלריהאגוזייריבאגוזיתלאביב",
+      "name": "מתחרה סמכותי חדש: גלריה אגוזי / יריב אגוזי, תל אביב",
+      "url": "https://egoziart.blog/"
+    },
+    {
+      "key": "adigalit.co.il/article/%d7%aa%d7%a8%d7%95%d7%9e%d7%94-%d7%9e%d7%9b%d7%99%d7%a8%d7%94-%d7%9c%d7%90%d7%a9%d7%a4%d7%94",
+      "nameKey": "חברותפינויתכולהכבשואתתוכןהערכתהשוויכוללש",
+      "name": "חברות פינוי תכולה כבשו את תוכן הערכת השווי — כולל שיבוט של אחד המדריכים שלה",
+      "url": "https://www.adigalit.co.il/article/תרומה-מכירה-לאשפה/"
+    },
+    {
+      "key": "mlpinui.co.il/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%aa%d7%9b%d7%95%d7%9c%d7%94/%d7%90%d7%99%d7%9a-%d7%9c%d7%94%d7%a2%d7%a8%d7%99%d7%9a-%d7%a0%d7%9b%d7%95%d7%9f-%d7%90%d7%aa-%d7%a9%d7%95%d7%95%d7%99-%d7%94%d7%aa%d7%9b%d7%95%d7%9c%d7%94-%d7%91%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%93",
+      "nameKey": "מדריךהערכתשוויתכולהמטעםפינויmlpinui",
+      "name": "מדריך הערכת שווי תכולה מטעם חברת פינוי (mlpinui)",
+      "url": "https://mlpinui.co.il/פינוי-תכולה/איך-להעריך-נכון-את-שווי-התכולה-בפינוי-ד/"
+    },
+    {
+      "key": "house-eviction.co.il/%d7%99%d7%a8%d7%95%d7%a9%d7%aa-%d7%93%d7%99%d7%a8%d7%94-%d7%91%d7%97%d7%99%d7%a4%d7%94-%d7%98%d7%99%d7%a4%d7%99%d7%9d-%d7%9c%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%a2%d7%99%d7%96%d7%91%d7%95%d7%9f-%d7%95",
+      "nameKey": "מתחרהשעברלגאוהערכהודאחדירושתדירהבחיפה",
+      "name": "מתחרה שעבר לגאו + הערכה בעמוד אחד: ירושת דירה בחיפה",
+      "url": "https://www.house-eviction.co.il/ירושת-דירה-בחיפה-טיפים-לפינוי-עיזבון-ו/"
+    },
+    {
+      "key": "b144.co.il/b144_sip/401d0d1a4370655d4c130d1b41",
+      "nameKey": "נראותהליסטינגבb144מסווגבקטגוריהשישבשמהקנ",
+      "name": "נראות: הליסטינג ב-B144 מסווג בקטגוריה שיש בשמה \"קנייה\"",
+      "url": "https://www.b144.co.il/b144_sip/401D0D1A4370655D4C130D1B41/"
+    },
+    {
+      "key": "mybizsite.co.il/%d7%a7%d7%a0%d7%99%d7%99%d7%aa-%d7%aa%d7%9b%d7%95%d7%9c%d7%aa-%d7%91%d7%aa%d7%99%d7%9d.html",
+      "nameKey": "נכסאינטרנטישלישיעםשםהמותגלאמאומת",
+      "name": "נכס אינטרנטי שלישי עם שם המותג — לא מאומת",
+      "url": "https://www.mybizsite.co.il/קניית-תכולת-בתים.html"
+    },
+    {
+      "key": "open.spotify.com/show/0cy9q5qrcchf84l0vbtaih",
+      "nameKey": "ערוץהפודקאסטאנשיםואספניםבהגשתברגינדי",
+      "name": "ערוץ: הפודקאסט \"אנשים ואספנים\" בהגשת בר גינדי",
+      "url": "https://open.spotify.com/show/0cY9q5qRCCHf84L0VBTaiH"
+    },
+    {
+      "key": "open.spotify.com/show/4nckoystvobq3bkf767chv",
+      "nameKey": "ערוץהפודקאסטעתיקותבהגשתיהודהברייערעולםהי",
+      "name": "ערוץ: הפודקאסט \"עתיקות\" בהגשת יהודה ברייער — עולם היודאיקה והעתיקות החרדי",
+      "url": "https://open.spotify.com/show/4nCKoyStVobq3bkF767chV"
+    },
+    {
+      "key": "recital-piano.co.il/%d7%94%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a9%d7%95%d7%95%d7%99-%d7%a4%d7%a1%d7%a0%d7%aa%d7%a8",
+      "nameKey": "פערתוכןהפסנתרוכלמשפחתהדברהכבדשאףאחדלארוצ",
+      "name": "פער תוכן: הפסנתר, וכל משפחת \"הדבר הכבד שאף אחד לא רוצה\"",
+      "url": "https://recital-piano.co.il/הערכת-שווי-פסנתר"
+    },
+    {
+      "key": "gsale.co.il",
+      "nameKey": "ערוץgsalecoilפרסוםחינמיבפורמטהמכירותשהיא",
+      "name": "ערוץ: gsale.co.il — פרסום חינמי בפורמט המכירות שהיא מפעילה",
+      "url": "https://gsale.co.il/"
+    },
+    {
+      "key": "maariv.co.il/economy/consumerism/article-1246244",
+      "nameKey": "ערוץדסקהצרכנותשלמעריבמפרסםאתהנושאהזהבדיו",
+      "name": "ערוץ: דסק הצרכנות של מעריב מפרסם את הנושא הזה בדיוק כתוכן מסחרי",
+      "url": "https://www.maariv.co.il/economy/consumerism/article-1246244"
+    },
+    {
+      "key": "מה חיפשתי ולא מצאתי — רגולציה וערוצי גיל שלישי",
+      "nameKey": "מהחיפשתיולאמצאתירגולציהוערוציגילשלישי",
+      "name": "מה חיפשתי ולא מצאתי — רגולציה וערוצי גיל שלישי",
+      "url": ""
     }
   ],
   "runs": [
@@ -609,6 +759,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 6
+    },
+    {
+      "at": "2026-08-16T04:29:37.674Z",
+      "mode": "full",
+      "total": 25,
+      "actionable": 22,
+      "sent": true,
+      "partners": 10,
+      "opportunities": 3,
+      "intel": 12
     }
   ]
 }
