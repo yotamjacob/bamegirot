@@ -76,6 +76,12 @@ HARD RULES — these are absolute:
     business decision, not a quality judgement: skip them entirely and spend
     the effort on the other categories. It applies to every track.
   - Drafted outreach messages must be written in natural, warm Hebrew.
+  - COPY RULE (applies to every draft, listing opener, headline or site
+    suggestion you write): never open a sentence on a negation. Not "אנחנו לא
+    קונים את התכולה", not "היא אינה קונה". Lead with what she does and let the
+    not-a-buyer fact land as its consequence, e.g. "מעריכה, מזהה ומנהלת עבורכם
+    את המכירה — והפריטים נמכרים לקונים בשוק, כך שההערכה נשארת עצמאית". The
+    differentiator must still be unmistakable; only the framing is positive.
 `.trim();
 
 /** Renders prior findings as "Name — url" so the model can avoid them by identity. */
