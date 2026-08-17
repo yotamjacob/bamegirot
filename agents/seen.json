@@ -487,6 +487,30 @@
       "nameKey": "telegramספריותערוצים",
       "name": "Telegram (ספריות ערוצים)",
       "url": "https://tlgrm.co.il"
+    },
+    {
+      "key": "facebook.com/groups/1745048372530539",
+      "nameKey": "facebookgroupsקבוצהנוספתשבההופיעאותופוסט",
+      "name": "Facebook Groups (קבוצה נוספת שבה הופיע אותו פוסט)",
+      "url": "https://facebook.com/groups/1745048372530539"
+    },
+    {
+      "key": "fxp.co.il/showthread.php",
+      "nameKey": "fxpפורום",
+      "name": "FXP — פורום",
+      "url": "https://www.fxp.co.il/showthread.php?t=11748692"
+    },
+    {
+      "key": "ad.co.il/archive/c/62",
+      "nameKey": "adcoilארכיוןמודעותמכירתחצר",
+      "name": "ad.co.il — ארכיון מודעות מכירת חצר",
+      "url": "https://www.ad.co.il/archive/c/62?sp315=24482"
+    },
+    {
+      "key": "tiroche.co.il",
+      "nameKey": "חברותפינויוסוחריעתיקותובתימכירותפומביותd",
+      "name": "חברות פינוי וסוחרי עתיקות ובתי מכירות פומביות (drorpinuiem.co.il, clearing.co.il, antikot.co.il, tiroche.co.il, kedem-auctions.com ואחרים)",
+      "url": "https://www.tiroche.co.il"
     }
   ],
   "intel": [
@@ -769,6 +793,14 @@
       "partners": 10,
       "opportunities": 3,
       "intel": 12
+    },
+    {
+      "at": "2026-08-17T04:34:53.079Z",
+      "mode": "daily",
+      "total": 4,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 4
     }
   ]
 }
