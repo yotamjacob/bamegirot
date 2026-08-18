@@ -511,6 +511,36 @@
       "nameKey": "חברותפינויוסוחריעתיקותובתימכירותפומביותd",
       "name": "חברות פינוי וסוחרי עתיקות ובתי מכירות פומביות (drorpinuiem.co.il, clearing.co.il, antikot.co.il, tiroche.co.il, kedem-auctions.com ואחרים)",
       "url": "https://www.tiroche.co.il"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,835320.aspx",
+      "nameKey": "homelessהומלס",
+      "name": "Homeless (הומלס)",
+      "url": "https://www.homeless.co.il/yad2/viewad,835320.aspx"
+    },
+    {
+      "key": "ynet.co.il/architecture/article/syxkve1vfx",
+      "nameKey": "ynet",
+      "name": "Ynet",
+      "url": "https://www.ynet.co.il/architecture/article/syxkve1vfx"
+    },
+    {
+      "key": "hasolidit.com/kehila/threads/%d7%a2%d7%aa%d7%99%d7%93-%d7%94-%d7%91%d7%95%d7%9c%d7%99%d7%9d-%d7%9c%d7%90%d7%9f.30768",
+      "nameKey": "פורוםsolidit",
+      "name": "פורום Solidit",
+      "url": "https://www.hasolidit.com/kehila/threads/עתיד-ה-בולים-לאן.30768/"
+    },
+    {
+      "key": "egoziart.blog/2021/07/12",
+      "nameKey": "egoziartblog",
+      "name": "Egozi Art blog",
+      "url": "https://egoziart.blog/2021/07/12/"
+    },
+    {
+      "key": "קבוצות פייסבוק (מטא-דאטה בלבד, לא נפתחו)",
+      "nameKey": "קבוצותפייסבוקמטאדאטהבלבדלאנפתחו",
+      "name": "קבוצות פייסבוק (מטא-דאטה בלבד, לא נפתחו)",
+      "url": ""
     }
   ],
   "intel": [
@@ -801,6 +831,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 4
+    },
+    {
+      "at": "2026-08-18T04:28:57.118Z",
+      "mode": "daily",
+      "total": 5,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 5
     }
   ]
 }
