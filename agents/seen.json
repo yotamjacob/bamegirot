@@ -541,6 +541,30 @@
       "nameKey": "קבוצותפייסבוקמטאדאטהבלבדלאנפתחו",
       "name": "קבוצות פייסבוק (מטא-דאטה בלבד, לא נפתחו)",
       "url": ""
+    },
+    {
+      "key": "prog.co.il/threads/%d7%9e%d7%9b%d7%99%d7%a8%d7%aa-%d7%94%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a9%d7%95%d7%95%d7%99-%d7%90%d7%95%d7%a1%d7%a3-%d7%91%d7%95%d7%9c%d7%99%d7%9d-%d7%9e%d7%a1%d7%95%d7%93%d7%a8-%d7%9e%d7%94%d7%90%d7%a8%d7%a5-%d7%95%d7%94%d7%a2%d7%95%d7%9c%d7%9d.731603",
+      "nameKey": "progcoilפורום",
+      "name": "prog.co.il (פורום)",
+      "url": "https://www.prog.co.il/threads/מכירת-הערכת-שווי-אוסף-בולים-מסודר-מהארץ-והעולם.731603/"
+    },
+    {
+      "key": "bhol.co.il/forums/forum.asp",
+      "nameKey": "בחדריחרדיםפורוםאומנותויודאיקה",
+      "name": "בחדרי חרדים — פורום אומנות ויודאיקה",
+      "url": "https://www.bhol.co.il/forums/forum.asp?cat_id=&forum_id=21427"
+    },
+    {
+      "key": "homeless.co.il/yad2/inumber1=8$$inumber3=46$$highlight_id=962977",
+      "nameKey": "homelesscoilלוחתכולתדירהחיפהוהקריות",
+      "name": "homeless.co.il — לוח תכולת דירה, חיפה והקריות",
+      "url": "https://www.homeless.co.il/yad2/inumber1=8$$inumber3=46$$highlight_id=962977"
+    },
+    {
+      "key": "yosefus.com, antiqueclick.com, antique-tak.com, drorpinuiem.co.il, clearing.co.il, avivpinuy.co.il, adigalit.co.il, aviram-goldy.co.il, pinui-bazman.co.il, hattabpinuim.com, house-eviction.co.il, atikot.co.il, egozigallery.com, pinuidirot.co.il, meshumashim.info",
+      "nameKey": "תוצאותמסחריותחברותפינויוסוחריעתיקות",
+      "name": "תוצאות מסחריות (חברות פינוי וסוחרי עתיקות)",
+      "url": "yosefus.com, antiqueclick.com, antique-tak.com, drorpinuiem.co.il, clearing.co.il, avivpinuy.co.il, adigalit.co.il, aviram-goldy.co.il, pinui-bazman.co.il, hattabpinuim.com, house-eviction.co.il, atikot.co.il, egozigallery.com, pinuidirot.co.il, meshumashim.info"
     }
   ],
   "intel": [
@@ -839,6 +863,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 5
+    },
+    {
+      "at": "2026-08-19T04:31:05.003Z",
+      "mode": "daily",
+      "total": 4,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 4
     }
   ]
 }
