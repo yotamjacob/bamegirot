@@ -565,6 +565,24 @@
       "nameKey": "תוצאותמסחריותחברותפינויוסוחריעתיקות",
       "name": "תוצאות מסחריות (חברות פינוי וסוחרי עתיקות)",
       "url": "yosefus.com, antiqueclick.com, antique-tak.com, drorpinuiem.co.il, clearing.co.il, avivpinuy.co.il, adigalit.co.il, aviram-goldy.co.il, pinui-bazman.co.il, hattabpinuim.com, house-eviction.co.il, atikot.co.il, egozigallery.com, pinuidirot.co.il, meshumashim.info"
+    },
+    {
+      "key": "lifeinisrael.co.il/antique-appraisal-guide",
+      "nameKey": "lifeinisraelcoil",
+      "name": "lifeinisrael.co.il",
+      "url": "https://lifeinisrael.co.il/antique-appraisal-guide/"
+    },
+    {
+      "key": "be106.net",
+      "nameKey": "be106net",
+      "name": "be106.net",
+      "url": "https://be106.net"
+    },
+    {
+      "key": "eitan-detectors.co.il",
+      "nameKey": "eitandetectorscoil",
+      "name": "eitan-detectors.co.il",
+      "url": "https://eitan-detectors.co.il"
     }
   ],
   "intel": [
@@ -871,6 +889,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 4
+    },
+    {
+      "at": "2026-08-20T04:30:24.304Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
