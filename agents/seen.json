@@ -583,6 +583,18 @@
       "nameKey": "eitandetectorscoil",
       "name": "eitan-detectors.co.il",
       "url": "https://eitan-detectors.co.il"
+    },
+    {
+      "key": "prog.co.il/classifieds/%d7%9e%d7%9b%d7%99%d7%a8%d7%aa-%d7%aa%d7%9b%d7%95%d7%9c%d7%aa-%d7%93%d7%99%d7%a8%d7%94-%d7%a2%d7%a7%d7%91-%d7%9e%d7%a2%d7%91%d7%a8.41649",
+      "nameKey": "progcoilclassifieds",
+      "name": "Prog.co.il classifieds",
+      "url": "https://www.prog.co.il/classifieds/מכירת-תכולת-דירה-עקב-מעבר.41649/"
+    },
+    {
+      "key": "tmoses.com",
+      "nameKey": "tmosescom",
+      "name": "tmoses.com",
+      "url": "https://www.tmoses.com"
     }
   ],
   "intel": [
@@ -897,6 +909,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-08-21T04:31:36.487Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
     }
   ]
 }
