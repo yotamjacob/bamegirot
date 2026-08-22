@@ -595,6 +595,36 @@
       "nameKey": "tmosescom",
       "name": "tmoses.com",
       "url": "https://www.tmoses.com"
+    },
+    {
+      "key": "facebook (קבוצות 2592363064409431, 1745048372530539)",
+      "nameKey": "facebookקבוצות25923630644094311745048372",
+      "name": "Facebook (קבוצות 2592363064409431, 1745048372530539)",
+      "url": ""
+    },
+    {
+      "key": "prog (לוח מודעות)",
+      "nameKey": "progלוחמודעות",
+      "name": "prog (לוח מודעות)",
+      "url": ""
+    },
+    {
+      "key": "shtraymel.co.il",
+      "nameKey": "shtraymelcoil",
+      "name": "shtraymel.co.il",
+      "url": "https://shtraymel.co.il/"
+    },
+    {
+      "key": "galithamesaderet.com/inheritance-apartment-clearing-support",
+      "nameKey": "galithamesaderetcom",
+      "name": "galithamesaderet.com",
+      "url": "https://galithamesaderet.com/inheritance-apartment-clearing-support/"
+    },
+    {
+      "key": "antique.org.il",
+      "nameKey": "אתריסוחריםושמאיםantiqueorgilleviitzhakco",
+      "name": "אתרי סוחרים ושמאים (antique.org.il, levi-itzhak.co.il, esteem.co.il, masmerim.co.il, gbl.co.il, goldonline.co.il)",
+      "url": "https://antique.org.il/"
     }
   ],
   "intel": [
@@ -917,6 +947,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 2
+    },
+    {
+      "at": "2026-08-22T04:25:57.610Z",
+      "mode": "daily",
+      "total": 5,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 5
     }
   ]
 }
