@@ -143,6 +143,96 @@
       "nameKey": "יוסףהאוסף",
       "name": "יוסף האוסף",
       "url": "https://yosefus.com/"
+    },
+    {
+      "key": "urim.co.il",
+      "nameKey": "מרכזאוריםאראוריםייעוץוהכוונה",
+      "name": "מרכז \"אורים\" — א.ר. אורים ייעוץ והכוונה בע\"מ",
+      "url": "https://urim.co.il/"
+    },
+    {
+      "key": "mika-pinuim.co.il",
+      "nameKey": "מיקהפינוייםוהובלות",
+      "name": "מיקה פינויים והובלות",
+      "url": "https://mika-pinuim.co.il/"
+    },
+    {
+      "key": "balagan1.co.il",
+      "nameKey": "בלאגןוויקרביץ",
+      "name": "בלאגן — ווי קרביץ",
+      "url": "https://www.balagan1.co.il/"
+    },
+    {
+      "key": "goldraych.co.il",
+      "nameKey": "אגולדרייךהובלותואחסנה",
+      "name": "א. גולדרייך — הובלות ואחסנה",
+      "url": "https://www.goldraych.co.il/"
+    },
+    {
+      "key": "adigalit.co.il",
+      "nameKey": "עדיפינויים",
+      "name": "עדי פינויים",
+      "url": "https://www.adigalit.co.il/"
+    },
+    {
+      "key": "pinuy-mahir.co.il",
+      "nameKey": "פינויציקצק",
+      "name": "פינוי צ'יק צ'ק",
+      "url": "https://www.pinuy-mahir.co.il/"
+    },
+    {
+      "key": "elenal.co.il",
+      "nameKey": "ילנהלובונץייעוץוהכוונהלבתיאבותודיורמוגן",
+      "name": "ילנה לובונץ — ייעוץ והכוונה לבתי אבות ודיור מוגן",
+      "url": "https://www.elenal.co.il/"
+    },
+    {
+      "key": "seder.org.il",
+      "nameKey": "יהיהבסדרבצפוןאיריס",
+      "name": "יהיה בסדר בצפון — איריס",
+      "url": "https://www.seder.org.il/"
+    },
+    {
+      "key": "abcnadlan.co.il/divrot-birusha-limchira-madrich",
+      "nameKey": "abcnadlanאברמובהשקעותנדלןיונתןאברמוב",
+      "name": "abcnadlan — אברמוב השקעות נדל\"ן (יונתן אברמוב)",
+      "url": "https://abcnadlan.co.il/divrot-birusha-limchira-madrich/"
+    },
+    {
+      "key": "ege.co.il",
+      "nameKey": "egeייעוץוהכוונהלבתיאבות",
+      "name": "EGE — ייעוץ והכוונה לבתי אבות",
+      "url": "https://www.ege.co.il"
+    },
+    {
+      "key": "pinuidira.co.il",
+      "nameKey": "ישראלפינויים",
+      "name": "ישראל פינויים",
+      "url": "https://www.pinuidira.co.il/"
+    },
+    {
+      "key": "isasharltd.co.il",
+      "nameKey": "הובלותיששכר",
+      "name": "הובלות יששכר",
+      "url": "https://isasharltd.co.il/"
+    },
+    {
+      "key": "zoharetz.co.il",
+      "nameKey": "זוארץהובלות",
+      "name": "זוארץ הובלות",
+      "url": "https://zoharetz.co.il/"
+    },
+    {
+      "key": "rozenbaum.co.il",
+      "nameKey": "הובלותואחסנהרוזנבאום",
+      "name": "הובלות ואחסנה רוזנבאום",
+      "url": "https://rozenbaum.co.il/"
+    },
+    {
+      "key": "home-storage.co.il",
+      "nameKey": "יבאחסנהוהובלה",
+      "name": "י.ב. אחסנה והובלה",
+      "url": "https://home-storage.co.il/"
     }
   ],
   "opportunities": [
@@ -625,6 +715,30 @@
       "nameKey": "אתריסוחריםושמאיםantiqueorgilleviitzhakco",
       "name": "אתרי סוחרים ושמאים (antique.org.il, levi-itzhak.co.il, esteem.co.il, masmerim.co.il, gbl.co.il, goldonline.co.il)",
       "url": "https://antique.org.il/"
+    },
+    {
+      "key": "facebook (קבוצות 2592363064409431 ו-1745048372530539)",
+      "nameKey": "facebookקבוצות2592363064409431ו174504837",
+      "name": "Facebook (קבוצות 2592363064409431 ו-1745048372530539)",
+      "url": ""
+    },
+    {
+      "key": "hasolidit.com/kehila/threads/%d7%9e%d7%94-%d7%a2%d7%95%d7%a9%d7%99%d7%9d-%d7%a2%d7%9d-%d7%aa%d7%9b%d7%95%d7%9c%d7%aa-%d7%93%d7%99%d7%a8%d7%94-%d7%95%d7%93%d7%91%d7%a8%d7%99%d7%9d-%d7%99%d7%a9%d7%a0%d7%99%d7%9d.4143",
+      "nameKey": "hasoliditcom",
+      "name": "hasolidit.com",
+      "url": "https://www.hasolidit.com/kehila/threads/%D7%9E%D7%94-%D7%A2%D7%95%D7%A9%D7%99%D7%9D-%D7%A2%D7%9D-%D7%AA%D7%9B%D7%95%D7%9C%D7%AA-%D7%93%D7%99%D7%A8%D7%94-%D7%95%D7%93%D7%91%D7%A8%D7%99%D7%9D-%D7%99%D7%A9%D7%A0%D7%99%D7%9D.4143/"
+    },
+    {
+      "key": "askp.co.il/question/31301",
+      "nameKey": "askpcoil",
+      "name": "askp.co.il",
+      "url": "https://askp.co.il/question/31301"
+    },
+    {
+      "key": "t.me/s/tlvonline",
+      "nameKey": "telegramtlvonline",
+      "name": "Telegram — tlvonline",
+      "url": "https://t.me/s/tlvonline"
     }
   ],
   "intel": [
@@ -795,6 +909,42 @@
       "nameKey": "מהחיפשתיולאמצאתירגולציהוערוציגילשלישי",
       "name": "מה חיפשתי ולא מצאתי — רגולציה וערוצי גיל שלישי",
       "url": ""
+    },
+    {
+      "key": "calcalist.co.il/local_news/article/h1x8hfnl11e",
+      "nameKey": "עוגןחדשותיהאפוטרופוסהכלליונכסיםעזובים",
+      "name": "עוגן חדשותי — האפוטרופוס הכללי ונכסים עזובים",
+      "url": "https://www.calcalist.co.il/local_news/article/h1x8hfnl11e"
+    },
+    {
+      "key": "milav.org.il/%d7%94%d7%a8%d7%a6%d7%90%d7%95%d7%aa_%d7%95%d7%a1%d7%93%d7%a0%d7%90%d7%95%d7%aa",
+      "nameKey": "ערוץהרצאותלגילהשלישיבחיפהמילב",
+      "name": "ערוץ הרצאות לגיל השלישי בחיפה — מילב",
+      "url": "https://www.milav.org.il/%D7%94%D7%A8%D7%A6%D7%90%D7%95%D7%AA_%D7%95%D7%A1%D7%93%D7%A0%D7%90%D7%95%D7%AA"
+    },
+    {
+      "key": "gemo-lab.co.il",
+      "nameKey": "gemolabמפעילהדומייןשניעםעמודלכלקטגורייתפ",
+      "name": "GemoLab מפעילה דומיין שני עם עמוד לכל קטגוריית פריט",
+      "url": "https://www.gemo-lab.co.il/"
+    },
+    {
+      "key": "esteem.co.il/%d7%94%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a6%d7%99%d7%95%d7%a8%d7%99%d7%9d-%d7%95%d7%aa%d7%9e%d7%95%d7%a0%d7%95%d7%aa",
+      "nameKey": "שאילתתהאםציורישןשווהכסףקוניםושמאיביטוחבל",
+      "name": "שאילתת \"האם ציור ישן שווה כסף\" — קונים ושמאי ביטוח בלבד",
+      "url": "https://www.esteem.co.il/%D7%94%D7%A2%D7%A8%D7%9B%D7%AA-%D7%A6%D7%99%D7%95%D7%A8%D7%99%D7%9D-%D7%95%D7%AA%D7%9E%D7%95%D7%A0%D7%95%D7%AA/"
+    },
+    {
+      "key": "afikonline.co.il/hundreds-of-property/%d7%a7%d7%95%d7%a8%d7%a1-%d7%a9%d7%9e%d7%90%d7%95%d7%aa-%d7%a8%d7%9b%d7%95%d7%a9-%d7%9c%d7%a2%d7%95%d7%9e%d7%aa-%d7%a7%d7%95%d7%a8%d7%a1-%d7%a9%d7%9e%d7%90%d7%95%d7%aa-%d7%90%d7%9e%d7%a0%d7%95%d7%aa",
+      "nameKey": "צינורהכשרהמייצרמתחריםחדשיםואיןתשובהכנהלש",
+      "name": "צינור הכשרה מייצר מתחרים חדשים ואין תשובה כנה לשאלה מי מוסמך להעריך",
+      "url": "https://afikonline.co.il/hundreds-of-property/%D7%A7%D7%95%D7%A8%D7%A1-%D7%A9%D7%9E%D7%90%D7%95%D7%AA-%D7%A8%D7%9B%D7%95%D7%A9-%D7%9C%D7%A2%D7%95%D7%9E%D7%AA-%D7%A7%D7%95%D7%A8%D7%A1-%D7%A9%D7%9E%D7%90%D7%95%D7%AA-%D7%90%D7%9E%D7%A0%D7%95%D7%AA"
+    },
+    {
+      "key": "pinoidirot.co.il/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%93%d7%99%d7%a8%d7%95%d7%aa-%d7%a0%d7%a4%d7%98%d7%a8%d7%99%d7%9d",
+      "nameKey": "מהעושיםעםתכולתדירהשלנפטר100תעשייתפינויופ",
+      "name": "\"מה עושים עם תכולת דירה של נפטר\" — 100% תעשיית פינוי, ופיצול דומיין",
+      "url": "https://pinoidirot.co.il/%D7%A4%D7%99%D7%A0%D7%95%D7%99-%D7%93%D7%99%D7%A8%D7%95%D7%AA-%D7%A0%D7%A4%D7%98%D7%A8%D7%99%D7%9D/"
     }
   ],
   "runs": [
@@ -955,6 +1105,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 5
+    },
+    {
+      "at": "2026-08-23T04:30:26.403Z",
+      "mode": "full",
+      "total": 25,
+      "actionable": 21,
+      "sent": true,
+      "partners": 15,
+      "opportunities": 4,
+      "intel": 6
     }
   ]
 }
