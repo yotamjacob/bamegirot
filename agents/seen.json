@@ -739,6 +739,42 @@
       "nameKey": "telegramtlvonline",
       "name": "Telegram — tlvonline",
       "url": "https://t.me/s/tlvonline"
+    },
+    {
+      "key": "facebook (אירוע)",
+      "nameKey": "facebookאירוע",
+      "name": "Facebook (אירוע)",
+      "url": ""
+    },
+    {
+      "key": "facebook (קבוצה 327483250942)",
+      "nameKey": "facebookקבוצה327483250942",
+      "name": "Facebook (קבוצה 327483250942)",
+      "url": ""
+    },
+    {
+      "key": "fxp.co.il",
+      "nameKey": "fxpcoil",
+      "name": "fxp.co.il",
+      "url": ""
+    },
+    {
+      "key": "telegram",
+      "nameKey": "telegram",
+      "name": "Telegram",
+      "url": ""
+    },
+    {
+      "key": "haipo.co.il/item/218148",
+      "nameKey": "haipocoilלוחהעירחיפה",
+      "name": "haipo.co.il – לוח העיר (\"חי פה\")",
+      "url": "https://haipo.co.il/item/218148"
+    },
+    {
+      "key": "pinuiplus.co.il/antiques",
+      "nameKey": "pinuipluscoilmlpinuicoil",
+      "name": "pinuiplus.co.il / mlpinui.co.il",
+      "url": "https://pinuiplus.co.il/antiques/"
     }
   ],
   "intel": [
@@ -1115,6 +1151,14 @@
       "partners": 15,
       "opportunities": 4,
       "intel": 6
+    },
+    {
+      "at": "2026-08-24T04:38:32.545Z",
+      "mode": "daily",
+      "total": 6,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 6
     }
   ]
 }
