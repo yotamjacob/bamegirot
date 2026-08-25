@@ -775,6 +775,24 @@
       "nameKey": "pinuipluscoilmlpinuicoil",
       "name": "pinuiplus.co.il / mlpinui.co.il",
       "url": "https://pinuiplus.co.il/antiques/"
+    },
+    {
+      "key": "facebook — פשפשוק",
+      "nameKey": "facebookפשפשוק",
+      "name": "Facebook — פשפשוק",
+      "url": ""
+    },
+    {
+      "key": "yad2.co.il/market/collections",
+      "nameKey": "yad2homeless",
+      "name": "yad2 / homeless",
+      "url": "https://www.yad2.co.il/market/collections/"
+    },
+    {
+      "key": "telegram / לוחות קהילתיים ועיתונות מקומית",
+      "nameKey": "telegramלוחותקהילתייםועיתונותמקומית",
+      "name": "Telegram / לוחות קהילתיים ועיתונות מקומית",
+      "url": ""
     }
   ],
   "intel": [
@@ -1159,6 +1177,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 6
+    },
+    {
+      "at": "2026-08-25T04:32:39.459Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
