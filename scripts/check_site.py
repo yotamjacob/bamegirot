@@ -326,7 +326,7 @@ def main() -> int:
         "Google Ads conversion label (phone click)": "AW-10933411346/U4JGCLrCm9ocEJK8ut0o",
         "Open Graph fallback image": "https://www.bamegirot.com/images/cover.jpg",
         "owner full name": "ליאור בוכשטב",
-        "main service area": "מרכז ישראל",
+        "main service area": "מתל אביב ועד חיפה",
         "visible telephone": "052-332-1045",
         # Guards the same positioning as before — the buyer is a third party,
         # so the appraisal is independent — but stated forwards. Copy here

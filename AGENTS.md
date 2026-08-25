@@ -34,7 +34,7 @@ Treat these as fixed unless the user explicitly changes them:
 
 - Brand: `במגירות`; owner/voice: Lior Buchstab (`ליאור בוכשטב`),
   first-person feminine Hebrew.
-- Main service area: `מרכז ישראל`.
+- Main service area: `מתל אביב ועד חיפה` (Tel Aviv to Haifa).
 - Canonical domain: `https://www.bamegirot.com/`.
 - WhatsApp: `972523321045`.
 - Google Ads account tag: `AW-10933411346`; the conversion label is in the
