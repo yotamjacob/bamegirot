@@ -811,6 +811,12 @@
       "nameKey": "ממצאמבנימהסריקה",
       "name": "ממצא מבני מהסריקה",
       "url": ""
+    },
+    {
+      "key": "facebook.com/groups/268799249931777/posts/3972306189581046",
+      "nameKey": "facebookקבוצתפשפשוק",
+      "name": "Facebook (קבוצת פשפשוק)",
+      "url": "facebook.com/groups/268799249931777/posts/3972306189581046/"
     }
   ],
   "intel": [
@@ -1211,6 +1217,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-08-29T10:38:39.872Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
