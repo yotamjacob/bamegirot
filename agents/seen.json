@@ -973,6 +973,36 @@
       "nameKey": "קבוצותפייסבוקמטאדאטהבחיפוש",
       "name": "קבוצות פייסבוק (מטא-דאטה בחיפוש)",
       "url": ""
+    },
+    {
+      "key": "facebook.com/groups/1745048372530539/posts/2382314388803931",
+      "nameKey": "קבוצתפייסבוקמזהה1745048372530539פוסט2382",
+      "name": "קבוצת פייסבוק (מזהה 1745048372530539, פוסט 2382314388803931)",
+      "url": "https://www.facebook.com/groups/1745048372530539/posts/2382314388803931"
+    },
+    {
+      "key": "facebook.com/groups/960317140733258",
+      "nameKey": "קבוצותפייסבוקנוספותשתועדו",
+      "name": "קבוצות פייסבוק נוספות שתועדו",
+      "url": "https://www.facebook.com/groups/960317140733258"
+    },
+    {
+      "key": "facebook.com/groups/327483250942",
+      "nameKey": "קבוצתפייסבוקמזהה327483250942",
+      "name": "קבוצת פייסבוק (מזהה 327483250942)",
+      "url": "https://www.facebook.com/groups/327483250942"
+    },
+    {
+      "key": "tora-forum.co.il/threads/%d7%9e%d7%a9%d7%a0%d7%99%d7%95%d7%aa-%d7%a2%d7%aa%d7%99%d7%a7%d7%95%d7%aa-%d7%a9%d7%a0%d7%93%d7%a4%d7%a1%d7%95-%d7%9c%d7%a4%d7%a0%d7%99-160-%d7%a9%d7%a0%d7%94-%d7%9e%d7%94-%d7%94%d7%a9%d7%95%d7%95%d7%99-%d7%a9%d7%9c%d7%94%d7%9f-%d7%91%d7%a9%d7%95%d7%a7.73189",
+      "nameKey": "toraforumcoil",
+      "name": "tora-forum.co.il",
+      "url": "https://tora-forum.co.il/threads/משניות-עתיקות-שנדפסו-לפני-160-שנה-מה-השווי-שלהן-בשוק.73189/"
+    },
+    {
+      "key": "t.me/s/newtoolsibuyil",
+      "nameKey": "telegramtmesnewtoolsibuyil",
+      "name": "Telegram — t.me/s/NewToolsIBuyIL",
+      "url": "https://t.me/s/NewToolsIBuyIL"
     }
   ],
   "intel": [
@@ -1433,6 +1463,14 @@
       "partners": 22,
       "opportunities": 4,
       "intel": 7
+    },
+    {
+      "at": "2026-08-31T10:21:18.878Z",
+      "mode": "daily",
+      "total": 5,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 5
     }
   ]
 }
