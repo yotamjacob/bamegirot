@@ -1003,6 +1003,66 @@
       "nameKey": "telegramtmesnewtoolsibuyil",
       "name": "Telegram — t.me/s/NewToolsIBuyIL",
       "url": "https://t.me/s/NewToolsIBuyIL"
+    },
+    {
+      "key": "facebook.com/groups/101875683484689",
+      "nameKey": "facebookקבוצותידשנייהופשפשוק",
+      "name": "Facebook (קבוצות יד שנייה ופשפשוק)",
+      "url": "https://www.facebook.com/groups/101875683484689"
+    },
+    {
+      "key": "clearing.co.il",
+      "nameKey": "חברותפינוידירותוסוחריעתיקותavivpinuyclea",
+      "name": "חברות פינוי דירות וסוחרי עתיקות (avivpinuy, clearing.co.il, antique-tak, tiroche ואחרים)",
+      "url": "https://www.clearing.co.il"
+    },
+    {
+      "key": "rotter.net/pro",
+      "nameKey": "rotternetמדריךספקים",
+      "name": "rotter.net — מדריך ספקים",
+      "url": "https://rotter.net/pro/"
+    },
+    {
+      "key": "oti-shop.co.il",
+      "nameKey": "otishopbanknotecoilkonehaguncoil",
+      "name": "oti-shop / banknote.co.il / konehagun.co.il",
+      "url": "https://www.oti-shop.co.il/"
+    },
+    {
+      "key": "study.co.il/forum/print.asp",
+      "nameKey": "studycoilפורום",
+      "name": "study.co.il — פורום",
+      "url": "https://www.study.co.il/forum/print.asp?f=42&m=136146"
+    },
+    {
+      "key": "inn.co.il/forum/f35-151",
+      "nameKey": "inncoilפורוםציורורישום",
+      "name": "inn.co.il — פורום ציור ורישום",
+      "url": "https://www.inn.co.il/forum/f35-151"
+    },
+    {
+      "key": "galleryonline.co.il",
+      "nameKey": "galleryonlinecoil",
+      "name": "galleryonline.co.il",
+      "url": "https://www.galleryonline.co.il/"
+    },
+    {
+      "key": "tzomet-hrz.co.il/news/20082",
+      "nameKey": "צומתהשרוןtzomethrz",
+      "name": "צומת השרון (tzomet-hrz)",
+      "url": "https://www.tzomet-hrz.co.il/news/20082"
+    },
+    {
+      "key": "telegram2u.com/category/%d7%a7%d7%a0%d7%99%d7%95%d7%aa",
+      "nameKey": "telegram2uאינדקסערוצים",
+      "name": "telegram2u — אינדקס ערוצים",
+      "url": "https://telegram2u.com/category/קניות/"
+    },
+    {
+      "key": "homeless.co.il/835320",
+      "nameKey": "פריטיםשכברדווחווחזרובסריקה",
+      "name": "פריטים שכבר דווחו וחזרו בסריקה",
+      "url": "https://www.homeless.co.il/835320"
     }
   ],
   "intel": [
@@ -1471,6 +1531,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 5
+    },
+    {
+      "at": "2026-09-01T09:04:40.708Z",
+      "mode": "daily",
+      "total": 10,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 10
     }
   ]
 }
