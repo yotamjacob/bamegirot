@@ -1063,6 +1063,36 @@
       "nameKey": "פריטיםשכברדווחווחזרובסריקה",
       "name": "פריטים שכבר דווחו וחזרו בסריקה",
       "url": "https://www.homeless.co.il/835320"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,1071598.aspx",
+      "nameKey": "homelessהומלסלוחידשניהמדורתכולתדירהשונות",
+      "name": "Homeless (הומלס) — לוח יד שניה, מדור \"תכולת דירה – שונות\"",
+      "url": "https://www.homeless.co.il/yad2/viewad,1071598.aspx"
+    },
+    {
+      "key": "plancha.co.il",
+      "nameKey": "פלנצהפלטפורמתמכירתחצרוירטואלית",
+      "name": "פלנצ'ה — פלטפורמת מכירת חצר וירטואלית",
+      "url": "https://plancha.co.il/"
+    },
+    {
+      "key": "instagram.com/garage.sale.tlv",
+      "nameKey": "instagramgaragesaletlv",
+      "name": "Instagram — garage.sale.tlv",
+      "url": "https://www.instagram.com/garage.sale.tlv/"
+    },
+    {
+      "key": "zirashkelon.co.il",
+      "nameKey": "הזירהאתרחדשותמקומיאשקלון",
+      "name": "הזירה — אתר חדשות מקומי אשקלון",
+      "url": "https://www.zirashkelon.co.il"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,835273.aspx",
+      "nameKey": "homelessהומלסמודעהשנבדקהונדחתה",
+      "name": "Homeless (הומלס) — מודעה שנבדקה ונדחתה",
+      "url": "https://www.homeless.co.il/yad2/viewad,835273.aspx"
     }
   ],
   "intel": [
@@ -1539,6 +1569,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 10
+    },
+    {
+      "at": "2026-09-02T08:18:10.175Z",
+      "mode": "daily",
+      "total": 5,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 5
     }
   ]
 }
