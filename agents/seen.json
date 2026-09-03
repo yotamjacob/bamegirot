@@ -1093,6 +1093,24 @@
       "nameKey": "homelessהומלסמודעהשנבדקהונדחתה",
       "name": "Homeless (הומלס) — מודעה שנבדקה ונדחתה",
       "url": "https://www.homeless.co.il/yad2/viewad,835273.aspx"
+    },
+    {
+      "key": "yerushale.co.il/collectibles",
+      "nameKey": "ירושהלהyerushalecoil",
+      "name": "ירושה'לה (yerushale.co.il)",
+      "url": "https://yerushale.co.il/collectibles/"
+    },
+    {
+      "key": "modelhome.co.il",
+      "nameKey": "modelhomecoil",
+      "name": "modelhome.co.il",
+      "url": "https://modelhome.co.il"
+    },
+    {
+      "key": "solidit",
+      "nameKey": "solidit",
+      "name": "Solidit",
+      "url": ""
     }
   ],
   "intel": [
@@ -1577,6 +1595,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 5
+    },
+    {
+      "at": "2026-09-03T08:27:32.734Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
