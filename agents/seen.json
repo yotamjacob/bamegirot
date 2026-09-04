@@ -1603,6 +1603,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-09-04T08:23:24.723Z",
+      "mode": "daily",
+      "total": 0,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 0
     }
   ]
 }
