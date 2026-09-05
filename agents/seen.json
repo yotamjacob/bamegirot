@@ -1111,6 +1111,18 @@
       "nameKey": "solidit",
       "name": "Solidit",
       "url": ""
+    },
+    {
+      "key": "adtiny.com",
+      "nameKey": "adtinycom",
+      "name": "adtiny.com",
+      "url": "https://www.adtiny.com/"
+    },
+    {
+      "key": "israelhayom.co.il/lifestyle/design/article/21347125",
+      "nameKey": "ישראלהיום",
+      "name": "ישראל היום",
+      "url": "https://www.israelhayom.co.il/lifestyle/design/article/21347125"
     }
   ],
   "intel": [
@@ -1611,6 +1623,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 0
+    },
+    {
+      "at": "2026-09-05T07:58:44.299Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
     }
   ]
 }
