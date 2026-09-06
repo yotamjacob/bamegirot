@@ -365,6 +365,36 @@
       "nameKey": "אלטיזכןxn7dbcbpbb9b4a6borgil",
       "name": "אלטיזכן (xn--7dbcbpbb9b4a6b.org.il)",
       "url": "http://xn--7dbcbpbb9b4a6b.org.il/"
+    },
+    {
+      "key": "hamefane.co.il",
+      "nameKey": "יוסיהמפנהפינוידירותעזבונותוירושות",
+      "name": "יוסי המפנה — פינוי דירות, עזבונות וירושות",
+      "url": "https://hamefane.co.il/"
+    },
+    {
+      "key": "avivpinuy.co.il",
+      "nameKey": "אביבפינויפינוידירותעזבונותודירותירושה",
+      "name": "אביב פינוי — פינוי דירות, עזבונות ודירות ירושה",
+      "url": "https://avivpinuy.co.il/"
+    },
+    {
+      "key": "greenstorage.co.il",
+      "nameKey": "המחסןהירוקgreenstorage",
+      "name": "המחסן הירוק (Green Storage)",
+      "url": "https://greenstorage.co.il/"
+    },
+    {
+      "key": "ribua.co.il",
+      "nameKey": "אחסוןבריבוע",
+      "name": "אחסון בריבוע",
+      "url": "https://www.ribua.co.il/"
+    },
+    {
+      "key": "gemoplus.co.il",
+      "nameKey": "גמולבgemolab",
+      "name": "גמולב / GemoLab",
+      "url": "https://gemoplus.co.il/"
     }
   ],
   "opportunities": [
@@ -1123,6 +1153,36 @@
       "nameKey": "ישראלהיום",
       "name": "ישראל היום",
       "url": "https://www.israelhayom.co.il/lifestyle/design/article/21347125"
+    },
+    {
+      "key": "facebook (קבוצות סגורות)",
+      "nameKey": "facebookקבוצותסגורות",
+      "name": "Facebook (קבוצות סגורות)",
+      "url": ""
+    },
+    {
+      "key": "komo.co.il",
+      "nameKey": "komocoil",
+      "name": "komo.co.il",
+      "url": "https://www.komo.co.il/"
+    },
+    {
+      "key": "yerushale.co.il/%d7%91%d7%9c%d7%95%d7%92/inherited-coins-collection",
+      "nameKey": "yerushalecoil",
+      "name": "yerushale.co.il",
+      "url": "https://yerushale.co.il/בלוג/inherited-coins-collection/"
+    },
+    {
+      "key": "telegram (שאילתות ערוצים ציבוריים)",
+      "nameKey": "telegramשאילתותערוציםציבוריים",
+      "name": "Telegram (שאילתות ערוצים ציבוריים)",
+      "url": ""
+    },
+    {
+      "key": "לוחות מודעות עירוניים ושכונתיים",
+      "nameKey": "לוחותמודעותעירונייםושכונתיים",
+      "name": "לוחות מודעות עירוניים ושכונתיים",
+      "url": ""
     }
   ],
   "intel": [
@@ -1371,6 +1431,42 @@
       "nameKey": "קצהחיפהסוחריםשמבטיחיםייצוגמולבתיהמכירות",
       "name": "קצה חיפה — סוחרים שמבטיחים ייצוג מול בתי המכירות",
       "url": "https://tmoses.com/עתיקות-למכירה-חיפה/"
+    },
+    {
+      "key": "aviram-goldy.co.il",
+      "nameKey": "מתחרהחדשאבירםגולדיאבירםהאספןמודלשבוהקונה",
+      "name": "מתחרה חדש: אבירם גולדי / \"אבירם האספן\" — מודל שבו הקונה הוא גם המעריך",
+      "url": "https://www.aviram-goldy.co.il/"
+    },
+    {
+      "key": "analyst.co.il/articles/gold-silver-and-platinum",
+      "nameKey": "זינוקמחיריהמתכתהפךקונישוויהיתוךלאיוםאמית",
+      "name": "זינוק מחירי המתכת הפך קוני שווי-היתוך לאיום אמיתי על כלי כסף בירושה",
+      "url": "https://www.analyst.co.il/articles/gold-silver-and-platinum/"
+    },
+    {
+      "key": "wobi.co.il/%d7%91%d7%99%d7%98%d7%95%d7%97-%d7%93%d7%99%d7%a8%d7%94/%d7%9b%d7%aa%d7%91%d7%95%d7%aa/%d7%94%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a9%d7%9e%d7%90%d7%99-%d7%95%d7%91%d7%99%d7%98%d7%95%d7%97-%d7%aa%d7%9b%d7%95%d7%9c%d7%94",
+      "nameKey": "נראותשםהשירותעצמולאמחזירשוםתוצאהעלמכירהא",
+      "name": "נראות: שם השירות עצמו לא מחזיר שום תוצאה על מכירה או ירושה",
+      "url": "https://www.wobi.co.il/ביטוח-דירה/כתבות/הערכת-שמאי-וביטוח-תכולה/"
+    },
+    {
+      "key": "m.homeless.co.il/yad2/viewad,1025929.aspx",
+      "nameKey": "ערוץהפצהשנילוחותפרסוםחינמייםשבהםכברמפרסמ",
+      "name": "ערוץ הפצה: שני לוחות פרסום חינמיים שבהם כבר מפרסמים מכירות חצר מעזבון",
+      "url": "https://m.homeless.co.il/yad2/viewad,1025929.aspx"
+    },
+    {
+      "key": "infinityfinance.co.il/calculators/ezvon-shawi",
+      "nameKey": "השאילתהכמהשווההעיזבוןנעניתבידימחשבוניםפי",
+      "name": "השאילתה \"כמה שווה העיזבון\" נענית בידי מחשבונים פיננסיים שאינם יכולים להעריך חפצים",
+      "url": "https://infinityfinance.co.il/calculators/ezvon-shawi"
+    },
+    {
+      "key": "מה חיפשתי ולא הצלחתי לספק בסבב הזה: רגולציה, חדשות ואיגודים מקצועיים",
+      "nameKey": "מהחיפשתיולאהצלחתילספקבסבבהזהרגולציהחדשות",
+      "name": "מה חיפשתי ולא הצלחתי לספק בסבב הזה: רגולציה, חדשות ואיגודים מקצועיים",
+      "url": ""
     }
   ],
   "runs": [
@@ -1631,6 +1727,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 2
+    },
+    {
+      "at": "2026-09-06T08:16:36.806Z",
+      "mode": "full",
+      "total": 16,
+      "actionable": 11,
+      "sent": true,
+      "partners": 5,
+      "opportunities": 5,
+      "intel": 6
     }
   ]
 }
