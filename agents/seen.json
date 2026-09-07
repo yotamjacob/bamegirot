@@ -1183,6 +1183,30 @@
       "nameKey": "לוחותמודעותעירונייםושכונתיים",
       "name": "לוחות מודעות עירוניים ושכונתיים",
       "url": ""
+    },
+    {
+      "key": "agora.co.il/cache/2026-05/3172342_o.asp",
+      "nameKey": "agoraלוחמסירהחינם",
+      "name": "Agora (לוח מסירה חינם)",
+      "url": "https://www.agora.co.il/cache/2026-05/3172342_o.asp"
+    },
+    {
+      "key": "board.ashdodnet.com",
+      "nameKey": "לוחמודעותאשדודנט",
+      "name": "לוח מודעות אשדוד נט",
+      "url": "https://board.ashdodnet.com/"
+    },
+    {
+      "key": "sadikovs.com/collectible-valuation",
+      "nameKey": "sadikovscom",
+      "name": "sadikovs.com",
+      "url": "https://sadikovs.com/collectible-valuation"
+    },
+    {
+      "key": "estimation-of-israel.com",
+      "nameKey": "estimationofisraelcom",
+      "name": "estimation-of-israel.com",
+      "url": "https://estimation-of-israel.com"
     }
   ],
   "intel": [
@@ -1737,6 +1761,14 @@
       "partners": 5,
       "opportunities": 5,
       "intel": 6
+    },
+    {
+      "at": "2026-09-07T08:49:12.522Z",
+      "mode": "daily",
+      "total": 4,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 4
     }
   ]
 }
