@@ -1207,6 +1207,12 @@
       "nameKey": "estimationofisraelcom",
       "name": "estimation-of-israel.com",
       "url": "https://estimation-of-israel.com"
+    },
+    {
+      "key": "facebook.com/groups/1658375394400342/posts/3991994614371730",
+      "nameKey": "facebookקבוצה1658375394400342",
+      "name": "Facebook (קבוצה 1658375394400342)",
+      "url": "https://www.facebook.com/groups/1658375394400342/posts/3991994614371730/"
     }
   ],
   "intel": [
@@ -1769,6 +1775,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 4
+    },
+    {
+      "at": "2026-09-08T08:29:31.774Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
