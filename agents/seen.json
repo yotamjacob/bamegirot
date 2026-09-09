@@ -1213,6 +1213,42 @@
       "nameKey": "facebookקבוצה1658375394400342",
       "name": "Facebook (קבוצה 1658375394400342)",
       "url": "https://www.facebook.com/groups/1658375394400342/posts/3991994614371730/"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,887879.aspx",
+      "nameKey": "homelessלוחידשניההומלסתכולתדירהשונות",
+      "name": "Homeless (לוח יד שניה הומלס) — תכולת דירה / שונות",
+      "url": "https://www.homeless.co.il/yad2/viewad,887879.aspx"
+    },
+    {
+      "key": "gederahayom.co.il/%d7%9e%d7%9b%d7%99%d7%a8%d7%aa-%d7%97%d7%a6%d7%a8-2",
+      "nameKey": "גדרההיוםמכירתחצרקהילתית",
+      "name": "גדרה היום — מכירת חצר קהילתית",
+      "url": "https://gederahayom.co.il/מכירת-חצר-2/"
+    },
+    {
+      "key": "קבוצות ופוסטים בפייסבוק (מזהי קבוצות 1919020381456661, 127369777684389, 292695903510530, 5707558129278431, 268799249931777)",
+      "nameKey": "קבוצותופוסטיםבפייסבוקמזהיקבוצות191902038",
+      "name": "קבוצות ופוסטים בפייסבוק (מזהי קבוצות 1919020381456661, 127369777684389, 292695903510530, 5707558129278431, 268799249931777)",
+      "url": ""
+    },
+    {
+      "key": "inn.co.il/forum/f35-152",
+      "nameKey": "פורוםציורורישוםערוץ7",
+      "name": "פורום ציור ורישום, ערוץ 7",
+      "url": "https://www.inn.co.il/forum/f35-152"
+    },
+    {
+      "key": "bhol.co.il/forums/topic.asp",
+      "nameKey": "בחדריחרדיםשרשוראמנותיודאיקה",
+      "name": "בחדרי חרדים — שרשור אמנות/יודאיקה",
+      "url": "http://www.bhol.co.il/forums/topic.asp?forum_id=21427&topic_id=3020630"
+    },
+    {
+      "key": "אתרי אינדקס ערוצי טלגרם (telegram2u, tg-index.com, telegram-index.com, telegram4u.com)",
+      "nameKey": "אתריאינדקסערוציטלגרםtelegram2utgindexcom",
+      "name": "אתרי אינדקס ערוצי טלגרם (telegram2u, tg-index.com, telegram-index.com, telegram4u.com)",
+      "url": ""
     }
   ],
   "intel": [
@@ -1783,6 +1819,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-09-09T08:32:11.446Z",
+      "mode": "daily",
+      "total": 6,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 6
     }
   ]
 }
