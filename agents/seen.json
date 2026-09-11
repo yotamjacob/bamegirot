@@ -1249,6 +1249,30 @@
       "nameKey": "אתריאינדקסערוציטלגרםtelegram2utgindexcom",
       "name": "אתרי אינדקס ערוצי טלגרם (telegram2u, tg-index.com, telegram-index.com, telegram4u.com)",
       "url": ""
+    },
+    {
+      "key": "rishon4u.co.il",
+      "nameKey": "rishon4ucoil",
+      "name": "rishon4u.co.il",
+      "url": ""
+    },
+    {
+      "key": "sharonline.co.il",
+      "nameKey": "sharonlinecoil",
+      "name": "sharonline.co.il",
+      "url": ""
+    },
+    {
+      "key": "israeliana.org",
+      "nameKey": "israelianaorg",
+      "name": "israeliana.org",
+      "url": ""
+    },
+    {
+      "key": "forums.walla.co.il/viewtopic.php?f=2725&t=14748372",
+      "nameKey": "פורוםבוליםומטבעותwalla",
+      "name": "פורום בולים ומטבעות – Walla",
+      "url": "forums.walla.co.il/viewtopic.php?f=2725&t=14748372"
     }
   ],
   "intel": [
@@ -1835,6 +1859,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 0
+    },
+    {
+      "at": "2026-09-11T08:28:44.708Z",
+      "mode": "daily",
+      "total": 4,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 4
     }
   ]
 }
