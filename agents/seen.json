@@ -1273,6 +1273,24 @@
       "nameKey": "פורוםבוליםומטבעותwalla",
       "name": "פורום בולים ומטבעות – Walla",
       "url": "forums.walla.co.il/viewtopic.php?f=2725&t=14748372"
+    },
+    {
+      "key": "פוסטים בקבוצות פייסבוק (מספר קבוצות)",
+      "nameKey": "פוסטיםבקבוצותפייסבוקמספרקבוצות",
+      "name": "פוסטים בקבוצות פייסבוק (מספר קבוצות)",
+      "url": ""
+    },
+    {
+      "key": "ramothaifa.org.il/page.php",
+      "nameKey": "מתנסרמותחיפה",
+      "name": "מתנ\"ס רמות, חיפה",
+      "url": "https://ramothaifa.org.il/page.php?bc=&ht=%D7%9E%D7%9B%D7%99%D7%A8%D7%AA+%D7%97%D7%A6%D7%A8+%D7%A9%D7%9B%D7%95%D7%A0%D7%AA%D7%99%D7%AA+%D7%A7%D7%94%D7%99%D7%9C%D7%AA%D7%99%D7%AA&id=127649&type=event"
+    },
+    {
+      "key": "סוחרים, חברות פינוי ובתי מכירות פומביות",
+      "nameKey": "סוחריםחברותפינויובתימכירותפומביות",
+      "name": "סוחרים, חברות פינוי ובתי מכירות פומביות",
+      "url": ""
     }
   ],
   "intel": [
@@ -1867,6 +1885,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 4
+    },
+    {
+      "at": "2026-09-12T08:16:55.545Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
