@@ -395,6 +395,78 @@
       "nameKey": "גמולבgemolab",
       "name": "גמולב / GemoLab",
       "url": "https://gemoplus.co.il/"
+    },
+    {
+      "key": "simpo.co.il",
+      "nameKey": "שיםפהאחסוןתכולתדירהsimpo",
+      "name": "שים פה — אחסון תכולת דירה (Simpo)",
+      "url": "https://simpo.co.il"
+    },
+    {
+      "key": "storage2all.co.il",
+      "nameKey": "תיבתנחאחסנהקבוצתהכללמוביל",
+      "name": "תיבת נח — אחסנה (קבוצת \"הכל למוביל\")",
+      "url": "https://www.storage2all.co.il"
+    },
+    {
+      "key": "gelatt2.com",
+      "nameKey": "גילתרדליךכהןגילתייעוץוהכוונהלבתיאבותודיו",
+      "name": "גילת רדליך כהן — \"גילת\", ייעוץ והכוונה לבתי אבות ודיור מוגן",
+      "url": "https://www.gelatt2.com"
+    },
+    {
+      "key": "megamax.co.il",
+      "nameKey": "מגהמקסהובלות",
+      "name": "מגה מקס הובלות",
+      "url": "https://megamax.co.il"
+    },
+    {
+      "key": "mishan.co.il/%d7%91%d7%9c%d7%95%d7%92/10879",
+      "nameKey": "משעןדיורמוגן",
+      "name": "משען — דיור מוגן",
+      "url": "https://www.mishan.co.il/בלוג/10879/"
+    },
+    {
+      "key": "danel-sioud.co.il/service/%d7%9c%d7%99%d7%95%d7%95%d7%99-%d7%95%d7%99%d7%99%d7%a2%d7%95%d7%a5-%d7%91%d7%97%d7%99%d7%a8%d7%aa-%d7%91%d7%99%d7%aa-%d7%90%d7%91%d7%95%d7%aa",
+      "nameKey": "דנאלסיעודליוויוייעוץבחירתביתאבות",
+      "name": "דנאל סיעוד — ליווי וייעוץ בחירת בית אבות",
+      "url": "https://danel-sioud.co.il/service/ליווי-וייעוץ-בחירת-בית-אבות/"
+    },
+    {
+      "key": "orlagil.com/%d7%99%d7%99%d7%a2%d7%95%d7%a5-%d7%95%d7%94%d7%9b%d7%95%d7%95%d7%a0%d7%94-%d7%9c%d7%91%d7%aa%d7%99-%d7%90%d7%91%d7%95%d7%aa",
+      "nameKey": "אורלגילייעוץוהכוונהלבתיאבות",
+      "name": "אור לגיל — ייעוץ והכוונה לבתי אבות",
+      "url": "https://orlagil.com/ייעוץ-והכוונה-לבתי-אבות/"
+    },
+    {
+      "key": "babait.org.il/to-direct",
+      "nameKey": "עמותתבבית",
+      "name": "עמותת בבית",
+      "url": "https://www.babait.org.il/to-direct/"
+    },
+    {
+      "key": "ichsun.co.il",
+      "nameKey": "אחסוןכלמחסניםלהשכרה",
+      "name": "אחסון כל — מחסנים להשכרה",
+      "url": "https://www.ichsun.co.il"
+    },
+    {
+      "key": "israstorage.co.il",
+      "nameKey": "ישראסטורגisrastorage",
+      "name": "ישראסטורג' (ISRASTORAGE)",
+      "url": "https://israstorage.co.il"
+    },
+    {
+      "key": "hovalotnet.co.il/storage-services",
+      "nameKey": "הובלותנטאחסנה",
+      "name": "הובלות נט — שירותי אחסנה",
+      "url": "https://hovalotnet.co.il/storage-services/"
+    },
+    {
+      "key": "colbonews.co.il/consumption/88615",
+      "nameKey": "נירקונהומפנהניראסולין",
+      "name": "ניר קונה ומפנה — ניר אסולין",
+      "url": "https://www.colbonews.co.il/consumption/88615/"
     }
   ],
   "opportunities": [
@@ -1291,6 +1363,18 @@
       "nameKey": "סוחריםחברותפינויובתימכירותפומביות",
       "name": "סוחרים, חברות פינוי ובתי מכירות פומביות",
       "url": ""
+    },
+    {
+      "key": "t.me/yad2_telegram_ch",
+      "nameKey": "telegramדרךאינדקסtgstat",
+      "name": "Telegram (דרך אינדקס TGStat)",
+      "url": "https://t.me/yad2_telegram_ch"
+    },
+    {
+      "key": "facebook.com/groups/441015746083854",
+      "nameKey": "facebookמטאדאטהבלבד",
+      "name": "Facebook (מטא-דאטה בלבד)",
+      "url": "https://www.facebook.com/groups/441015746083854"
     }
   ],
   "intel": [
@@ -1575,6 +1659,42 @@
       "nameKey": "מהחיפשתיולאהצלחתילספקבסבבהזהרגולציהחדשות",
       "name": "מה חיפשתי ולא הצלחתי לספק בסבב הזה: רגולציה, חדשות ואיגודים מקצועיים",
       "url": ""
+    },
+    {
+      "key": "antique-tak.com/contents/inheritance",
+      "nameKey": "מתחרהחדשעםסילותוכןמלאלעיזבונותענתיקתקיצח",
+      "name": "מתחרה חדש עם סילו תוכן מלא לעיזבונות — ענתיק-תק (יצחק אלעד)",
+      "url": "https://www.antique-tak.com/contents/inheritance/"
+    },
+    {
+      "key": "kedem-auctions.com/he/%d7%9e%d7%9b%d7%99%d7%a8%d7%94",
+      "nameKey": "בתיהמכירותהפומביותמציעיםהערכהחינםוגםביקו",
+      "name": "בתי המכירות הפומביות מציעים הערכה חינם וגם ביקורי בית — קדם וווינרס, שתיהן בירושלים",
+      "url": "https://www.kedem-auctions.com/he/מכירה"
+    },
+    {
+      "key": "magazine.yad2.co.il/shopping/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%93%d7%99%d7%a8%d7%94-%d7%9e%d7%99%d7%a8%d7%95%d7%a9%d7%94-%d7%9e%d7%93%d7%a8%d7%99%d7%9a-%d7%9c%d7%99%d7%95%d7%a8%d7%a9%d7%99%d7%9d-%d7%95%d7%9c%d7%9e%d7%a0%d7%94/26881",
+      "nameKey": "ערוץעםדלתפתוחהמגזיןיד2כברמפרסםבדיוקאתהנו",
+      "name": "ערוץ עם דלת פתוחה — מגזין יד2 כבר מפרסם בדיוק את הנושא שלה ומזמין פניות",
+      "url": "https://magazine.yad2.co.il/shopping/פינוי-דירה-מירושה-מדריך-ליורשים-ולמנה/26881"
+    },
+    {
+      "key": "gniza.org.il/%d7%a9%d7%99%d7%a8%d7%95%d7%aa%d7%99%d7%9d",
+      "nameKey": "פערתוכןעםביקושאמיתיואפסכיסויספריקודשוגני",
+      "name": "פער תוכן עם ביקוש אמיתי ואפס כיסוי — ספרי קודש וגניזה בעיזבון",
+      "url": "https://gniza.org.il/שירותים/"
+    },
+    {
+      "key": "tlvonline.co.il/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%92%d7%96%d7%9d-%d7%95%d7%a4%d7%a1%d7%95%d7%9c%d7%aa-%d7%97%d7%a8%d7%99%d7%92%d7%94-%d7%aa%d7%9c-%d7%90%d7%91%d7%99%d7%91",
+      "nameKey": "רגולציהמקומיתימיפינויגזםופסולתחריגהוקנסו",
+      "name": "רגולציה מקומית — ימי פינוי גזם ופסולת חריגה וקנסות עירוניים",
+      "url": "https://tlvonline.co.il/פינוי-גזם-ופסולת-חריגה-תל-אביב/"
+    },
+    {
+      "key": "haslik.co.il/forum/viewtopic.php",
+      "nameKey": "פערתוכןבכוונתחיפושגבוההוללאתחרותנשקומזכר",
+      "name": "פער תוכן בכוונת חיפוש גבוהה וללא תחרות — נשק ומזכרות צבאיות בעיזבון",
+      "url": "https://haslik.co.il/forum/viewtopic.php?f=22&t=19819"
     }
   ],
   "runs": [
@@ -1893,6 +2013,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-09-13T08:41:28.498Z",
+      "mode": "full",
+      "total": 20,
+      "actionable": 18,
+      "sent": true,
+      "partners": 12,
+      "opportunities": 2,
+      "intel": 6
     }
   ]
 }
