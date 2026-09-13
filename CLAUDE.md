@@ -55,13 +55,14 @@ referral prospects and live opportunities in the Haifa–Be'er Sheva band.
 agents/digest.js    tracks, dedup, rendering, Resend delivery
 agents/prompts.js   the three research prompts — tune wording here
 agents/seen.json    dedup state, COMMITTED (CI pushes it back)
-.github/workflows/leads-digest.yml   Sunday = full run, Mon-Sat = daily scan
+.github/workflows/leads-digest.yml   Sunday = full run (Mon-Sat scan retired 2026-09-13)
 ```
 
-The daily scan emails only when at least one opportunity comes back with
-`actionable: true` — a scan that surfaces five candidates and rejects all five
-has found nothing worth the reader's morning. Rejected items are still written
-to `seen.json` so they aren't re-researched tomorrow. The Sunday run always
+Only the Sunday full run is scheduled. The Mon-Sat opportunities-only scan
+was retired on 2026-09-13 after 32 runs yielded one actionable item; `--daily`
+still works as a manual mode and keeps its rule of emailing only when at least
+one opportunity comes back with `actionable: true`. Rejected items are still
+written to `seen.json` so they aren't re-researched. The Sunday run always
 sends, so a quiet week never looks like a dead cron.
 
 ```sh
@@ -85,6 +86,14 @@ sending anything automatically, and **any lawyer, law firm or notary as a
 referral target** (standing decision, 2026-08-05 — they were the original
 priority-1 category and were removed on request). Every draft is for a human to
 review. Keep all four rules if you rewrite the prompts.
+
+## Standing decisions
+
+- **`bamegirot.co.il` is not ours and never will be.** It is an unrelated
+  third-party site. Do not mention it, analyse it, propose reclaiming or
+  redirecting it, or list it as a visibility problem. The digest blocks it at
+  the search layer (`BLOCKED_HOSTS` in `agents/digest.js`) and in the prompt
+  rules; keep both if you touch either file.
 
 ## Deployment
 

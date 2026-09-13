@@ -50,7 +50,11 @@ const SEEN_PATH = path.join(__dirname, 'seen.json');
 // Hosts never worth reporting, whatever the model says. Lead-resale directories
 // and scraped listing farms look like real businesses in search results but are
 // not reachable partners. Add to this list as noise sources are identified.
-const BLOCKED_HOSTS = [];
+// bamegirot.co.il is an unrelated third-party site, not a lost domain of this
+// business. Standing decision (2026-09-13): it is never reported, compared
+// against, or recommended as something to reclaim. Blocked at the search
+// layer and filtered again post-hoc so it cannot reach the digest.
+const BLOCKED_HOSTS = ['bamegirot.co.il'];
 
 const MODEL = 'claude-opus-5';
 

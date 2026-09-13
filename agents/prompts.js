@@ -47,6 +47,8 @@ published guides she can genuinely offer someone as a helpful resource):
   - ירושה: למכור, לתרום או לשמור? /guides/sell-donate-or-keep/
   - 10 סימנים שאולי ירשתם משהו ששווה כסף /guides/is-it-valuable-signs/
   - מה קובע כמה שווה פריט ישן? /guides/what-affects-value/
+  - מעבר לדיור מוגן: מה עושים עם תכולת הבית של ההורים? /guides/moving-to-assisted-living/
+    (the natural thing to offer senior-housing, moving and downsizing partners)
 `.trim();
 
 const HARD_RULES = `
@@ -75,6 +77,11 @@ HARD RULES — these are absolute:
     inheritance, probate and צוואות/עזבונות practices. This is a standing
     business decision, not a quality judgement: skip them entirely and spend
     the effort on the other categories. It applies to every track.
+  - The domain bamegirot.co.il is an unrelated third-party site. It is NOT
+    this business, not a competitor worth analysing, and not a "domain split"
+    problem. Never mention it, never report anything found on it, and never
+    recommend reclaiming, redirecting or comparing against it. Standing
+    decision, applies to every track.
   - Drafted outreach messages must be written in natural, warm Hebrew.
   - COPY RULE (applies to every draft, listing opener, headline or site
     suggestion you write): never open a sentence on a negation. Not "אנחנו לא
