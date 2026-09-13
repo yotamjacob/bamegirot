@@ -86,6 +86,14 @@ referral target** (standing decision, 2026-08-05 — they were the original
 priority-1 category and were removed on request). Every draft is for a human to
 review. Keep all four rules if you rewrite the prompts.
 
+## Standing decisions
+
+- **`bamegirot.co.il` is not ours and never will be.** It is an unrelated
+  third-party site. Do not mention it, analyse it, propose reclaiming or
+  redirecting it, or list it as a visibility problem. The digest blocks it at
+  the search layer (`BLOCKED_HOSTS` in `agents/digest.js`) and in the prompt
+  rules; keep both if you touch either file.
+
 ## Deployment
 
 ```sh
