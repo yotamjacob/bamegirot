@@ -47,6 +47,8 @@ published guides she can genuinely offer someone as a helpful resource):
   - ירושה: למכור, לתרום או לשמור? /guides/sell-donate-or-keep/
   - 10 סימנים שאולי ירשתם משהו ששווה כסף /guides/is-it-valuable-signs/
   - מה קובע כמה שווה פריט ישן? /guides/what-affects-value/
+  - מעבר לדיור מוגן: מה עושים עם תכולת הבית של ההורים? /guides/moving-to-assisted-living/
+    (the natural thing to offer senior-housing, moving and downsizing partners)
 `.trim();
 
 const HARD_RULES = `

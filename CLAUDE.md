@@ -55,13 +55,14 @@ referral prospects and live opportunities in the Haifa–Be'er Sheva band.
 agents/digest.js    tracks, dedup, rendering, Resend delivery
 agents/prompts.js   the three research prompts — tune wording here
 agents/seen.json    dedup state, COMMITTED (CI pushes it back)
-.github/workflows/leads-digest.yml   Sunday = full run, Mon-Sat = daily scan
+.github/workflows/leads-digest.yml   Sunday = full run (Mon-Sat scan retired 2026-09-13)
 ```
 
-The daily scan emails only when at least one opportunity comes back with
-`actionable: true` — a scan that surfaces five candidates and rejects all five
-has found nothing worth the reader's morning. Rejected items are still written
-to `seen.json` so they aren't re-researched tomorrow. The Sunday run always
+Only the Sunday full run is scheduled. The Mon-Sat opportunities-only scan
+was retired on 2026-09-13 after 32 runs yielded one actionable item; `--daily`
+still works as a manual mode and keeps its rule of emailing only when at least
+one opportunity comes back with `actionable: true`. Rejected items are still
+written to `seen.json` so they aren't re-researched. The Sunday run always
 sends, so a quiet week never looks like a dead cron.
 
 ```sh

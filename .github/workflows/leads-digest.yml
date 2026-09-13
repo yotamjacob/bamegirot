@@ -23,15 +23,16 @@ name: Leads digest
 #                                             + market intel. Always emails,
 #                                             even when empty, so a quiet week
 #                                             is never confused with a dead cron.
-#   Mon-Sat                                 → DAILY run: opportunities only.
-#                                             Emails only when there is
-#                                             something new.
+#
+#   The Mon-Sat daily opportunities scan was retired on 2026-09-13: 32 runs
+#   produced one actionable item. The opportunities track still runs as part
+#   of the Sunday digest, and `daily` remains available as a manual mode.
 on:
   schedule:
-    - cron: '0 4 * * *'    # 07:00 IDT / 06:00 IST
-    - cron: '0 5 * * *'    # 08:00 IDT / 07:00 IST
-    - cron: '30 5 * * *'   # backup
-    - cron: '0 6 * * *'    # backup
+    - cron: '0 4 * * 0'    # Sunday 07:00 IDT / 06:00 IST
+    - cron: '0 5 * * 0'    # Sunday 08:00 IDT / 07:00 IST
+    - cron: '30 5 * * 0'   # backup
+    - cron: '0 6 * * 0'    # backup
   workflow_dispatch:
     inputs:
       mode:
@@ -103,14 +104,16 @@ jobs:
             exit 0
           fi
 
-          # Sunday (local) gets the full three-track report; the rest of the
-          # week gets the cheap, time-sensitive opportunities scan only.
+          # Scheduled firings are Sunday-only and always the full three-track
+          # report. A firing that drifts past local midnight is skipped rather
+          # than run on the wrong day.
           DOW=$(TZ="$TZ_NAME" date +%u)   # 1=Mon … 7=Sun
-          if [ "$DOW" -eq 7 ]; then
-            echo "Sunday — full run"; echo "mode=full" >> "$GITHUB_OUTPUT"
-          else
-            echo "weekday — daily run"; echo "mode=daily" >> "$GITHUB_OUTPUT"
+          if [ "$DOW" -ne 7 ]; then
+            echo "not Sunday locally — skip"
+            echo "run=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+          echo "Sunday — full run"; echo "mode=full" >> "$GITHUB_OUTPUT"
           echo "run=true" >> "$GITHUB_OUTPUT"
 
   digest:
