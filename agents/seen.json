@@ -2023,6 +2023,14 @@
       "partners": 12,
       "opportunities": 2,
       "intel": 6
+    },
+    {
+      "at": "2026-09-14T09:27:40.106Z",
+      "mode": "daily",
+      "total": 0,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 0
     }
   ]
 }
