@@ -1375,6 +1375,12 @@
       "nameKey": "facebookמטאדאטהבלבד",
       "name": "Facebook (מטא-דאטה בלבד)",
       "url": "https://www.facebook.com/groups/441015746083854"
+    },
+    {
+      "key": "tora-forum.co.il/threads/%d7%a2%d7%aa%d7%99%d7%a7%d7%95%d7%aa-%d7%9c%d7%a6%d7%a4%d7%99%d7%94-%d7%9e%d7%9b%d7%99%d7%a8%d7%94-%d7%95%d7%a7%d7%a0%d7%99%d7%94.42487",
+      "nameKey": "פורוםלתורה",
+      "name": "פורום לתורה",
+      "url": "https://tora-forum.co.il/threads/עתיקות-לצפיה-מכירה-וקניה.42487/"
     }
   ],
   "intel": [
@@ -2031,6 +2037,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 0
+    },
+    {
+      "at": "2026-09-15T09:07:16.070Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
