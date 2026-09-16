@@ -1381,6 +1381,12 @@
       "nameKey": "פורוםלתורה",
       "name": "פורום לתורה",
       "url": "https://tora-forum.co.il/threads/עתיקות-לצפיה-מכירה-וקניה.42487/"
+    },
+    {
+      "key": "facebook.com/groups/3378839609004823",
+      "nameKey": "facebookקבוצהסגורהמזהה3378839609004823",
+      "name": "Facebook (קבוצה סגורה, מזהה 3378839609004823)",
+      "url": "https://www.facebook.com/groups/3378839609004823"
     }
   ],
   "intel": [
@@ -2040,6 +2046,14 @@
     },
     {
       "at": "2026-09-15T09:07:16.070Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
+    },
+    {
+      "at": "2026-09-16T09:48:04.149Z",
       "mode": "daily",
       "total": 1,
       "actionable": 0,
