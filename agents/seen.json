@@ -1387,6 +1387,36 @@
       "nameKey": "facebookקבוצהסגורהמזהה3378839609004823",
       "name": "Facebook (קבוצה סגורה, מזהה 3378839609004823)",
       "url": "https://www.facebook.com/groups/3378839609004823"
+    },
+    {
+      "key": "prog.co.il/threads/%d7%9b%d7%9c%d7%99-%d7%9b%d7%a1%d7%a3-%d7%99%d7%a9%d7%a0%d7%99%d7%9d.1093396",
+      "nameKey": "progforum",
+      "name": "Prog Forum",
+      "url": "https://www.prog.co.il/threads/כלי-כסף-ישנים.1093396/"
+    },
+    {
+      "key": "facebook (תוצאות מטא-דאטה בלבד)",
+      "nameKey": "facebookתוצאותמטאדאטהבלבד",
+      "name": "Facebook (תוצאות מטא-דאטה בלבד)",
+      "url": ""
+    },
+    {
+      "key": "אתרי פינוי וסוחרים (seo)",
+      "nameKey": "אתריפינויוסוחריםseo",
+      "name": "אתרי פינוי וסוחרים (SEO)",
+      "url": ""
+    },
+    {
+      "key": "telegram (site:t.me)",
+      "nameKey": "telegramsitetme",
+      "name": "Telegram (site:t.me)",
+      "url": ""
+    },
+    {
+      "key": "לוחות מודעות עירוניים / מתנ\"סים",
+      "nameKey": "לוחותמודעותעירונייםמתנסים",
+      "name": "לוחות מודעות עירוניים / מתנ\"סים",
+      "url": ""
     }
   ],
   "intel": [
@@ -2059,6 +2089,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-09-17T09:05:23.483Z",
+      "mode": "daily",
+      "total": 5,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 5
     }
   ]
 }
