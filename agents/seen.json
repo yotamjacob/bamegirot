@@ -1417,6 +1417,24 @@
       "nameKey": "לוחותמודעותעירונייםמתנסים",
       "name": "לוחות מודעות עירוניים / מתנ\"סים",
       "url": ""
+    },
+    {
+      "key": "janglo.net/item/mqsqoryyxnc",
+      "nameKey": "janglo",
+      "name": "Janglo",
+      "url": "https://www.janglo.net/item/mqSQoRyYxNC"
+    },
+    {
+      "key": "secrettelaviv.com/locations/second-hand-sale",
+      "nameKey": "secrettelaviv",
+      "name": "Secret Tel Aviv",
+      "url": "https://www.secrettelaviv.com/locations/second-hand-sale"
+    },
+    {
+      "key": "telaviv.craigslist.org",
+      "nameKey": "craigslisttelaviv",
+      "name": "Craigslist Tel Aviv",
+      "url": "https://telaviv.craigslist.org/"
     }
   ],
   "intel": [
@@ -2097,6 +2115,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 5
+    },
+    {
+      "at": "2026-09-18T08:39:39.951Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
