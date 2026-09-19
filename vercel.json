@@ -3,25 +3,25 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/:path*",
+      "source": "/:path(.*)",
       "has": [
         {
           "type": "host",
           "value": "bamegirot.com"
         }
       ],
-      "destination": "https://www.bamegirot.com/:path*",
+      "destination": "https://www.bamegirot.com/:path",
       "permanent": true
     },
     {
-      "source": "/:path*",
+      "source": "/:path(.*)",
       "has": [
         {
           "type": "host",
           "value": "mom-antiques.vercel.app"
         }
       ],
-      "destination": "https://www.bamegirot.com/:path*",
+      "destination": "https://www.bamegirot.com/:path",
       "permanent": true
     }
   ],
