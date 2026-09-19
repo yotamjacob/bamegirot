@@ -1435,6 +1435,12 @@
       "nameKey": "craigslisttelaviv",
       "name": "Craigslist Tel Aviv",
       "url": "https://telaviv.craigslist.org/"
+    },
+    {
+      "key": "facebook.com/groups/925709004288554",
+      "nameKey": "facebookמטאדאטהמחיפוש",
+      "name": "Facebook (מטא-דאטה מחיפוש)",
+      "url": "https://www.facebook.com/groups/925709004288554"
     }
   ],
   "intel": [
@@ -2123,6 +2129,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-09-19T08:26:54.597Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
