@@ -100,7 +100,7 @@ review. Keep all four rules if you rewrite the prompts.
 ## Deployment
 
 ```sh
-~/.npm-global/bin/vercel --prod --yes    # run from repo root
+/opt/homebrew/bin/vercel --prod --yes    # run from repo root
 ```
 
 The user's standing preference is to deploy after an edit session. AGENTS.md
