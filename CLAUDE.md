@@ -21,7 +21,10 @@ index.html   ~1,560 lines — the homepage: ALL its markup, CSS, JS, meta, JSON-
              conversion click handler)
 guides/      the hub + ten guide pages — see "The guides" below
 images/      cover.webp (hero) · cover.jpg (OG/schema only) ·
-             item-01..21.webp (gallery) · portrait.webp (unused)
+             item-01..21.webp (gallery) · item-NN.jpg (JPEG copies of
+             seven photos, used only as og:image / Article image on guide
+             pages) · logo.png (schema publisher logo) · portrait.webp (unused)
+404.html     custom not-found page (noindex); Vercel serves it automatically
 scripts/check_site.py   the validator — run it, don't hand-verify
 ```
 
@@ -38,9 +41,17 @@ git diff --check
 
 The checker covers local assets, fragment links, alt text, JSON-LD validity,
 FAQ↔schema parity, production URLs, WhatsApp consistency, headings/landmarks,
-image dimensions/loading, robots, sitemap, and vercel.json routing. If it
-passes, the mechanical risks are already covered — spend review effort on copy
-accuracy and layout instead.
+image dimensions/loading, robots, sitemap, and vercel.json routing. It also
+walks every guide page: canonical and og:url match the path, one H1, Article
+dates/author/publisher/image present, guide FAQ schema mirrors a visible
+H3/P pair, the hub `ItemList` lists every guide, and the homepage footer links
+to every guide. If it passes, the mechanical risks are already covered — spend
+review effort on copy accuracy and layout instead.
+
+The homepage `<title>` and meta description are pinned in `check_site.py`
+(`SEO_TITLE`, `SEO_DESCRIPTION`). Changing them means changing the constants
+in the same edit; the title deliberately carries the service area
+(מתל אביב ועד חיפה) for local intent.
 
 Visual/interaction changes only: `python3 -m http.server 8000`, then check a
 narrow mobile viewport *and* desktop. Exercise the FAQ accordion, scroll
@@ -112,22 +123,26 @@ GitHub to the work account (`yotam-jacob`), which must not touch this repo.
 
 ## The guides
 
-Eleven pages hang off `/guides/`, all committed and live.
+Twelve pages hang off `/guides/`, all committed and live.
 
 ```
 guides/index.html          the hub — two sections, and the ItemList that
                            must stay in step with what's actually there
-guides/<slug>/index.html   five process guides (what to do, in what order)
-                           + five per-item-type pages (<thing>-value)
+guides/<slug>/index.html   six process guides (what to do, in what order,
+                           how to sell) + five per-item-type pages (<thing>-value)
 ```
 
 Each page is standalone: its own copy of the design tokens, the WhatsApp
 button, and the gtag conversion handler. There is no shared stylesheet — that
 is the cost of staying zero-build, so a token change means editing every file.
 
-Adding a guide means four edits, and `check_site.py` fails if you miss the
-third: the new directory, a card on the hub, a `sitemap.xml` entry, and the
-hub's `ItemList` (`numberOfItems` plus a `ListItem`).
+Adding a guide means five edits, and `check_site.py` fails if you miss any of
+them: the new directory, a card on the hub, a `sitemap.xml` entry, the hub's
+`ItemList` (`numberOfItems` plus a `ListItem`), and a link in the homepage
+footer list. Copy the head of an existing guide: every Article carries
+`datePublished`, `dateModified`, a full author/publisher object and a
+page-specific image, and item-type pages end with a visible Q&A block
+mirrored in `FAQPage` JSON-LD.
 
 **Item-type pages must be illustrated with real photographs from estates Lior
 handled** — that is the whole reason they beat a buyer's page on the same

@@ -1,55 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.bamegirot.com/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-03.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-04.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-05.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-06.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-07.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-08.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-10.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-11.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-12.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-13.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-14.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-15.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-16.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-17.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-18.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-19.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-20.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-21.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/before-clearance-checklist/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/crystal-and-glass-value/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-15.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-16.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-18.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/framed-art-value/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-04.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-07.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-13.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/heavy-items-worth-least/</loc>
-    <lastmod>2026-08-25</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-05.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-08.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-14.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-15.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://www.bamegirot.com/guides/how-to-sell-apartment-contents/</loc>
+    <lastmod>2026-09-19</lastmod>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-06.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-17.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/inherited-apartment-contents/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/is-it-valuable-signs/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/porcelain-and-ceramics-value/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-14.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-19.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-20.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/sell-donate-or-keep/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/silver-and-metalware-value/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-11.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-21.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/vintage-furniture-value/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-03.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-05.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-08.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-10.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-09.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.bamegirot.com/images/item-12.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/what-affects-value/</loc>
-    <lastmod>2026-08-16</lastmod>
+    <lastmod>2026-09-19</lastmod>
   </url>
 </urlset>

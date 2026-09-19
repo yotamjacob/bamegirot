@@ -18,10 +18,11 @@ from urllib.parse import urlparse
 ROOT = Path(__file__).resolve().parent.parent
 INDEX = ROOT / "index.html"
 CANONICAL_URL = "https://www.bamegirot.com/"
-SEO_TITLE = "הערכת תכולת דירה ועזבונות | מכירת עתיקות ופריטי וינטג׳ - במגירות"
+SEO_TITLE = "הערכת תכולת דירה, עזבונות ועתיקות מתל אביב ועד חיפה | במגירות"
 SEO_DESCRIPTION = (
-    "הערכת תכולת דירה ועזבונות, זיהוי עתיקות וליווי במכירת ציורים, יודאיקה, "
-    "כלי כסף, קרמיקה ורהיטי וינטג׳ - בשירות אישי וללא התחייבות."
+    "ליאור בוכשטב מעריכה תכולת דירה, עזבונות ועתיקות ומלווה את המכירה של ציורים, "
+    "יודאיקה, כלי כסף, קרמיקה ורהיטי וינטג׳. מגיעה אליכם הביתה מתל אביב ועד חיפה, "
+    "ללא התחייבות."
 )
 H1 = "הערכת תכולת דירה ועזבונות וליווי במכירת עתיקות ופריטי וינטג׳"
 
@@ -133,6 +134,115 @@ def check_javascript(sources: list[str], errors: list[str]) -> None:
         if result.returncode:
             detail = (result.stderr or result.stdout).strip()
             errors.append(f"inline JavaScript block {position} has invalid syntax:\n{detail}")
+
+
+def check_guides(errors: list[str], homepage: str) -> None:
+    """Every guide page and the hub: metadata, schema, links, and hub parity."""
+    hub = ROOT / "guides" / "index.html"
+    pages = sorted(ROOT.glob("guides/*/index.html"))
+    guide_urls = [f"{CANONICAL_URL}guides/{page.parent.name}/" for page in pages]
+
+    for page in [hub, *pages]:
+        rel = page.relative_to(ROOT).as_posix()
+        url = CANONICAL_URL + rel[: -len("index.html")]
+        source = page.read_text(encoding="utf-8")
+        parser = SiteParser()
+        parser.feed(source)
+        head = source.split("</head>", 1)[0]
+
+        if len(re.findall(r"<title>", head)) != 1:
+            errors.append(f"{rel}: must have exactly one <title>")
+        if len(matching_attrs(parser, "meta", "name", "description")) != 1:
+            errors.append(f"{rel}: must have exactly one meta description")
+        canonicals = matching_attrs(parser, "link", "rel", "canonical")
+        if len(canonicals) != 1 or canonicals[0].get("href") != url:
+            errors.append(f"{rel}: canonical must be {url}")
+        og_urls = matching_attrs(parser, "meta", "property", "og:url")
+        if len(og_urls) != 1 or og_urls[0].get("content") != url:
+            errors.append(f"{rel}: og:url must be {url}")
+        if len(re.findall(r"<h1\b", source)) != 1:
+            errors.append(f"{rel}: must have exactly one <h1>")
+
+        missing_assets = sorted(
+            reference
+            for reference in set(parser.local_assets)
+            if not (ROOT / reference).is_file()
+            and not (ROOT / reference / "index.html").is_file()
+        )
+        if missing_assets:
+            errors.append(f"{rel}: missing local assets: {', '.join(missing_assets)}")
+        if parser.unsafe_blank_links:
+            errors.append(f"{rel}: target=\"_blank\" links need rel=\"noopener\"")
+        if not parser.whatsapp_links or any(
+            "wa.me/972523321045" not in link for link in parser.whatsapp_links
+        ):
+            errors.append(f"{rel}: WhatsApp links must use the production number")
+        for attrs in parser.images:
+            if "alt" not in attrs or not attrs.get("width") or not attrs.get("height"):
+                errors.append(f"{rel}: image needs alt, width and height: {attrs.get('src')}")
+
+        graph: list[dict[str, object]] = []
+        for payload in parser.json_ld:
+            try:
+                parsed = json.loads(payload)
+            except json.JSONDecodeError as exc:
+                errors.append(f"{rel}: JSON-LD is invalid: {exc}")
+                continue
+            graph.extend(item for item in parsed.get("@graph", []) if isinstance(item, dict))
+        main_entity = next(
+            (item for item in graph if item.get("@type") in ("Article", "CollectionPage")), None
+        )
+        if main_entity is None:
+            errors.append(f"{rel}: JSON-LD needs an Article or CollectionPage")
+        else:
+            if not main_entity.get("dateModified"):
+                errors.append(f"{rel}: {main_entity['@type']} needs dateModified")
+            if main_entity["@type"] == "Article":
+                for key in ("headline", "datePublished", "author", "publisher", "image"):
+                    if not main_entity.get(key):
+                        errors.append(f"{rel}: Article needs {key}")
+        if not any(item.get("@type") == "BreadcrumbList" for item in graph):
+            errors.append(f"{rel}: BreadcrumbList is missing")
+
+        faq = next((item for item in graph if item.get("@type") == "FAQPage"), None)
+        if faq:
+            visible_pairs = {
+                (normalized_text(question), normalized_text(answer))
+                for question, answer in re.findall(
+                    r"<h3>(.*?)</h3>\s*<p>(.*?)</p>", source, flags=re.DOTALL
+                )
+            }
+            for entity in faq.get("mainEntity", []):
+                question = entity.get("name", "")
+                accepted = entity.get("acceptedAnswer", {})
+                answer = accepted.get("text", "") if isinstance(accepted, dict) else ""
+                if (normalized_text(question), normalized_text(answer)) not in visible_pairs:
+                    errors.append(f"{rel}: FAQ schema has no matching visible <h3>/<p>: {question}")
+
+        if page == hub:
+            item_list = next((item for item in graph if item.get("@type") == "ItemList"), None)
+            if item_list is None:
+                errors.append("guides/index.html: ItemList is missing")
+            else:
+                elements = item_list.get("itemListElement", [])
+                listed = sorted(item.get("url") for item in elements)
+                if item_list.get("numberOfItems") != len(pages) or listed != guide_urls:
+                    errors.append(
+                        "guides/index.html: ItemList must list every guide exactly once "
+                        "with a matching numberOfItems"
+                    )
+                positions = [item.get("position") for item in elements]
+                if positions != list(range(1, len(positions) + 1)):
+                    errors.append("guides/index.html: ItemList positions must run 1..n")
+            for guide_url in guide_urls:
+                path = guide_url[len(CANONICAL_URL) - 1 :]
+                if f'href="{path}"' not in source:
+                    errors.append(f"guides/index.html: hub does not link to {path}")
+
+    for guide_url in guide_urls:
+        path = guide_url[len(CANONICAL_URL) - 1 :]
+        if f'href="{path}"' not in homepage:
+            errors.append(f"index.html: homepage does not link to {path}")
 
 
 def main() -> int:
@@ -386,6 +496,7 @@ def main() -> int:
         errors.append(f"vercel.json is missing or invalid: {exc}")
 
     check_javascript(parser.inline_js, errors)
+    check_guides(errors, source)
 
     if errors:
         print("site checks failed:")

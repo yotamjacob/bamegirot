@@ -23,8 +23,12 @@ changes.
   not every item has all three. Replacing a gallery image means regenerating
   its variants and updating both `srcset` and the `width`/`height` attributes.
   `check_site.py` does not parse `srcset`; verify those paths by hand.
-- `favicon.svg`, `robots.txt`, `sitemap.xml`, and both `google*.html` files are
-  production assets. Do not rename or remove the Google verification files.
+- `images/logo.png` is the schema publisher/business logo. `images/item-NN.jpg`
+  are JPEG copies of gallery photos referenced only by guide-page `og:image`
+  and `Article.image`; the visible galleries keep using the WebP files.
+- `favicon.svg`, `robots.txt`, `sitemap.xml`, `404.html`, and both
+  `google*.html` files are production assets. Do not rename or remove the
+  Google verification files.
 - `TODO.md` tracks business/launch work, not code architecture.
 - `scripts/check_site.py` is the fast static validation command.
 
