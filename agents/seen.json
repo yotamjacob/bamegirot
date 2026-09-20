@@ -467,6 +467,66 @@
       "nameKey": "נירקונהומפנהניראסולין",
       "name": "ניר קונה ומפנה — ניר אסולין",
       "url": "https://www.colbonews.co.il/consumption/88615/"
+    },
+    {
+      "key": "pinuidirotisrael.co.il",
+      "nameKey": "פינוידירותישראל",
+      "name": "פינוי דירות ישראל",
+      "url": "https://pinuidirotisrael.co.il/"
+    },
+    {
+      "key": "yosef-pinui.co.il",
+      "nameKey": "פינויהוגןיוסףפינוי",
+      "name": "פינוי הוגן (יוסף פינוי)",
+      "url": "https://www.yosef-pinui.co.il/"
+    },
+    {
+      "key": "sabalut.co.il",
+      "nameKey": "המסבל",
+      "name": "המסבל",
+      "url": "https://sabalut.co.il/"
+    },
+    {
+      "key": "hamehargenet.co.il",
+      "nameKey": "המארגנתסידורארונותובתים",
+      "name": "המארגנת — סידור ארונות ובתים",
+      "url": "https://hamehargenet.co.il/"
+    },
+    {
+      "key": "ishtararts.com",
+      "nameKey": "אישתרמכירותפומביותishtarartsantiques",
+      "name": "אישתר מכירות פומביות (Ishtar Arts & Antiques)",
+      "url": "https://ishtararts.com/"
+    },
+    {
+      "key": "montefiore.co.il/heb",
+      "nameKey": "מונטיפיורימכירותפומביות",
+      "name": "מונטיפיורי מכירות פומביות",
+      "url": "https://www.montefiore.co.il/heb"
+    },
+    {
+      "key": "nuritm.co.il",
+      "nameKey": "נוריתמידן",
+      "name": "נורית מי-דן",
+      "url": "https://nuritm.co.il/"
+    },
+    {
+      "key": "yakirenu.co.il/%d7%99%d7%99%d7%a2%d7%95%d7%a5-%d7%95%d7%94%d7%9b%d7%95%d7%95%d7%a0%d7%94-%d7%9c%d7%91%d7%aa%d7%99-%d7%90%d7%91%d7%95%d7%aa",
+      "nameKey": "יקירנו",
+      "name": "יקירנו",
+      "url": "https://yakirenu.co.il/ייעוץ-והכוונה-לבתי-אבות/"
+    },
+    {
+      "key": "berta-shimoni.co.il",
+      "nameKey": "ברטהשמעוני",
+      "name": "ברטה שמעוני",
+      "url": "https://berta-shimoni.co.il/"
+    },
+    {
+      "key": "diurzahav.co.il",
+      "nameKey": "דיורזהב",
+      "name": "דיור זהב",
+      "url": "https://diurzahav.co.il/"
     }
   ],
   "opportunities": [
@@ -1441,6 +1501,24 @@
       "nameKey": "facebookמטאדאטהמחיפוש",
       "name": "Facebook (מטא-דאטה מחיפוש)",
       "url": "https://www.facebook.com/groups/925709004288554"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,1068543.aspx",
+      "nameKey": "homelesshomelesscoil",
+      "name": "Homeless (homeless.co.il)",
+      "url": "https://www.homeless.co.il/yad2/viewad,1068543.aspx"
+    },
+    {
+      "key": "agora.co.il/cache/2026-05/3175250_o.asp",
+      "nameKey": "agoraagoracoilלוחמסירהחינם",
+      "name": "Agora (agora.co.il) — לוח מסירה חינם",
+      "url": "https://www.agora.co.il/cache/2026-05/3175250_o.asp"
+    },
+    {
+      "key": "facebook — קבוצות מכירה",
+      "nameKey": "facebookקבוצותמכירה",
+      "name": "Facebook — קבוצות מכירה",
+      "url": ""
     }
   ],
   "intel": [
@@ -1761,6 +1839,60 @@
       "nameKey": "פערתוכןבכוונתחיפושגבוההוללאתחרותנשקומזכר",
       "name": "פער תוכן בכוונת חיפוש גבוהה וללא תחרות — נשק ומזכרות צבאיות בעיזבון",
       "url": "https://haslik.co.il/forum/viewtopic.php?f=22&t=19819"
+    },
+    {
+      "key": "iaa.org.il/page/trade1",
+      "nameKey": "רגולציהרישויסחרוייצואעתיקות",
+      "name": "רגולציה — רישוי סחר וייצוא עתיקות",
+      "url": "https://www.iaa.org.il/page/trade1"
+    },
+    {
+      "key": "shamaeim.org.il",
+      "nameKey": "התאחדותמקצועיתאיגודהשמאיםבישראל",
+      "name": "התאחדות מקצועית — איגוד השמאים בישראל",
+      "url": "https://shamaeim.org.il/"
+    },
+    {
+      "key": "yosefus.com/page36.asp",
+      "nameKey": "מתחרהיוסףהאוסףהשתלטעלשאילתתהאמון",
+      "name": "מתחרה — יוסף האוסף השתלט על שאילתת האמון",
+      "url": "https://www.yosefus.com/PAGE36.asp"
+    },
+    {
+      "key": "nli.org.il/en/at-your-service/donating-items",
+      "nameKey": "פערתוכןהספרייההביתיתוקופסתהניירות",
+      "name": "פער תוכן — הספרייה הביתית וקופסת הניירות",
+      "url": "https://www.nli.org.il/en/at-your-service/donating-items"
+    },
+    {
+      "key": "meir-panim.org.il/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%a8%d7%94%d7%99%d7%98%d7%99%d7%9d-%d7%9c%d7%aa%d7%a8%d7%95%d7%9e%d7%94-%d7%9e%d7%9b%d7%9c-%d7%94%d7%90%d7%a8%d7%a5-%d7%9e%d7%90%d7%99%d7%a8-%d7%a4%d7%a0",
+      "nameKey": "יעדתרומהמאומתמאירפנים",
+      "name": "יעד תרומה מאומת — מאיר פנים",
+      "url": "https://www.meir-panim.org.il/פינוי-רהיטים-לתרומה-מכל-הארץ-מאיר-פנ/"
+    },
+    {
+      "key": "hamartzim.co.il/topics/%d7%94%d7%a8%d7%a6%d7%90%d7%95%d7%aa-%d7%9c%d7%92%d7%99%d7%9c-%d7%94%d7%a9%d7%9c%d7%99%d7%a9%d7%99",
+      "nameKey": "ערוץמאגרימרציםלגילהשלישיומרכזייום",
+      "name": "ערוץ — מאגרי מרצים לגיל השלישי ומרכזי יום",
+      "url": "https://www.hamartzim.co.il/topics/הרצאות-לגיל-השלישי/"
+    },
+    {
+      "key": "tiroche.co.il/want-to-sell",
+      "nameKey": "מתחרהביתמכירותתירושעםמשפךקליטתמוכרים",
+      "name": "מתחרה — בית מכירות תירוש עם משפך קליטת מוכרים",
+      "url": "https://www.tiroche.co.il/want-to-sell/"
+    },
+    {
+      "key": "mako.co.il/home-family-relationship/family/article-0ad4126f414e851006.htm",
+      "nameKey": "נראותהשאילתההאנושיתביותרנעניתבכתבותבנותע",
+      "name": "נראות — השאילתה האנושית ביותר נענית בכתבות בנות עשור",
+      "url": "https://www.mako.co.il/home-family-relationship/family/Article-0ad4126f414e851006.htm"
+    },
+    {
+      "key": "pro.co.il/appraisers",
+      "nameKey": "אינדקסיםשעהאחתלאיותר",
+      "name": "אינדקסים — שעה אחת, לא יותר",
+      "url": "https://www.pro.co.il/appraisers"
     }
   ],
   "runs": [
@@ -2137,6 +2269,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-09-20T08:58:12.421Z",
+      "mode": "full",
+      "total": 22,
+      "actionable": 19,
+      "sent": true,
+      "partners": 10,
+      "opportunities": 3,
+      "intel": 9
     }
   ]
 }
