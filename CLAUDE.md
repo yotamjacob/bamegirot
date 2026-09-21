@@ -25,6 +25,10 @@ images/      cover.webp (hero) · cover.jpg (OG/schema only) ·
              seven photos, used only as og:image / Article image on guide
              pages) · logo.png (schema publisher logo) · portrait.webp (unused)
 404.html     custom not-found page (noindex); Vercel serves it automatically
+events/<slug>/index.html   one page per live sale/event: Event JSON-LD, the
+             brochure PDF, an .ics file and a Google Calendar link. The checker
+             expects every events page in sitemap.xml. The homepage carries a
+             temporary .event-bar link — remove it once the event has passed.
 scripts/check_site.py   the validator — run it, don't hand-verify
 ```
 

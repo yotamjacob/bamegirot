@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//bamegirot.com//event//HE
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:talpiot-2026-10@bamegirot.com
+DTSTAMP:20260921T120000Z
+DTSTART;TZID=Asia/Jerusalem:20261001T080000
+DTEND;TZID=Asia/Jerusalem:20261001T170000
+RRULE:FREQ=DAILY;COUNT=3
+SUMMARY:וינטאג׳ בשוק תלפיות - מכירה בסלון עם
+  ליאור ואסנת
+LOCATION:יחיאל 17\, חיפה
+DESCRIPTION:מכירה בסלון עם ליאור ואסנת: כלים\, 
+ חפצים\, הדפסים\, ציורים - הכל וינטאג׳. שאל
+ ות? 052-332-1045. פרטים: https://www.bamegirot.com/events/talpiot
+ -2026-10/
+URL:https://www.bamegirot.com/events/talpiot-2026-10/
+END:VEVENT
+END:VCALENDAR

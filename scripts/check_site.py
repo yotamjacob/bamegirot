@@ -140,9 +140,10 @@ def check_guides(errors: list[str], homepage: str) -> None:
     """Every guide page and the hub: metadata, schema, links, and hub parity."""
     hub = ROOT / "guides" / "index.html"
     pages = sorted(ROOT.glob("guides/*/index.html"))
+    events = sorted(ROOT.glob("events/*/index.html"))
     guide_urls = [f"{CANONICAL_URL}guides/{page.parent.name}/" for page in pages]
 
-    for page in [hub, *pages]:
+    for page in [hub, *pages, *events]:
         rel = page.relative_to(ROOT).as_posix()
         url = CANONICAL_URL + rel[: -len("index.html")]
         source = page.read_text(encoding="utf-8")
@@ -190,10 +191,15 @@ def check_guides(errors: list[str], homepage: str) -> None:
                 continue
             graph.extend(item for item in parsed.get("@graph", []) if isinstance(item, dict))
         main_entity = next(
-            (item for item in graph if item.get("@type") in ("Article", "CollectionPage")), None
+            (item for item in graph if item.get("@type") in ("Article", "CollectionPage", "Event")),
+            None,
         )
         if main_entity is None:
-            errors.append(f"{rel}: JSON-LD needs an Article or CollectionPage")
+            errors.append(f"{rel}: JSON-LD needs an Article, CollectionPage or Event")
+        elif main_entity["@type"] == "Event":
+            for key in ("name", "startDate", "endDate", "location", "image"):
+                if not main_entity.get(key):
+                    errors.append(f"{rel}: Event needs {key}")
         else:
             if not main_entity.get("dateModified"):
                 errors.append(f"{rel}: {main_entity['@type']} needs dateModified")
@@ -468,6 +474,9 @@ def main() -> int:
         expected_urls = [CANONICAL_URL, f"{CANONICAL_URL}guides/"] + [
             f"{CANONICAL_URL}{page.parent.relative_to(ROOT)}/"
             for page in sorted(ROOT.glob("guides/*/index.html"))
+        ] + [
+            f"{CANONICAL_URL}{page.parent.relative_to(ROOT)}/"
+            for page in sorted(ROOT.glob("events/*/index.html"))
         ]
         if sitemap_urls != expected_urls:
             errors.append(
