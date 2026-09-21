@@ -382,7 +382,17 @@
           "@id": "https://www.bamegirot.com/#business"
         },
         "isAccessibleForFree": true,
-        "inLanguage": "he"
+        "inLanguage": "he",
+        "performer": [
+          {
+            "@id": "https://www.bamegirot.com/#lior-buchstab"
+          },
+          {
+            "@type": "Person",
+            "name": "אסנת",
+            "sameAs": "https://www.facebook.com/profile.php?id=100064346786308"
+          }
+        ]
       }
     ]
   }
@@ -592,6 +602,8 @@
     }
     .event-bar-date { font-weight: 900; letter-spacing: 0.02em; background: rgba(0,0,0,0.18); padding: 0.1rem 0.6rem; border-radius: 99px; }
     .event-bar-text { font-weight: 500; }
+    .event-bar-person { color: #fff; font-weight: 700; text-decoration: underline; text-decoration-color: rgba(255,255,255,0.6); text-underline-offset: 3px; }
+    .event-bar-person:hover { text-decoration-color: #fff; }
     .event-bar-actions { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; }
     .event-bar-actions a {
       color: var(--color-accent); background: #fff; font-weight: 700; text-decoration: none;
@@ -1316,7 +1328,7 @@
   <!-- EVENT BAR — temporary, sticky. Remove after 2026-10-03 (the Talpiot sale). -->
   <div class="event-bar" id="event-bar">
     <span class="event-bar-date"><bdi dir="ltr">1–3/10</bdi> · חיפה</span>
-    <span class="event-bar-text">וינטאג׳ בשוק תלפיות — מכירה בסלון עם ליאור ואסנת</span>
+    <span class="event-bar-text">וינטאג׳ בשוק תלפיות — מכירה בסלון עם ליאור ו<a class="event-bar-person" href="https://www.facebook.com/profile.php?id=100064346786308" target="_blank" rel="noopener">אסנת</a></span>
     <span class="event-bar-actions">
       <a href="/events/talpiot-2026-10/brochure.pdf" target="_blank" rel="noopener">לברושור</a>
       <a href="/events/talpiot-2026-10/brochure.jpg" download="talpiot-vintage-sale.jpg">להורדה כתמונה</a>
