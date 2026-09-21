@@ -1519,6 +1519,42 @@
       "nameKey": "facebookקבוצותמכירה",
       "name": "Facebook — קבוצות מכירה",
       "url": ""
+    },
+    {
+      "key": "be106.net/255/158571",
+      "nameKey": "be106חדשותתלאביביפו",
+      "name": "BE106 (חדשות תל אביב-יפו)",
+      "url": "https://www.be106.net/255/158571"
+    },
+    {
+      "key": "hasolidit.com/kehila/threads/%d7%a7%d7%99%d7%91%d7%9c%d7%aa%d7%99-%d7%96%d7%94%d7%91-%d7%95%d7%9e%d7%98%d7%91%d7%a2%d7%95%d7%aa-%d7%91%d7%99%d7%a8%d7%95%d7%a9%d7%94.26595",
+      "nameKey": "soliditפורוםקהילה",
+      "name": "Solidit — פורום קהילה",
+      "url": "https://www.hasolidit.com/kehila/threads/קיבלתי-זהב-ומטבעות-בירושה.26595/"
+    },
+    {
+      "key": "facebook.com",
+      "nameKey": "קבוצותפייסבוקתכולתדירהלמכירהמכירתחיסולתכ",
+      "name": "קבוצות פייסבוק (תכולת דירה למכירה / מכירת חיסול תכולת בית)",
+      "url": "https://www.facebook.com"
+    },
+    {
+      "key": "egozigallery.com",
+      "nameKey": "egozigallery",
+      "name": "Egozi Gallery",
+      "url": "https://www.egozigallery.com"
+    },
+    {
+      "key": "gov.il/he/pages/real_estate_list",
+      "nameKey": "govilלוחמכירתמקרקעיןהאפוטרופוסהכלליהיחיד",
+      "name": "gov.il — לוח מכירת מקרקעין, האפוטרופוס הכללי / היחידה לנכסים עזובים",
+      "url": "https://www.gov.il/he/pages/real_estate_list"
+    },
+    {
+      "key": "bestclearing.co.il",
+      "nameKey": "חברותפינויופינויתכולהוסוחרים",
+      "name": "חברות פינוי ופינוי-תכולה וסוחרים",
+      "url": "https://bestclearing.co.il"
     }
   ],
   "intel": [
@@ -2279,6 +2315,14 @@
       "partners": 10,
       "opportunities": 3,
       "intel": 9
+    },
+    {
+      "at": "2026-09-21T09:29:57.935Z",
+      "mode": "daily",
+      "total": 6,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 6
     }
   ]
 }
