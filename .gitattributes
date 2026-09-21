@@ -1,0 +1,2 @@
+# iCalendar files must use CRLF line endings (RFC 5545); do not flag the CR as whitespace.
+*.ics -text whitespace=cr-at-eol

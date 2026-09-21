@@ -354,6 +354,35 @@
             }
           }
         ]
+      },
+      {
+        "@type": "Event",
+        "@id": "https://www.bamegirot.com/#event-talpiot-2026-10",
+        "name": "וינטאג׳ בשוק תלפיות — מכירה בסלון עם ליאור ואסנת",
+        "description": "מכירה בסלון עם ליאור ואסנת: כלים, חפצים, הדפסים, ציורים - הכל וינטאג׳. שאלות? 0523321045",
+        "url": "https://www.bamegirot.com/events/talpiot-2026-10/brochure.pdf",
+        "startDate": "2026-10-01T08:00:00+03:00",
+        "endDate": "2026-10-03T17:00:00+03:00",
+        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+        "eventStatus": "https://schema.org/EventScheduled",
+        "image": [
+          "https://www.bamegirot.com/images/events/talpiot-2026-10/collage.jpg"
+        ],
+        "location": {
+          "@type": "Place",
+          "name": "יחיאל 17 חיפה",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "יחיאל 17",
+            "addressLocality": "חיפה",
+            "addressCountry": "IL"
+          }
+        },
+        "organizer": {
+          "@id": "https://www.bamegirot.com/#business"
+        },
+        "isAccessibleForFree": true,
+        "inLanguage": "he"
       }
     ]
   }
@@ -555,12 +584,20 @@
     /* ANNOUNCEMENT BAR                               */
     /* ============================================= */
     .event-bar {
-      display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.35rem 1rem;
-      background: var(--color-accent); color: #fff; text-decoration: none;
-      padding: 0.7rem clamp(1rem, 4vw, 2rem); font-size: 0.95rem; line-height: 1.4; text-align: center;
+      position: sticky; top: 0; z-index: 60;
+      display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 0.35rem 0.9rem;
+      background: var(--color-accent); color: #fff;
+      padding: 0.55rem clamp(1rem, 4vw, 2rem); font-size: 0.95rem; line-height: 1.4; text-align: center;
+      box-shadow: 0 2px 8px rgba(26,22,18,0.18);
     }
-    .event-bar:hover .event-bar-text { text-decoration: underline; }
     .event-bar-date { font-weight: 900; letter-spacing: 0.02em; background: rgba(0,0,0,0.18); padding: 0.1rem 0.6rem; border-radius: 99px; }
+    .event-bar-text { font-weight: 500; }
+    .event-bar-actions { display: inline-flex; flex-wrap: wrap; justify-content: center; gap: 0.4rem; }
+    .event-bar-actions a {
+      color: var(--color-accent); background: #fff; font-weight: 700; text-decoration: none;
+      padding: 0.2rem 0.75rem; border-radius: 99px; font-size: 0.9rem; white-space: nowrap;
+    }
+    .event-bar-actions a:hover { background: var(--color-bg); }
     .announce-bar {
       background: var(--color-primary);
       color: rgba(245, 239, 230, 0.92);
@@ -1276,6 +1313,16 @@
   <!-- ============================================= -->
   <!-- HEADER                                          -->
   <!-- ============================================= -->
+  <!-- EVENT BAR — temporary, sticky. Remove after 2026-10-03 (the Talpiot sale). -->
+  <div class="event-bar" id="event-bar">
+    <span class="event-bar-date">1–3/10 · חיפה</span>
+    <span class="event-bar-text">וינטאג׳ בשוק תלפיות — מכירה בסלון עם ליאור ואסנת</span>
+    <span class="event-bar-actions">
+      <a href="/events/talpiot-2026-10/brochure.pdf" target="_blank" rel="noopener">לברושור</a>
+      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=%D7%95%D7%99%D7%A0%D7%98%D7%90%D7%92%D7%B3%20%D7%91%D7%A9%D7%95%D7%A7%20%D7%AA%D7%9C%D7%A4%D7%99%D7%95%D7%AA%20%E2%80%94%20%D7%9E%D7%9B%D7%99%D7%A8%D7%94%20%D7%91%D7%A1%D7%9C%D7%95%D7%9F%20%D7%A2%D7%9D%20%D7%9C%D7%99%D7%90%D7%95%D7%A8%20%D7%95%D7%90%D7%A1%D7%A0%D7%AA&dates=20261001T080000%2F20261001T170000&ctz=Asia%2FJerusalem&recur=RRULE%3AFREQ%3DDAILY%3BCOUNT%3D3&location=%D7%99%D7%97%D7%99%D7%90%D7%9C%2017%2C%20%D7%97%D7%99%D7%A4%D7%94&details=%D7%9E%D7%9B%D7%99%D7%A8%D7%94%20%D7%91%D7%A1%D7%9C%D7%95%D7%9F%20%D7%A2%D7%9D%20%D7%9C%D7%99%D7%90%D7%95%D7%A8%20%D7%95%D7%90%D7%A1%D7%A0%D7%AA%3A%20%D7%9B%D7%9C%D7%99%D7%9D%2C%20%D7%97%D7%A4%D7%A6%D7%99%D7%9D%2C%20%D7%94%D7%93%D7%A4%D7%A1%D7%99%D7%9D%2C%20%D7%A6%D7%99%D7%95%D7%A8%D7%99%D7%9D%20-%20%D7%94%D7%9B%D7%9C%20%D7%95%D7%99%D7%A0%D7%98%D7%90%D7%92%D7%B3.%20%D7%A9%D7%90%D7%9C%D7%95%D7%AA%3F%200523321045" target="_blank" rel="noopener">ליומן Google</a>
+      <a href="/events/talpiot-2026-10/event.ics" download="talpiot-vintage-sale.ics">ליומן בטלפון</a>
+    </span>
+  </div>
   <header class="site-header" id="header">
     <nav class="container" aria-label="ניווט ראשי">
       <a href="/" class="brand" aria-label="במגירות — דף הבית">במגירות</a>
@@ -1298,11 +1345,6 @@
   <p class="announce-bar">
     מומחית שבצד שלכם — הערכה עצמאית וליווי עד שהחפצים נמכרים במחיר הטוב ביותר
   </p>
-  <!-- EVENT BAR — temporary. Remove after 2026-10-03 (the Talpiot sale). -->
-  <a class="event-bar" href="/events/talpiot-2026-10/">
-    <span class="event-bar-date">1–3 באוקטובר · חיפה</span>
-    <span class="event-bar-text">וינטאג׳ בשוק תלפיות — מכירה בסלון עם ליאור ואסנת. פרטים, ברושור והזמנה ליומן</span>
-  </a>
 
   <!-- ============================================= -->
   <!-- HERO                                            -->
@@ -1911,8 +1953,13 @@
       });
     });
 
-    // Sticky header — hide on scroll down, show on scroll up
+    // Sticky header — hide on scroll down, show on scroll up.
+    // While the event bar exists, the header sticks just below it.
     const header = document.getElementById('header');
+    const eventBar = document.getElementById('event-bar');
+    const placeHeader = () => { header.style.top = eventBar ? eventBar.offsetHeight + 'px' : '0px'; };
+    placeHeader();
+    window.addEventListener('resize', placeHeader, { passive: true });
     const backToTop = document.getElementById('back-to-top');
     let lastY = 0;
     const onScroll = () => {
