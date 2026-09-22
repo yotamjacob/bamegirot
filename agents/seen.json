@@ -2323,6 +2323,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 6
+    },
+    {
+      "at": "2026-09-22T08:57:19.204Z",
+      "mode": "daily",
+      "total": 0,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 0
     }
   ]
 }
