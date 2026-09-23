@@ -1555,6 +1555,12 @@
       "nameKey": "חברותפינויופינויתכולהוסוחרים",
       "name": "חברות פינוי ופינוי-תכולה וסוחרים",
       "url": "https://bestclearing.co.il"
+    },
+    {
+      "key": "הערות המשך להרצה הבאה",
+      "nameKey": "הערותהמשךלהרצההבאה",
+      "name": "הערות המשך להרצה הבאה",
+      "url": ""
     }
   ],
   "intel": [
@@ -2331,6 +2337,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 0
+    },
+    {
+      "at": "2026-09-23T08:59:23.486Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
