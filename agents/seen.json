@@ -1561,6 +1561,36 @@
       "nameKey": "הערותהמשךלהרצההבאה",
       "name": "הערות המשך להרצה הבאה",
       "url": ""
+    },
+    {
+      "key": "פוסט בקבוצת פייסבוק סגורה (מכירת תכולת דירה - ריהוט יד שנייה)",
+      "nameKey": "פוסטבקבוצתפייסבוקסגורהמכירתתכולתדירהריהו",
+      "name": "פוסט בקבוצת פייסבוק סגורה (מכירת תכולת דירה - ריהוט יד שנייה)",
+      "url": ""
+    },
+    {
+      "key": "forum.enativ.com/viewtopic.php",
+      "nameKey": "forumenativcom",
+      "name": "forum.enativ.com",
+      "url": "http://forum.enativ.com/viewtopic.php?p=54371"
+    },
+    {
+      "key": "tel-aviv.gov.il/pages/eventpage.aspx",
+      "nameKey": "telavivgovil",
+      "name": "tel-aviv.gov.il",
+      "url": "https://www.tel-aviv.gov.il/Pages/EventPage.aspx?ItemId=19710&ListID=969f7de3-0ac9-4a30-88f0-2e1a7281f3d0&WebID=3af57d92-807c-43c5-8d5f-6fd455eb2776"
+    },
+    {
+      "key": "pinoidirot.co.il / vintage-plus.shop / bekaloot.co.il",
+      "nameKey": "pinoidirotcoilvintageplusshopbekalootcoi",
+      "name": "pinoidirot.co.il / vintage-plus.shop / bekaloot.co.il",
+      "url": ""
+    },
+    {
+      "key": "עמודי קטגוריה בזירות מסחר (yad2, ad.co.il, homeless.co.il, prog.co.il, haasfan)",
+      "nameKey": "עמודיקטגוריהבזירותמסחרyad2adcoilhomeless",
+      "name": "עמודי קטגוריה בזירות מסחר (yad2, ad.co.il, homeless.co.il, prog.co.il, haasfan)",
+      "url": ""
     }
   ],
   "intel": [
@@ -2345,6 +2375,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-09-24T09:50:46.438Z",
+      "mode": "daily",
+      "total": 5,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 5
     }
   ]
 }
