@@ -1591,6 +1591,18 @@
       "nameKey": "עמודיקטגוריהבזירותמסחרyad2adcoilhomeless",
       "name": "עמודי קטגוריה בזירות מסחר (yad2, ad.co.il, homeless.co.il, prog.co.il, haasfan)",
       "url": ""
+    },
+    {
+      "key": "facebook.com/groups/268799249931777/posts/4337024776442517",
+      "nameKey": "facebookקבוצה268799249931777פשפשוק",
+      "name": "Facebook (קבוצה 268799249931777 — פשפשוק)",
+      "url": "https://facebook.com/groups/268799249931777/posts/4337024776442517"
+    },
+    {
+      "key": "m.homeless.co.il/yad2/viewad,1007740.aspx",
+      "nameKey": "mhomelesscoil",
+      "name": "m.homeless.co.il",
+      "url": "https://m.homeless.co.il/yad2/viewad,1007740.aspx"
     }
   ],
   "intel": [
@@ -2383,6 +2395,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 5
+    },
+    {
+      "at": "2026-09-25T09:16:18.059Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
     }
   ]
 }
