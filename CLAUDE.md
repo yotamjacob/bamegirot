@@ -25,6 +25,7 @@ images/      cover.webp (hero) · cover.jpg (OG/schema only) ·
              seven photos, used only as og:image / Article image on guide
              pages) · logo.png (schema publisher logo) · portrait.webp (unused)
 404.html     custom not-found page (noindex); Vercel serves it automatically
+llms.txt     plain-text site map for AI crawlers; update when a guide is added
 events/<slug>/            per sale/event: brochure.pdf (built from HTML with
              headless Chrome) + event.ics. No HTML page by design — the
              homepage's sticky .event-bar links straight to the PDF and the
