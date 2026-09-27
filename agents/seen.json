@@ -527,6 +527,54 @@
       "nameKey": "דיורזהב",
       "name": "דיור זהב",
       "url": "https://diurzahav.co.il/"
+    },
+    {
+      "key": "shm-moving.co.il",
+      "nameKey": "שהמהובלות",
+      "name": "ש.ה.מ הובלות",
+      "url": "https://www.shm-moving.co.il/"
+    },
+    {
+      "key": "mtzedek.org.il",
+      "nameKey": "גליצדק",
+      "name": "גלי צדק",
+      "url": "https://mtzedek.org.il/"
+    },
+    {
+      "key": "myparents.co.il",
+      "nameKey": "אתרההוריםשליmyparentscoil",
+      "name": "אתר ההורים שלי (myparents.co.il)",
+      "url": "https://www.myparents.co.il/"
+    },
+    {
+      "key": "moryagroup.co.il",
+      "nameKey": "קבוצתמוריהmorya",
+      "name": "קבוצת מוריה (Morya Group)",
+      "url": "https://moryagroup.co.il/"
+    },
+    {
+      "key": "aviram-goldy.co.il",
+      "nameKey": "אבירםגולדיפינוייםאבירםהאספן",
+      "name": "אבירם גולדי פינויים / \"אבירם האספן\"",
+      "url": "https://www.aviram-goldy.co.il/"
+    },
+    {
+      "key": "spinuim.co.il",
+      "nameKey": "עולםהפינויים",
+      "name": "עולם הפינויים",
+      "url": "https://www.spinuim.co.il/"
+    },
+    {
+      "key": "מריה כץ",
+      "nameKey": "מריהכץ",
+      "name": "מריה כץ",
+      "url": ""
+    },
+    {
+      "key": "pinoidirot.co.il",
+      "nameKey": "פינוימהיר",
+      "name": "פינוי מהיר",
+      "url": "https://pinoidirot.co.il/"
     }
   ],
   "opportunities": [
@@ -1995,6 +2043,42 @@
       "nameKey": "אינדקסיםשעהאחתלאיותר",
       "name": "אינדקסים — שעה אחת, לא יותר",
       "url": "https://www.pro.co.il/appraisers"
+    },
+    {
+      "key": "github.com/yotamjacob/bamegirot",
+      "nameKey": "נראותוהיגיינתמותגריפוזיטוריgithubציבורימ",
+      "name": "נראות והיגיינת מותג — ריפוזיטורי GitHub ציבורי מדורג תחת שם המותג",
+      "url": "https://github.com/yotamjacob/bamegirot"
+    },
+    {
+      "key": "azrielipalace.co.il/podcasts",
+      "nameKey": "ערוץהפצהרשתהדיורהמוגןפאלאסמפעילהמגזיןופו",
+      "name": "ערוץ הפצה — רשת הדיור המוגן פאלאס מפעילה מגזין ופודקאסט בדיוק סביב הטריגר השני בגודלו",
+      "url": "https://azrielipalace.co.il/podcasts/"
+    },
+    {
+      "key": "din.org.il/2015/09/24/%d7%aa%d7%9b%d7%a9%d7%99%d7%98%d7%99%d7%9d-%d7%a9%d7%9c-%d7%a0%d7%a4%d7%98%d7%a8",
+      "nameKey": "פערתוכןמותרבכלללמכוראתהחפציםשלהםשאלתההית",
+      "name": "פער תוכן — \"מותר בכלל למכור את החפצים שלהם?\" שאלת ההיתר, נענית רק על ידי רבנים ורק ב-2009–2015",
+      "url": "https://din.org.il/2015/09/24/תכשיטים-של-נפטר/"
+    },
+    {
+      "key": "heshet.co.il/sample-page",
+      "nameKey": "נראותהשאילתההמקצועיתשמאיאמנותשמאותאמנותה",
+      "name": "נראות — השאילתה המקצועית \"שמאי אמנות / שמאות אמנות הערכת ציורים\" מוחזקת בידי מכללה ועמודים מ-2015 ו-2018",
+      "url": "https://www.heshet.co.il/sample-page/"
+    },
+    {
+      "key": "egozigallery.com/%d7%a4%d7%95%d7%a1%d7%98-%d7%9e%d7%a1%d7%a4%d7%a8-521",
+      "nameKey": "מתחריםעדכוןעלשםמוכרוחברותפינוישעוברותלרג",
+      "name": "מתחרים — עדכון על שם מוכר, וחברות פינוי שעוברות לרגיסטר של אבל",
+      "url": "http://www.egozigallery.com/פוסט-מספר-521"
+    },
+    {
+      "key": "instagram.com/garage.sale.tlv",
+      "nameKey": "ערוץהפצהדורשבדיקהאנושיתלפניכלפעולה",
+      "name": "ערוץ הפצה — דורש בדיקה אנושית לפני כל פעולה",
+      "url": "https://www.instagram.com/garage.sale.tlv/"
     }
   ],
   "runs": [
@@ -2429,6 +2513,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-09-27T09:43:14.781Z",
+      "mode": "full",
+      "total": 14,
+      "actionable": 14,
+      "sent": true,
+      "partners": 8,
+      "opportunities": 0,
+      "intel": 6
     }
   ]
 }
