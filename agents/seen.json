@@ -1669,6 +1669,18 @@
       "nameKey": "רשימתרעשחברותפינויוסוחריידשנייה",
       "name": "רשימת רעש — חברות פינוי וסוחרי יד שנייה",
       "url": "https://hamefanim.co.il"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,880742.aspx",
+      "nameKey": "homelessלוחידשניההומלס",
+      "name": "Homeless (לוח יד שניה הומלס)",
+      "url": "https://www.homeless.co.il/yad2/viewad,880742.aspx"
+    },
+    {
+      "key": "פוסטים בקבוצות פייסבוק (כולל \"תכולת בית בנשר\" בקבוצה חיפאית; haifa.sheli, 1623329171249543, emptyyourhouse, 288178042503261)",
+      "nameKey": "פוסטיםבקבוצותפייסבוקכוללתכולתביתבנשרבקבו",
+      "name": "פוסטים בקבוצות פייסבוק (כולל \"תכולת בית בנשר\" בקבוצה חיפאית; haifa.sheli, 1623329171249543, emptyyourhouse, 288178042503261)",
+      "url": ""
     }
   ],
   "intel": [
@@ -2523,6 +2535,14 @@
       "partners": 8,
       "opportunities": 0,
       "intel": 6
+    },
+    {
+      "at": "2026-09-28T10:23:31.084Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
     }
   ]
 }
