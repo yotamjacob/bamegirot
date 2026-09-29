@@ -1681,6 +1681,18 @@
       "nameKey": "פוסטיםבקבוצותפייסבוקכוללתכולתביתבנשרבקבו",
       "name": "פוסטים בקבוצות פייסבוק (כולל \"תכולת בית בנשר\" בקבוצה חיפאית; haifa.sheli, 1623329171249543, emptyyourhouse, 288178042503261)",
       "url": ""
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,1076230.aspx",
+      "nameKey": "homelessלוחידשניה",
+      "name": "Homeless (לוח יד שניה)",
+      "url": "https://www.homeless.co.il/yad2/viewad,1076230.aspx"
+    },
+    {
+      "key": "sites.google.com/site/evacuationlegacies/7790",
+      "nameKey": "רשימתדומייניםמסחרייםשזוהובסריקה",
+      "name": "רשימת דומיינים מסחריים שזוהו בסריקה",
+      "url": "https://sites.google.com/site/evacuationlegacies/7790"
     }
   ],
   "intel": [
@@ -2538,6 +2550,14 @@
     },
     {
       "at": "2026-09-28T10:23:31.084Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
+    },
+    {
+      "at": "2026-09-29T10:18:33.665Z",
       "mode": "daily",
       "total": 2,
       "actionable": 0,
