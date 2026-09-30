@@ -1693,6 +1693,18 @@
       "nameKey": "רשימתדומייניםמסחרייםשזוהובסריקה",
       "name": "רשימת דומיינים מסחריים שזוהו בסריקה",
       "url": "https://sites.google.com/site/evacuationlegacies/7790"
+    },
+    {
+      "key": "prog.co.il/classifieds/%d7%aa%d7%9b%d7%95%d7%9c%d7%aa-%d7%93%d7%99%d7%a8%d7%94.47675",
+      "nameKey": "prog",
+      "name": "Prog",
+      "url": "https://www.prog.co.il/classifieds/תכולת-דירה.47675/"
+    },
+    {
+      "key": "apps.apple.com/il/app/vintiq-%d7%96%d7%99%d7%94%d7%95%d7%99-%d7%a2%d7%aa%d7%99%d7%a7%d7%95%d7%aa/id6746053182",
+      "nameKey": "appstorevintiq",
+      "name": "App Store (Vintiq)",
+      "url": "https://apps.apple.com/il/app/vintiq-זיהוי-עתיקות/id6746053182"
     }
   ],
   "intel": [
@@ -2558,6 +2570,14 @@
     },
     {
       "at": "2026-09-29T10:18:33.665Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
+    },
+    {
+      "at": "2026-09-30T10:12:01.260Z",
       "mode": "daily",
       "total": 2,
       "actionable": 0,
