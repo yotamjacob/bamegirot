@@ -1717,6 +1717,12 @@
       "nameKey": "אתרישאלותופורומים",
       "name": "אתרי שאלות ופורומים",
       "url": ""
+    },
+    {
+      "key": "justanswer.com/antiques/pz7rc-want-appraisal-its-jewelry-great-inherited.html",
+      "nameKey": "justanswer",
+      "name": "JustAnswer",
+      "url": "https://www.justanswer.com/antiques/pz7rc-want-appraisal-its-jewelry-great-inherited.html"
     }
   ],
   "intel": [
@@ -2603,6 +2609,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 2
+    },
+    {
+      "at": "2026-10-02T10:13:56.388Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
