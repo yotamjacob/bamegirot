@@ -2617,6 +2617,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-10-03T09:35:27.793Z",
+      "mode": "daily",
+      "total": 0,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 0
     }
   ]
 }
