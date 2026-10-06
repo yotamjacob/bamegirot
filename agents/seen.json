@@ -1765,6 +1765,24 @@
       "nameKey": "nesszionanet",
       "name": "nessziona.net",
       "url": "https://nessziona.net"
+    },
+    {
+      "key": "sites.google.com/melion.co.il/house-sale-kfarsaba/%d7%91%d7%99%d7%aa",
+      "nameKey": "אתרפרטיבgooglesites",
+      "name": "אתר פרטי ב-Google Sites",
+      "url": "https://sites.google.com/melion.co.il/house-sale-kfarsaba/בית"
+    },
+    {
+      "key": "saf.co.il/forums/threads/msg_52755",
+      "nameKey": "פורוםsafתמא38פינויבינוי",
+      "name": "פורום SAF (תמ\"א 38 / פינוי בינוי)",
+      "url": "https://www.saf.co.il/forums/threads/msg_52755"
+    },
+    {
+      "key": "homeless.co.il — פיד קטגוריית תכולת דירה",
+      "nameKey": "homelesscoilפידקטגורייתתכולתדירה",
+      "name": "homeless.co.il — פיד קטגוריית תכולת דירה",
+      "url": ""
     }
   ],
   "intel": [
@@ -2707,6 +2725,14 @@
       "partners": 5,
       "opportunities": 2,
       "intel": 5
+    },
+    {
+      "at": "2026-10-06T10:58:21.380Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
