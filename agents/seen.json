@@ -1783,6 +1783,30 @@
       "nameKey": "homelesscoilפידקטגורייתתכולתדירה",
       "name": "homeless.co.il — פיד קטגוריית תכולת דירה",
       "url": ""
+    },
+    {
+      "key": "agora.co.il",
+      "nameKey": "agoracoilבריאותמשטח",
+      "name": "Agora.co.il — בריאות משטח",
+      "url": "https://www.agora.co.il"
+    },
+    {
+      "key": "prog.co.il",
+      "nameKey": "progcoilclassifiedsבריאותמשטח",
+      "name": "Prog.co.il classifieds — בריאות משטח",
+      "url": "https://www.prog.co.il"
+    },
+    {
+      "key": "t.me",
+      "nameKey": "telegramסריקתערוצים",
+      "name": "Telegram — סריקת ערוצים",
+      "url": "https://t.me"
+    },
+    {
+      "key": "rrshamaut.co.il",
+      "nameKey": "תוכןמתחריםrrshamautcoildixitcoilselectbl",
+      "name": "תוכן מתחרים — rrshamaut.co.il, dixit.co.il, selectblog.co.il, Hidabroot",
+      "url": "https://www.rrshamaut.co.il"
     }
   ],
   "intel": [
@@ -2733,6 +2757,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-10-07T10:46:13.284Z",
+      "mode": "daily",
+      "total": 4,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 4
     }
   ]
 }
