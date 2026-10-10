@@ -1807,6 +1807,12 @@
       "nameKey": "תוכןמתחריםrrshamautcoildixitcoilselectbl",
       "name": "תוכן מתחרים — rrshamaut.co.il, dixit.co.il, selectblog.co.il, Hidabroot",
       "url": "https://www.rrshamaut.co.il"
+    },
+    {
+      "key": "תוצאת חיפוש — עמוד אלטע זאכן",
+      "nameKey": "תוצאתחיפושעמודאלטעזאכן",
+      "name": "תוצאת חיפוש — עמוד אלטע זאכן",
+      "url": ""
     }
   ],
   "intel": [
@@ -2765,6 +2771,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 4
+    },
+    {
+      "at": "2026-10-10T10:21:39.499Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
