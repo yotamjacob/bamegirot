@@ -605,6 +605,60 @@
       "nameKey": "עמותתמידליעדאיסוףרהיטיםומוצריחשמלמהבית",
       "name": "עמותת \"מיד ליעד\" — איסוף רהיטים ומוצרי חשמל מהבית",
       "url": "https://layaad.org.il/"
+    },
+    {
+      "key": "estitiktak.co.il",
+      "nameKey": "תיקתקאסתיבלונד",
+      "name": "תיק תק — אסתי בלונד",
+      "url": "http://estitiktak.co.il/"
+    },
+    {
+      "key": "safestorage.co.il",
+      "nameKey": "אחסוןבטוחsafestorage",
+      "name": "אחסון בטוח / Safe Storage",
+      "url": "https://www.safestorage.co.il/"
+    },
+    {
+      "key": "haifa-moving.co.il",
+      "nameKey": "פרוהובלותחיפה",
+      "name": "פרו הובלות חיפה",
+      "url": "https://www.haifa-moving.co.il/"
+    },
+    {
+      "key": "clear-team.co.il",
+      "nameKey": "צוותפינוידירותclearteam",
+      "name": "צוות פינוי דירות / clear-team",
+      "url": "https://clear-team.co.il/"
+    },
+    {
+      "key": "meshumashim.info",
+      "nameKey": "גדיהיפהחנותידשנייה",
+      "name": "גדי היפה — חנות יד שנייה",
+      "url": "https://www.meshumashim.info/"
+    },
+    {
+      "key": "הובלות חיפה נהוראי מאיר",
+      "nameKey": "הובלותחיפהנהוראימאיר",
+      "name": "הובלות חיפה נהוראי מאיר",
+      "url": ""
+    },
+    {
+      "key": "moving-israel.co.il",
+      "nameKey": "movingisraelcoil",
+      "name": "moving-israel.co.il",
+      "url": "https://moving-israel.co.il"
+    },
+    {
+      "key": "ask5.co.il",
+      "nameKey": "ask5coil",
+      "name": "ask5.co.il",
+      "url": "https://ask5.co.il"
+    },
+    {
+      "key": "\"מאיה\" ו\"אלינור\" — מארגנות בית",
+      "nameKey": "מאיהואלינורמארגנותבית",
+      "name": "\"מאיה\" ו\"אלינור\" — מארגנות בית",
+      "url": ""
     }
   ],
   "opportunities": [
@@ -1813,6 +1867,12 @@
       "nameKey": "תוצאתחיפושעמודאלטעזאכן",
       "name": "תוצאת חיפוש — עמוד אלטע זאכן",
       "url": ""
+    },
+    {
+      "key": "ynet.co.il/entertainment/article/hjftpayogx",
+      "nameKey": "ynetwallaicecoilסיקורמכירתעיזבוןמאיראריא",
+      "name": "Ynet / Walla / ice.co.il — סיקור מכירת עיזבון מאיר אריאל",
+      "url": "https://www.ynet.co.il/entertainment/article/hjftpayogx"
     }
   ],
   "intel": [
@@ -2253,6 +2313,42 @@
       "nameKey": "יד2מחזיקהאתשניקצותהשוקובצדהמשפחהמנתבתאות",
       "name": "יד2 מחזיקה את שני קצות השוק — ובצד המשפחה מנתבת אותה לקונים",
       "url": "https://www.yad2.co.il/b144/search?category=287"
+    },
+    {
+      "key": "israelhayom.co.il/news/world-news/europe/article/21585684",
+      "nameKey": "עוגןחדשותיציורב30דולרנמכרב135מיליון",
+      "name": "עוגן חדשותי: ציור ב-30 דולר נמכר ב-1.35 מיליון",
+      "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21585684"
+    },
+    {
+      "key": "nevo.co.il/law_html/law01/p194_036.htm",
+      "nameKey": "רגולציהופערתוכןדירהריקה60יוםוהתכולהשבתוכ",
+      "name": "רגולציה ופער תוכן: דירה ריקה 60 יום והתכולה שבתוכה",
+      "url": "https://www.nevo.co.il/law_html/law01/p194_036.htm"
+    },
+    {
+      "key": "sadikovs.com/collectible-valuation",
+      "nameKey": "מתחרהחדשבהערכהתעודתהערכהשמאיתדיגיטליתסדי",
+      "name": "מתחרה חדש בהערכה: \"תעודת הערכה שמאית דיגיטלית\" — סדיקובס",
+      "url": "https://sadikovs.com/collectible-valuation/"
+    },
+    {
+      "key": "israeliart.co.il/course/%d7%a9%d7%99%d7%97%d7%95%d7%aa-%d7%a2%d7%9d-%d7%90%d7%a1%d7%a4%d7%a0%d7%99%d7%9d",
+      "nameKey": "ערוץקטלוגההרצאותשלהביתלאמנותישראלית",
+      "name": "ערוץ: קטלוג ההרצאות של \"הבית לאמנות ישראלית\"",
+      "url": "https://israeliart.co.il/course/שיחות-עם-אספנים"
+    },
+    {
+      "key": "gemo-lab.co.il/topic/%d7%94%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a9%d7%95%d7%95%d7%99-%d7%a9%d7%98%d7%99%d7%97-%d7%a4%d7%a8%d7%a1%d7%99-3",
+      "nameKey": "פערתוכןהערכתשווישטיחפרסי",
+      "name": "פער תוכן: הערכת שווי שטיח פרסי",
+      "url": "https://www.gemo-lab.co.il/topic/הערכת-שווי-שטיח-פרסי-3/"
+    },
+    {
+      "key": "bizportal.co.il/financialconsumerism/news/article/20042721",
+      "nameKey": "עוגןחדשותימשני86אלףחשבונותשלנפטריםביזפור",
+      "name": "עוגן חדשותי משני: 86 אלף חשבונות של נפטרים (ביזפורטל)",
+      "url": "https://www.bizportal.co.il/financialconsumerism/news/article/20042721"
     }
   ],
   "runs": [
@@ -2779,6 +2875,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-10-11T10:29:30.901Z",
+      "mode": "full",
+      "total": 16,
+      "actionable": 15,
+      "sent": true,
+      "partners": 9,
+      "opportunities": 1,
+      "intel": 6
     }
   ]
 }
