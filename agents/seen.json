@@ -1873,6 +1873,30 @@
       "nameKey": "ynetwallaicecoilסיקורמכירתעיזבוןמאיראריא",
       "name": "Ynet / Walla / ice.co.il — סיקור מכירת עיזבון מאיר אריאל",
       "url": "https://www.ynet.co.il/entertainment/article/hjftpayogx"
+    },
+    {
+      "key": "m.homeless.co.il/yad2/viewad,1008706.aspx",
+      "nameKey": "homelessמובייל",
+      "name": "Homeless (מובייל)",
+      "url": "https://m.homeless.co.il/yad2/viewad,1008706.aspx"
+    },
+    {
+      "key": "agora.co.il/toget.asp",
+      "nameKey": "agoraלוחמסירהחי",
+      "name": "Agora – לוח מסירה חי",
+      "url": "https://www.agora.co.il/toGet.asp?dealType=1"
+    },
+    {
+      "key": "stips.co.il/ask/5117088",
+      "nameKey": "stips",
+      "name": "Stips",
+      "url": "https://stips.co.il/ask/5117088/"
+    },
+    {
+      "key": "ad.co.il/c/26",
+      "nameKey": "adcoilhomelessיד2עמודיקטגוריה",
+      "name": "ad.co.il / Homeless / יד2 – עמודי קטגוריה",
+      "url": "https://www.ad.co.il/c/26"
     }
   ],
   "intel": [
@@ -2885,6 +2909,14 @@
       "partners": 9,
       "opportunities": 1,
       "intel": 6
+    },
+    {
+      "at": "2026-10-14T09:12:33.603Z",
+      "mode": "daily",
+      "total": 4,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 4
     }
   ]
 }
