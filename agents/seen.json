@@ -1897,6 +1897,18 @@
       "nameKey": "adcoilhomelessיד2עמודיקטגוריה",
       "name": "ad.co.il / Homeless / יד2 – עמודי קטגוריה",
       "url": "https://www.ad.co.il/c/26"
+    },
+    {
+      "key": "homeless.co.il/yad2/inumber3=46$$inumber1=5",
+      "nameKey": "homelesscoilקטגורייתתכולתדירהאזוראשדודאש",
+      "name": "homeless.co.il — קטגוריית תכולת דירה, אזור אשדוד/אשקלון",
+      "url": "https://www.homeless.co.il/yad2/inumber3=46$$inumber1=5"
+    },
+    {
+      "key": "m.homeless.co.il/yad2",
+      "nameKey": "homelesscoilפידארציכברמדווח",
+      "name": "homeless.co.il — פיד ארצי (כבר מדווח)",
+      "url": "https://m.homeless.co.il/yad2/?inumber3=46"
     }
   ],
   "intel": [
@@ -2917,6 +2929,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 4
+    },
+    {
+      "at": "2026-10-15T08:45:11.873Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
     }
   ]
 }
