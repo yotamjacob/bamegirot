@@ -1909,6 +1909,12 @@
       "nameKey": "homelesscoilפידארציכברמדווח",
       "name": "homeless.co.il — פיד ארצי (כבר מדווח)",
       "url": "https://m.homeless.co.il/yad2/?inumber3=46"
+    },
+    {
+      "key": "bhol.co.il/news/1740780",
+      "nameKey": "בחדריחרדיםbhol",
+      "name": "בחדרי חרדים (bhol)",
+      "url": "https://www.bhol.co.il/news/1740780"
     }
   ],
   "intel": [
@@ -2937,6 +2943,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 2
+    },
+    {
+      "at": "2026-10-16T08:40:22.746Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
