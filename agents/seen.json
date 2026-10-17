@@ -1915,6 +1915,12 @@
       "nameKey": "בחדריחרדיםbhol",
       "name": "בחדרי חרדים (bhol)",
       "url": "https://www.bhol.co.il/news/1740780"
+    },
+    {
+      "key": "פורטל משפטי",
+      "nameKey": "פורטלמשפטי",
+      "name": "פורטל משפטי",
+      "url": ""
     }
   ],
   "intel": [
@@ -2946,6 +2952,14 @@
     },
     {
       "at": "2026-10-16T08:40:22.746Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
+    },
+    {
+      "at": "2026-10-17T08:11:23.441Z",
       "mode": "daily",
       "total": 1,
       "actionable": 0,
