@@ -659,6 +659,54 @@
       "nameKey": "מאיהואלינורמארגנותבית",
       "name": "\"מאיה\" ו\"אלינור\" — מארגנות בית",
       "url": ""
+    },
+    {
+      "key": "a-rubi.co.il",
+      "nameKey": "אחוזותרובינשטיין",
+      "name": "אחוזות רובינשטיין",
+      "url": "https://www.a-rubi.co.il/"
+    },
+    {
+      "key": "lulu-il.co.il",
+      "nameKey": "luluליאוראשללולו",
+      "name": "Lulu — ליאור אשל (לולו)",
+      "url": "https://lulu-il.co.il/"
+    },
+    {
+      "key": "clearing.co.il",
+      "nameKey": "המרכזלפינוידירהclearingcoilשמעוןמנחם",
+      "name": "המרכז לפינוי דירה / clearing.co.il — שמעון מנחם",
+      "url": "https://clearing.co.il/"
+    },
+    {
+      "key": "pinui-dirot.co.il",
+      "nameKey": "פינוידירותpinuidirotcoil",
+      "name": "פינוי דירות — pinui-dirot.co.il",
+      "url": "https://pinui-dirot.co.il/"
+    },
+    {
+      "key": "remax1.co.il",
+      "nameKey": "רימקסמקצועניםחדרה",
+      "name": "רימקס מקצוענים (חדרה)",
+      "url": "https://remax1.co.il/"
+    },
+    {
+      "key": "aviv-moving.co.il",
+      "nameKey": "הובלותבאביב",
+      "name": "הובלות באביב",
+      "url": "https://www.aviv-moving.co.il/"
+    },
+    {
+      "key": "vlad-moving.com",
+      "nameKey": "הובלותולד",
+      "name": "הובלות ולד",
+      "url": "https://www.vlad-moving.com/"
+    },
+    {
+      "key": "cpa-dray.com",
+      "nameKey": "דרייושותרואיחשבון",
+      "name": "דריי ושות' — רואי חשבון",
+      "url": "https://cpa-dray.com/"
     }
   ],
   "opportunities": [
@@ -1921,6 +1969,12 @@
       "nameKey": "פורטלמשפטי",
       "name": "פורטל משפטי",
       "url": ""
+    },
+    {
+      "key": "תצפית מבנית על תוצאות החיפוש בעברית",
+      "nameKey": "תצפיתמבניתעלתוצאותהחיפושבעברית",
+      "name": "תצפית מבנית על תוצאות החיפוש בעברית",
+      "url": ""
     }
   ],
   "intel": [
@@ -2397,6 +2451,42 @@
       "nameKey": "עוגןחדשותימשני86אלףחשבונותשלנפטריםביזפור",
       "name": "עוגן חדשותי משני: 86 אלף חשבונות של נפטרים (ביזפורטל)",
       "url": "https://www.bizportal.co.il/financialconsumerism/news/article/20042721"
+    },
+    {
+      "key": "grippo.co.il/professional-silver-evaluation",
+      "nameKey": "פערתוכןכליכסףבירושה",
+      "name": "פער תוכן: כלי כסף בירושה",
+      "url": "https://www.grippo.co.il/professional-silver-evaluation/"
+    },
+    {
+      "key": "i24news.tv/he/news/weekend-magazine/artc-be5e5407",
+      "nameKey": "עוגןחדשותיi24newsפרסםאתהנחתהיסודשלהמדריך",
+      "name": "עוגן חדשותי: i24NEWS פרסם את הנחת היסוד של המדריך שלה",
+      "url": "https://www.i24news.tv/he/news/weekend-magazine/artc-be5e5407"
+    },
+    {
+      "key": "be106.net/207/155772",
+      "nameKey": "קריאהפתוחהופעילהמרכזיוםלגילהשלישיבפתחתקו",
+      "name": "קריאה פתוחה ופעילה: מרכז יום לגיל השלישי בפתח תקווה מחפש מרצים מתנדבים",
+      "url": "https://www.be106.net/207/155772"
+    },
+    {
+      "key": "hidabroot.org/article/1224586",
+      "nameKey": "ערוץהפצהגדולשכברמפרסםבנישההידברות",
+      "name": "ערוץ הפצה גדול שכבר מפרסם בנישה: הידברות",
+      "url": "https://www.hidabroot.org/article/1224586"
+    },
+    {
+      "key": "rotter.net/pro/%d7%97%d7%99%d7%a4%d7%95%d7%a9/%d7%a4%d7%99%d7%a0%d7%95%d7%99+%d7%95%d7%a7%d7%a0%d7%99%d7%99%d7%aa+%d7%aa%d7%9b%d7%95%d7%9c%d7%aa+%d7%93%d7%99%d7%a8%d7%94/%d7%97%d7%99%d7%a4%d7%94",
+      "nameKey": "נראותאינדקסרוטרמצמידפינוילקנייהבקטגוריהה",
+      "name": "נראות: אינדקס רוטר מצמיד \"פינוי\" ל\"קנייה\" בקטגוריה היחידה הקיימת",
+      "url": "https://rotter.net/pro/חיפוש/פינוי+וקניית+תכולת+דירה/חיפה"
+    },
+    {
+      "key": "tazkirim.gov.il/s/legislativeworkactivity/a13qu00000hljeeiar",
+      "nameKey": "רגולציהלאמאומתתטיוטתתקנותהירושהתיקוןהתשפ",
+      "name": "רגולציה לא מאומתת: טיוטת תקנות הירושה (תיקון), התשפ\"ה-2025",
+      "url": "https://www.tazkirim.gov.il/s/legislativeworkactivity/a13Qu00000HljeEIAR"
     }
   ],
   "runs": [
@@ -2965,6 +3055,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-10-18T08:28:29.060Z",
+      "mode": "full",
+      "total": 15,
+      "actionable": 14,
+      "sent": true,
+      "partners": 8,
+      "opportunities": 1,
+      "intel": 6
     }
   ]
 }
