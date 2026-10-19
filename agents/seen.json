@@ -1975,6 +1975,24 @@
       "nameKey": "תצפיתמבניתעלתוצאותהחיפושבעברית",
       "name": "תצפית מבנית על תוצאות החיפוש בעברית",
       "url": ""
+    },
+    {
+      "key": "homeless.co.il/yad2/inumber1=8$$inumber3=46",
+      "nameKey": "homelessפידתכולהחיפהקריות",
+      "name": "Homeless — פיד תכולה חיפה/קריות",
+      "url": "https://www.homeless.co.il/yad2/inumber1=8$$inumber3=46"
+    },
+    {
+      "key": "homeless.co.il/yad2/inumber3=310$$inumber4=4590",
+      "nameKey": "homelessadcoilprogmyproductעמודיקטגוריה",
+      "name": "Homeless / ad.co.il / prog / myproduct — עמודי קטגוריה",
+      "url": "https://www.homeless.co.il/yad2/inumber3=310$$inumber4=4590"
+    },
+    {
+      "key": "stips.co.il/ask/58866",
+      "nameKey": "stipsaskptoraforum",
+      "name": "stips / askp / tora-forum",
+      "url": "https://stips.co.il/ask/58866"
     }
   ],
   "intel": [
@@ -3065,6 +3083,14 @@
       "partners": 8,
       "opportunities": 1,
       "intel": 6
+    },
+    {
+      "at": "2026-10-19T09:30:04.641Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
