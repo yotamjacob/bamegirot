@@ -1993,6 +1993,12 @@
       "nameKey": "stipsaskptoraforum",
       "name": "stips / askp / tora-forum",
       "url": "https://stips.co.il/ask/58866"
+    },
+    {
+      "key": "november-balcony.tivon.me",
+      "nameKey": "tivonme",
+      "name": "Tivon.me",
+      "url": "https://november-balcony.tivon.me/"
     }
   ],
   "intel": [
@@ -3091,6 +3097,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-10-20T09:03:03.027Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
