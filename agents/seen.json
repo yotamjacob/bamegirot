@@ -1999,6 +1999,18 @@
       "nameKey": "tivonme",
       "name": "Tivon.me",
       "url": "https://november-balcony.tivon.me/"
+    },
+    {
+      "key": "chattelmore.com",
+      "nameKey": "chattelmore",
+      "name": "chattelmore",
+      "url": "https://chattelmore.com/"
+    },
+    {
+      "key": "kan-ashkelon.co.il/mumlazim/94248",
+      "nameKey": "kanashkelon",
+      "name": "kan-ashkelon",
+      "url": "https://www.kan-ashkelon.co.il/mumlazim/94248"
     }
   ],
   "intel": [
@@ -3105,6 +3117,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-10-21T09:02:28.944Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
     }
   ]
 }
