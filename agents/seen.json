@@ -2011,6 +2011,12 @@
       "nameKey": "kanashkelon",
       "name": "kan-ashkelon",
       "url": "https://www.kan-ashkelon.co.il/mumlazim/94248"
+    },
+    {
+      "key": "rehovot.news/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%93%d7%99%d7%a8%d7%94-%d7%90%d7%97%d7%a8%d7%99-%d7%a4%d7%98%d7%99%d7%a8%d7%94-%d7%94%d7%9e%d7%93%d7%a8%d7%99%d7%9a-%d7%9c%d7%9e%d7%a9%d7%a4%d7%97%d7%95",
+      "nameKey": "rehovotnews",
+      "name": "rehovot.news",
+      "url": "https://rehovot.news/פינוי-דירה-אחרי-פטירה-המדריך-למשפחו/"
     }
   ],
   "intel": [
@@ -3125,6 +3131,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 2
+    },
+    {
+      "at": "2026-10-22T09:05:04.814Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
