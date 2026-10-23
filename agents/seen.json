@@ -2017,6 +2017,12 @@
       "nameKey": "rehovotnews",
       "name": "rehovot.news",
       "url": "https://rehovot.news/פינוי-דירה-אחרי-פטירה-המדריך-למשפחו/"
+    },
+    {
+      "key": "homeless.co.il (פיד תכולת דירה)",
+      "nameKey": "homelesscoilפידתכולתדירה",
+      "name": "homeless.co.il (פיד תכולת דירה)",
+      "url": ""
     }
   ],
   "intel": [
@@ -3134,6 +3140,14 @@
     },
     {
       "at": "2026-10-22T09:05:04.814Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
+    },
+    {
+      "at": "2026-10-23T08:59:38.210Z",
       "mode": "daily",
       "total": 1,
       "actionable": 0,
