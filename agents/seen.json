@@ -2023,6 +2023,18 @@
       "nameKey": "homelesscoilפידתכולתדירה",
       "name": "homeless.co.il (פיד תכולת דירה)",
       "url": ""
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,1071821.aspx",
+      "nameKey": "homelessלוחידשניהמדורריהוטשונות",
+      "name": "Homeless (לוח יד שניה) — מדור ריהוט/שונות",
+      "url": "https://www.homeless.co.il/yad2/viewad,1071821.aspx"
+    },
+    {
+      "key": "homeless.co.il",
+      "nameKey": "הערתעבודהמתודיתhomeless",
+      "name": "הערת עבודה מתודית (Homeless)",
+      "url": "https://www.homeless.co.il/"
     }
   ],
   "intel": [
@@ -3153,6 +3165,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-10-24T08:33:23.777Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 1,
+      "sent": true,
+      "opportunities": 2
     }
   ]
 }
