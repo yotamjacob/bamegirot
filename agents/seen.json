@@ -707,6 +707,18 @@
       "nameKey": "דרייושותרואיחשבון",
       "name": "דריי ושות' — רואי חשבון",
       "url": "https://cpa-dray.com/"
+    },
+    {
+      "key": "bayit-bakfar.co.il",
+      "nameKey": "רשתביתבכפרדיורמוגן",
+      "name": "רשת \"בית בכפר\" — דיור מוגן",
+      "url": "https://bayit-bakfar.co.il/"
+    },
+    {
+      "key": "third-age.co.il",
+      "nameKey": "קודפלוסדואגיםלהורים",
+      "name": "קוד פלוס — דואגים להורים",
+      "url": "https://www.third-age.co.il/"
     }
   ],
   "opportunities": [
@@ -2035,6 +2047,12 @@
       "nameKey": "הערתעבודהמתודיתhomeless",
       "name": "הערת עבודה מתודית (Homeless)",
       "url": "https://www.homeless.co.il/"
+    },
+    {
+      "key": "bamegirot.com/guides/inherited-apartment-contents",
+      "nameKey": "תצפיתמבניתמהסריקה",
+      "name": "תצפית מבנית מהסריקה",
+      "url": "https://www.bamegirot.com/guides/inherited-apartment-contents/"
     }
   ],
   "intel": [
@@ -2547,6 +2565,42 @@
       "nameKey": "רגולציהלאמאומתתטיוטתתקנותהירושהתיקוןהתשפ",
       "name": "רגולציה לא מאומתת: טיוטת תקנות הירושה (תיקון), התשפ\"ה-2025",
       "url": "https://www.tazkirim.gov.il/s/legislativeworkactivity/a13Qu00000HljeEIAR"
+    },
+    {
+      "key": "apps.apple.com/il/app/%d7%96%d7%99%d7%94%d7%95%d7%99-%d7%a2%d7%aa%d7%99%d7%a7%d7%95%d7%aa-%d7%9e%d7%96%d7%94%d7%94-%d7%a2%d7%aa%d7%99%d7%a7%d7%95%d7%aa/id6670162509",
+      "nameKey": "אפליקציותaiלהערכתעתיקותבעבריתשינוישוק",
+      "name": "אפליקציות AI להערכת עתיקות בעברית — שינוי שוק",
+      "url": "https://apps.apple.com/il/app/%D7%96%D7%99%D7%94%D7%95%D7%99-%D7%A2%D7%AA%D7%99%D7%A7%D7%95%D7%AA-%D7%9E%D7%96%D7%94%D7%94-%D7%A2%D7%AA%D7%99%D7%A7%D7%95%D7%AA/id6670162509?l=he"
+    },
+    {
+      "key": "zman7.co.il/pages/appraisal-service",
+      "nameKey": "רשתזמןמתחרהסמוךושותףאפשרילהפניות",
+      "name": "רשת \"זמן\" — מתחרה סמוך ושותף אפשרי להפניות",
+      "url": "https://zman7.co.il/pages/appraisal-service"
+    },
+    {
+      "key": "pirsum.org.il/remote-inheritance-apartment-clearance",
+      "nameKey": "פערתוכןהיורששנמצאבחולוהדירהכאן",
+      "name": "פער תוכן: היורש שנמצא בחו\"ל והדירה כאן",
+      "url": "https://pirsum.org.il/remote-inheritance-apartment-clearance/"
+    },
+    {
+      "key": "kikar.co.il/world-news/ai-art-discovery-painting-value",
+      "nameKey": "וויםחדשותייםחייםגילוייציוריםוaiבתקשורתהי",
+      "name": "ווים חדשותיים חיים: גילויי ציורים ו-AI בתקשורת הישראלית",
+      "url": "https://www.kikar.co.il/world-news/ai-art-discovery-painting-value"
+    },
+    {
+      "key": "katedra.smarticket.co.il",
+      "nameKey": "ערוץרשתותהקתדרהקהלקטלוגפתוחבתוךהרצועה",
+      "name": "ערוץ: רשתות הקתדרה — קהל, קטלוג פתוח, בתוך הרצועה",
+      "url": "https://katedra.smarticket.co.il/"
+    },
+    {
+      "key": "xn--7dbcbpbb9b4a6b.org.il",
+      "nameKey": "לאאומתלהעבירלבדיקהאנושית",
+      "name": "לא אומת — להעביר לבדיקה אנושית",
+      "url": "https://xn--7dbcbpbb9b4a6b.org.il/"
     }
   ],
   "runs": [
@@ -3173,6 +3227,16 @@
       "actionable": 1,
       "sent": true,
       "opportunities": 2
+    },
+    {
+      "at": "2026-10-25T08:52:18.676Z",
+      "mode": "full",
+      "total": 9,
+      "actionable": 8,
+      "sent": true,
+      "partners": 2,
+      "opportunities": 1,
+      "intel": 6
     }
   ]
 }
