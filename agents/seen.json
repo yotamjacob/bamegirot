@@ -3237,6 +3237,14 @@
       "partners": 2,
       "opportunities": 1,
       "intel": 6
+    },
+    {
+      "at": "2026-10-26T09:33:58.807Z",
+      "mode": "daily",
+      "total": 0,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 0
     }
   ]
 }
