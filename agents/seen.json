@@ -2053,6 +2053,18 @@
       "nameKey": "תצפיתמבניתמהסריקה",
       "name": "תצפית מבנית מהסריקה",
       "url": "https://www.bamegirot.com/guides/inherited-apartment-contents/"
+    },
+    {
+      "key": "agora / homeless — פידים חיים",
+      "nameKey": "agorahomelessפידיםחיים",
+      "name": "Agora / Homeless — פידים חיים",
+      "url": ""
+    },
+    {
+      "key": "prog.co.il — לוח מודעות",
+      "nameKey": "progcoilלוחמודעות",
+      "name": "prog.co.il — לוח מודעות",
+      "url": ""
     }
   ],
   "intel": [
@@ -3245,6 +3257,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 0
+    },
+    {
+      "at": "2026-10-27T09:30:38.000Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
     }
   ]
 }
