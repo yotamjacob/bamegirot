@@ -2065,6 +2065,12 @@
       "nameKey": "progcoilלוחמודעות",
       "name": "prog.co.il — לוח מודעות",
       "url": ""
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,1063544.aspx",
+      "nameKey": "homelessפידקטגורייתתכולתדירהתמונתמצבמאונ",
+      "name": "Homeless — פיד קטגוריית תכולת דירה (תמונת מצב מאונדקסת)",
+      "url": "https://www.homeless.co.il/yad2/viewad,1063544.aspx"
     }
   ],
   "intel": [
@@ -3265,6 +3271,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 2
+    },
+    {
+      "at": "2026-10-28T10:15:18.017Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
