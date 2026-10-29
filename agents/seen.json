@@ -2071,6 +2071,48 @@
       "nameKey": "homelessפידקטגורייתתכולתדירהתמונתמצבמאונ",
       "name": "Homeless — פיד קטגוריית תכולת דירה (תמונת מצב מאונדקסת)",
       "url": "https://www.homeless.co.il/yad2/viewad,1063544.aspx"
+    },
+    {
+      "key": "עיריית תל אביב",
+      "nameKey": "עירייתתלאביב",
+      "name": "עיריית תל אביב",
+      "url": ""
+    },
+    {
+      "key": "tlvonline.co.il",
+      "nameKey": "tlvonlinecoil",
+      "name": "tlvonline.co.il",
+      "url": ""
+    },
+    {
+      "key": "הידברות",
+      "nameKey": "הידברות",
+      "name": "הידברות",
+      "url": ""
+    },
+    {
+      "key": "gal-gefen.co.il",
+      "nameKey": "galgefencoil",
+      "name": "gal-gefen.co.il",
+      "url": ""
+    },
+    {
+      "key": "yuvalim-finance.co.il",
+      "nameKey": "yuvalimfinancecoil",
+      "name": "yuvalim-finance.co.il",
+      "url": ""
+    },
+    {
+      "key": "פורומים (forum-otzar-hatorah, prog, stips, carsforum, tora-forum)",
+      "nameKey": "פורומיםforumotzarhatorahprogstipscarsfor",
+      "name": "פורומים (forum-otzar-hatorah, prog, stips, carsforum, tora-forum)",
+      "url": ""
+    },
+    {
+      "key": "gimlaim.org.il/selling-antiques-guide",
+      "nameKey": "gimlaimorgil",
+      "name": "gimlaim.org.il",
+      "url": "https://www.gimlaim.org.il/selling-antiques-guide/"
     }
   ],
   "intel": [
@@ -3279,6 +3321,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-10-29T10:39:29.065Z",
+      "mode": "daily",
+      "total": 7,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 7
     }
   ]
 }
