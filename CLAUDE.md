@@ -165,10 +165,13 @@ page-specific image, and every guide ends with a visible Q&A block
 
 **Item-type pages must be illustrated with real photographs from estates Lior
 handled** — that is the whole reason they beat a buyer's page on the same
-query. `images/item-01..21.webp` is the entire available library. Judaica,
-silver, and signed paintings have no photography, which is why those pages do
-not exist despite the site claiming those categories; build them when Lior
-supplies photos, not before.
+query. `images/item-01..21.webp` is the entire available library. Signed
+paintings have no photography, which is why that page does not exist despite
+the site claiming the category; build it when Lior supplies photos, not before.
+
+**Judaica is not offered and must not appear anywhere on the site** (standing
+decision, 2026-10-30). `check_site.py` fails on the word יודאיקה in any
+production HTML or in `llms.txt`.
 
 Copy is shipped without Lior's review (user's standing decision, 2026-08-09).
 Keep it accurate to the positioning: she appraises and accompanies the sale,

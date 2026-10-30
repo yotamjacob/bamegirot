@@ -21,7 +21,7 @@ CANONICAL_URL = "https://www.bamegirot.com/"
 SEO_TITLE = "הערכת תכולת דירה, עזבונות ועתיקות מתל אביב ועד חיפה | במגירות"
 SEO_DESCRIPTION = (
     "ליאור בוכשטב מעריכה תכולת דירה, עזבונות ועתיקות ומלווה את המכירה של ציורים, "
-    "יודאיקה, כלי כסף, קרמיקה ורהיטי וינטג׳. מגיעה אליכם הביתה מתל אביב ועד חיפה, "
+    "כלי כסף, קרמיקה ורהיטי וינטג׳. מגיעה אליכם הביתה מתל אביב ועד חיפה, "
     "ללא התחייבות."
 )
 H1 = "הערכת תכולת דירה ועזבונות וליווי במכירת עתיקות ופריטי וינטג׳"
@@ -496,6 +496,12 @@ def main() -> int:
     import build_sitemap  # noqa: E402
 
     errors.extend(build_sitemap.check())
+
+    # Judaica is not offered (standing decision, 2026-10-30) and must not be
+    # claimed anywhere a visitor or a crawler can read.
+    for path in [ROOT / "llms.txt", *ROOT.glob("*.html"), *ROOT.glob("guides/**/*.html")]:
+        if "יודאיקה" in path.read_text(encoding="utf-8"):
+            errors.append(f"{path.relative_to(ROOT)}: mentions יודאיקה, which the site does not offer")
 
     # IndexNow proves ownership by serving <key>.txt from the site root; the
     # GitHub Action finds the key by that file name.

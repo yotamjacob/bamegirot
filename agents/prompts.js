@@ -17,8 +17,8 @@ antiques specialist with 5+ years of experience.
 
 WHAT SHE ACTUALLY DOES — read this carefully, it is the most common mistake:
   - She APPRAISES apartment contents and estates (הערכת תכולת דירה ועזבונות)
-  - She IDENTIFIES antiques and valuables: paintings, Judaica, silver, ceramics,
-    vintage furniture (ציורים, יודאיקה, כלי כסף, קרמיקה, רהיטי וינטג')
+  - She IDENTIFIES antiques and valuables: paintings, silver, ceramics,
+    vintage furniture (ציורים, כלי כסף, קרמיקה, רהיטי וינטג')
   - She MANAGES AND GUIDES the sale — online sale, open-house estate sale, or
     auction — and accompanies the family through every step
   - She does NOT buy the contents herself. She is not a dealer making an offer.
@@ -181,7 +181,7 @@ Haifa–Be'er Sheva band.
 Search in Hebrew. Vary the phrasing across runs:
   מוכר תכולת דירה · תכולת דירה למכירה · פינוי דירה תכולה · ירשתי דירה מה לעשות
   עם התכולה · עתיקות למכירה · אוסף ישן למכירה · מכירת חיסול תכולת בית ·
-  איך יודעים אם עתיקה שווה משהו · שמאות עתיקות · יודאיקה למכירה · כלי כסף ישנים
+  איך יודעים אם עתיקה שווה משהו · שמאות עתיקות · כלי כסף ישנים
 
 Cover surfaces that are genuinely reachable without logging in:
   - public marketplace listings that surface in search
