@@ -70,7 +70,7 @@
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/</loc>
-    <lastmod>2026-09-19</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/before-clearance-checklist/</loc>
@@ -88,6 +88,10 @@
     <image:image>
       <image:loc>https://www.bamegirot.com/images/item-18.webp</image:loc>
     </image:image>
+  </url>
+  <url>
+    <loc>https://www.bamegirot.com/guides/dividing-contents-between-heirs/</loc>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/framed-art-value/</loc>
@@ -119,6 +123,14 @@
     </image:image>
   </url>
   <url>
+    <loc>https://www.bamegirot.com/guides/how-estate-appraisal-works/</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bamegirot.com/guides/how-long-does-selling-contents-take/</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
     <loc>https://www.bamegirot.com/guides/how-to-sell-apartment-contents/</loc>
     <lastmod>2026-09-19</lastmod>
     <image:image>
@@ -133,6 +145,10 @@
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/inherited-apartment-contents/</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bamegirot.com/guides/inherited-library-books/</loc>
     <lastmod>2026-10-30</lastmod>
   </url>
   <url>
@@ -193,6 +209,10 @@
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/what-affects-value/</loc>
+    <lastmod>2026-10-30</lastmod>
+  </url>
+  <url>
+    <loc>https://www.bamegirot.com/guides/who-to-call-for-apartment-contents/</loc>
     <lastmod>2026-10-30</lastmod>
   </url>
 </urlset>
