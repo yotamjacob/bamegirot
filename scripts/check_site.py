@@ -461,7 +461,11 @@ def main() -> int:
     sitemap = (ROOT / "sitemap.xml").read_text(encoding="utf-8")
     if f"Sitemap: {CANONICAL_URL}sitemap.xml" not in robots:
         errors.append("robots.txt does not point to the production sitemap")
-    for user_agent in ("Googlebot", "Bingbot", "OAI-SearchBot", "PerplexityBot"):
+    for user_agent in (
+        "Googlebot", "Bingbot", "GPTBot", "OAI-SearchBot", "ChatGPT-User",
+        "PerplexityBot", "ClaudeBot", "Claude-SearchBot", "Google-Extended",
+        "Applebot-Extended",
+    ):
         if f"User-agent: {user_agent}\nAllow: /" not in robots:
             errors.append(f"robots.txt does not explicitly allow {user_agent}")
 
@@ -485,6 +489,21 @@ def main() -> int:
             )
     except ET.ParseError as exc:
         errors.append(f"sitemap.xml is invalid XML: {exc}")
+
+    # sitemap.xml, llms.txt and the visible "עודכן ב..." dates are generated from
+    # each page's dateModified — build_sitemap.py owns them.
+    sys.path.insert(0, str(ROOT / "scripts"))
+    import build_sitemap  # noqa: E402
+
+    errors.extend(build_sitemap.check())
+
+    # IndexNow proves ownership by serving <key>.txt from the site root; the
+    # GitHub Action finds the key by that file name.
+    key_files = [p for p in ROOT.glob("*.txt") if re.fullmatch(r"[0-9a-f]{32}\.txt", p.name)]
+    if len(key_files) != 1:
+        errors.append("expected exactly one IndexNow key file (<32 hex chars>.txt) at the repo root")
+    elif key_files[0].read_text(encoding="utf-8").strip() != key_files[0].stem:
+        errors.append(f"{key_files[0].name} must contain its own file name as the key")
 
     try:
         vercel_config = json.loads((ROOT / "vercel.json").read_text(encoding="utf-8"))

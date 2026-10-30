@@ -3,7 +3,7 @@
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.bamegirot.com/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
     <image:image>
       <image:loc>https://www.bamegirot.com/images/item-01.webp</image:loc>
     </image:image>
@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/before-clearance-checklist/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/crystal-and-glass-value/</loc>
@@ -133,11 +133,11 @@
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/inherited-apartment-contents/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/is-it-valuable-signs/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/porcelain-and-ceramics-value/</loc>
@@ -154,7 +154,7 @@
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/sell-donate-or-keep/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/silver-and-metalware-value/</loc>
@@ -193,6 +193,6 @@
   </url>
   <url>
     <loc>https://www.bamegirot.com/guides/what-affects-value/</loc>
-    <lastmod>2026-09-26</lastmod>
+    <lastmod>2026-10-30</lastmod>
   </url>
 </urlset>

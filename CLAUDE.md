@@ -41,9 +41,22 @@ read that range only.
 ## Every change ends with
 
 ```sh
-python3 scripts/check_site.py   # must print "site checks passed"
+python3 scripts/build_sitemap.py --touch <every page you edited>   # stamps dateModified = today
+python3 scripts/build_sitemap.py          # regenerates sitemap.xml, llms.txt date, visible "עודכן ב..."
+python3 scripts/check_site.py             # must print "site checks passed"
 git diff --check
 ```
+
+`sitemap.xml` is generated, never hand-edited. Each page's JSON-LD
+`dateModified` is the single source of truth; the builder derives the sitemap
+`lastmod`, the byline `<time>` and the "עודכן לאחרונה" line in `llms.txt` from
+it. The checker fails if a page has uncommitted edits but was not touched
+today, so dates stay honest without anyone remembering them.
+
+`<32 hex chars>.txt` at the repo root is the public IndexNow key.
+`.github/workflows/indexnow.yml` pings Bing/Yandex with the changed URLs on
+every push to `main` (manual run = every URL). Google ignores IndexNow and
+reads the sitemap instead.
 
 The checker covers local assets, fragment links, alt text, JSON-LD validity,
 FAQ↔schema parity, production URLs, WhatsApp consistency, headings/landmarks,
@@ -142,13 +155,13 @@ Each page is standalone: its own copy of the design tokens, the WhatsApp
 button, and the gtag conversion handler. There is no shared stylesheet — that
 is the cost of staying zero-build, so a token change means editing every file.
 
-Adding a guide means five edits, and `check_site.py` fails if you miss any of
-them: the new directory, a card on the hub, a `sitemap.xml` entry, the hub's
-`ItemList` (`numberOfItems` plus a `ListItem`), and a link in the homepage
-footer list. Copy the head of an existing guide: every Article carries
+Adding a guide means four edits plus one command, and `check_site.py` fails if
+you miss any of them: the new directory, a card on the hub, the hub's
+`ItemList` (`numberOfItems` plus a `ListItem`), a link in the homepage footer
+list, and `python3 scripts/build_sitemap.py` for the sitemap entry. Copy the head of an existing guide: every Article carries
 `datePublished`, `dateModified`, a full author/publisher object and a
-page-specific image, and item-type pages end with a visible Q&A block
-mirrored in `FAQPage` JSON-LD.
+page-specific image, and every guide ends with a visible Q&A block
+(`<h3>` question, `<p>` answer) mirrored in `FAQPage` JSON-LD.
 
 **Item-type pages must be illustrated with real photographs from estates Lior
 handled** — that is the whole reason they beat a buyer's page on the same

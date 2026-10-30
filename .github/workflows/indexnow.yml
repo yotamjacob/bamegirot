@@ -1,0 +1,75 @@
+name: IndexNow ping
+
+# Tells Bing (and through it ChatGPT search, Copilot, DuckDuckGo) and Yandex
+# which pages changed, right after they deploy. Google does not use IndexNow;
+# it reads sitemap.xml, which build_sitemap.py keeps honest.
+#
+#   push to main that touches a page  -> ping only the changed URLs
+#   manual run                        -> ping every URL in sitemap.xml
+#
+# The key is public by design (IndexNow proves ownership by serving
+# <key>.txt from the site root), so it lives in the repo, not in a secret.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'guides/**/index.html'
+      - 'sitemap.xml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Collect URLs
+        id: urls
+        run: |
+          set -euo pipefail
+          BASE="https://www.bamegirot.com/"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            grep -o '<loc>[^<]*</loc>' sitemap.xml | sed 's/<[^>]*>//g' | sort -u > urls.txt
+          else
+            BEFORE="${{ github.event.before }}"
+            case "$BEFORE" in 0000000000000000000000000000000000000000|"") BEFORE="HEAD~1" ;; esac
+            git diff --name-only "$BEFORE" "${{ github.sha }}" -- index.html 'guides/**/index.html' 'guides/index.html' \
+              | sed -E "s#^index\.html\$#${BASE}#; s#^(guides(/[a-z0-9-]+)?)/index\.html\$#${BASE}\1/#" \
+              | sort -u > urls.txt
+          fi
+          echo "URLs to ping:"; cat urls.txt
+          echo "count=$(wc -l < urls.txt | tr -d ' ')" >> "$GITHUB_OUTPUT"
+
+      - name: Wait for the Vercel deploy of this commit
+        if: steps.urls.outputs.count != '0' && github.event_name == 'push'
+        run: sleep 120
+
+      - name: Ping IndexNow
+        if: steps.urls.outputs.count != '0'
+        run: |
+          set -euo pipefail
+          KEYFILE=$(find . -maxdepth 1 -regextype posix-extended -regex './[0-9a-f]{32}\.txt' | head -1)
+          [ -n "$KEYFILE" ] || { echo "no IndexNow key file at repo root"; exit 1; }
+          KEY=$(basename "$KEYFILE" .txt)
+          python3 - "$KEY" <<'PY'
+          import json, sys
+          key = sys.argv[1]
+          urls = [u.strip() for u in open("urls.txt") if u.strip()]
+          body = {"host": "www.bamegirot.com", "key": key,
+                  "keyLocation": f"https://www.bamegirot.com/{key}.txt", "urlList": urls}
+          json.dump(body, open("payload.json", "w"))
+          PY
+          for endpoint in https://api.indexnow.org/indexnow https://www.bing.com/indexnow https://yandex.com/indexnow; do
+            code=$(curl -sS -o /tmp/resp.txt -w '%{http_code}' -X POST "$endpoint" \
+                     -H 'Content-Type: application/json; charset=utf-8' --data @payload.json || echo 000)
+            echo "$endpoint -> HTTP $code"; cat /tmp/resp.txt 2>/dev/null || true; echo
+            case "$code" in 200|202) ;; *) echo "::warning::$endpoint answered $code" ;; esac
+          done

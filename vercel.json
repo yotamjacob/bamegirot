@@ -23,6 +23,16 @@
       ],
       "destination": "https://www.bamegirot.com/:path",
       "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path+/index.html",
+      "destination": "/:path+/",
+      "permanent": true
     }
   ],
   "headers": [

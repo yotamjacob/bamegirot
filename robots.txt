@@ -1,8 +1,13 @@
+# bamegirot.com — crawling policy
+# Everything public is open to search engines and to AI answer engines.
+# Only the two hidden tooling folders are blocked.
+
 User-agent: *
 Allow: /
 Disallow: /.git/
 Disallow: /.vercel/
 
+# Search engines
 User-agent: Googlebot
 Allow: /
 Disallow: /.git/
@@ -13,12 +18,43 @@ Allow: /
 Disallow: /.git/
 Disallow: /.vercel/
 
+# AI answer engines and their training/search crawlers
+User-agent: GPTBot
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
 User-agent: OAI-SearchBot
 Allow: /
 Disallow: /.git/
 Disallow: /.vercel/
 
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
 User-agent: PerplexityBot
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
+User-agent: Applebot-Extended
 Allow: /
 Disallow: /.git/
 Disallow: /.vercel/
