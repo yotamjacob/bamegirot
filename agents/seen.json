@@ -2113,6 +2113,24 @@
       "nameKey": "gimlaimorgil",
       "name": "gimlaim.org.il",
       "url": "https://www.gimlaim.org.il/selling-antiques-guide/"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,1050178.aspx",
+      "nameKey": "homelesscoilלוחידשניה",
+      "name": "homeless.co.il (לוח יד שניה)",
+      "url": "https://www.homeless.co.il/yad2/viewad,1050178.aspx"
+    },
+    {
+      "key": "m.homeless.co.il/yad2/viewad,976107.aspx",
+      "nameKey": "mhomelesscoilלוחידשניה",
+      "name": "m.homeless.co.il (לוח יד שניה)",
+      "url": "https://m.homeless.co.il/yad2/viewad,976107.aspx"
+    },
+    {
+      "key": "xn--7dbcbpbb9b4a6b.org.il",
+      "nameKey": "אתרמותגאלטעזאכןדומייןמקודד",
+      "name": "אתר מותג אלטע-זאכן (דומיין מקודד)",
+      "url": "https://xn--7dbcbpbb9b4a6b.org.il"
     }
   ],
   "intel": [
@@ -3329,6 +3347,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 7
+    },
+    {
+      "at": "2026-10-30T10:40:17.514Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
