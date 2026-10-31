@@ -2131,6 +2131,12 @@
       "nameKey": "אתרמותגאלטעזאכןדומייןמקודד",
       "name": "אתר מותג אלטע-זאכן (דומיין מקודד)",
       "url": "https://xn--7dbcbpbb9b4a6b.org.il"
+    },
+    {
+      "key": "20il.co.il/inheritance-disputes-over-belongings",
+      "nameKey": "20ilcoil",
+      "name": "20il.co.il",
+      "url": "https://www.20il.co.il/inheritance-disputes-over-belongings/"
     }
   ],
   "intel": [
@@ -3355,6 +3361,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-10-31T10:05:59.606Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
