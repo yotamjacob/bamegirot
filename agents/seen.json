@@ -719,6 +719,60 @@
       "nameKey": "קודפלוסדואגיםלהורים",
       "name": "קוד פלוס — דואגים להורים",
       "url": "https://www.third-age.co.il/"
+    },
+    {
+      "key": "lamoov.com",
+      "nameKey": "lamoovלמוב",
+      "name": "LaMoov (למוב)",
+      "url": "https://lamoov.com/"
+    },
+    {
+      "key": "goldenroads.co.il",
+      "nameKey": "דפנהשביליזהבgoldenroads",
+      "name": "דפנה שבילי זהב (Golden Roads)",
+      "url": "https://goldenroads.co.il/"
+    },
+    {
+      "key": "parentshome.co.il",
+      "nameKey": "ביתלהוריםparentshome",
+      "name": "בית להורים (Parents Home)",
+      "url": "https://www.parentshome.co.il/"
+    },
+    {
+      "key": "easy.co.il/page/10103460",
+      "nameKey": "מורפינויתכולותדירהירושותעזבונות",
+      "name": "מור — פינוי תכולות דירה, ירושות, עזבונות",
+      "url": "https://easy.co.il/page/10103460"
+    },
+    {
+      "key": "baitlhorim.co.il",
+      "nameKey": "baitlhorimcoil",
+      "name": "baitlhorim.co.il",
+      "url": "https://baitlhorim.co.il/"
+    },
+    {
+      "key": "sapirjudaica.com",
+      "nameKey": "ספיריודאיקה",
+      "name": "ספיר יודאיקה",
+      "url": "https://sapirjudaica.com/"
+    },
+    {
+      "key": "il.bidspirit.com/ui/houses/m-a-d-coins,false",
+      "nameKey": "mdcoinsworld",
+      "name": "M.A.D COINS WORLD",
+      "url": "https://il.bidspirit.com/ui/houses/m-a-d-coins,false?lang=he"
+    },
+    {
+      "key": "b144.co.il/b144_sip/401d0d1a4370655d4e1d0d1346",
+      "nameKey": "אריןפינויתכולתדירות",
+      "name": "ארין פינוי תכולת דירות",
+      "url": "https://www.b144.co.il/b144_sip/401D0D1A4370655D4E1D0D1346/"
+    },
+    {
+      "key": "kerenor.care",
+      "nameKey": "kerenorcare",
+      "name": "kerenor.care",
+      "url": "https://www.kerenor.care/"
     }
   ],
   "opportunities": [
@@ -2137,6 +2191,12 @@
       "nameKey": "20ilcoil",
       "name": "20il.co.il",
       "url": "https://www.20il.co.il/inheritance-disputes-over-belongings/"
+    },
+    {
+      "key": "mechiratchatser.co.il",
+      "nameKey": "mechiratchatsercoil",
+      "name": "mechiratchatser.co.il",
+      "url": "https://www.mechiratchatser.co.il/"
     }
   ],
   "intel": [
@@ -2685,6 +2745,48 @@
       "nameKey": "לאאומתלהעבירלבדיקהאנושית",
       "name": "לא אומת — להעביר לבדיקה אנושית",
       "url": "https://xn--7dbcbpbb9b4a6b.org.il/"
+    },
+    {
+      "key": "ynet.co.il/environment-science/article/ryiil4rqu",
+      "nameKey": "רגולציהופערתוכןאיסורהסחרבפרוות",
+      "name": "רגולציה ופער תוכן: איסור הסחר בפרוות",
+      "url": "https://www.ynet.co.il/environment-science/article/ryiIL4Rqu"
+    },
+    {
+      "key": "hammersite.com/auction/179-%d7%a2%d7%99%d7%96%d7%91%d7%95%d7%9f-%d7%94%d7%90%d7%9e%d7%a0%d7%95%d7%aa-%d7%a9%d7%9c",
+      "nameKey": "מתחרהערוץחדשhammersiteומכירותממותגותכעיז",
+      "name": "מתחרה/ערוץ חדש: Hammersite ומכירות ממותגות כ\"עיזבון של X\"",
+      "url": "https://www.hammersite.com/auction/179-עיזבון-האמנות-של/"
+    },
+    {
+      "key": "rehovot.news/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%93%d7%99%d7%a8%d7%94-%d7%90%d7%97%d7%a8%d7%99-%d7%a4%d7%98%d7%99%d7%a8%d7%94-%d7%94%d7%9e%d7%93%d7%a8%d7%99%d7%9a-%d7%9c%d7%9e%d7%a9%d7%a4%d7%97%d7%95",
+      "nameKey": "ערוץעיתונותמקומיתבתוךהרצועהrehovotnews",
+      "name": "ערוץ עיתונות מקומית בתוך הרצועה: rehovot.news",
+      "url": "https://rehovot.news/פינוי-דירה-אחרי-פטירה-המדריך-למשפחו/"
+    },
+    {
+      "key": "baliseder.co.il/%d7%9e%d7%a2%d7%91%d7%a8-%d7%9c%d7%93%d7%99%d7%95%d7%a8",
+      "nameKey": "מתחרותשהןשותפותקטגורייתהמסדרותנכנסתלטריג",
+      "name": "מתחרות שהן שותפות: קטגוריית המסדרות נכנסת לטריגר הדיור המוגן והירושה",
+      "url": "https://baliseder.co.il/מעבר-לדיור/"
+    },
+    {
+      "key": "yosefus.com/page48.asp",
+      "nameKey": "נראותושפהלפורמטהמכירהשלהאיןמונחעברישמשפח",
+      "name": "נראות ושפה: לפורמט המכירה שלה אין מונח עברי שמשפחות מחפשות",
+      "url": "https://www.yosefus.com/page48.asp"
+    },
+    {
+      "key": "rrshamaut.co.il/%d7%94%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a9%d7%9e%d7%90%d7%95%d7%aa-%d7%9c%d7%a8%d7%99%d7%94%d7%95%d7%98-%d7%a2%d7%aa%d7%99%d7%a7",
+      "nameKey": "מתחרהשוליאךמלמדשמאירכושביטוחיפותחעמודלרי",
+      "name": "מתחרה שולי אך מלמד: שמאי רכוש ביטוחי פותח עמוד לריהוט עתיק",
+      "url": "https://www.rrshamaut.co.il/הערכת-שמאות-לריהוט-עתיק/"
+    },
+    {
+      "key": "ynet.co.il/economy/article/sypknaahr",
+      "nameKey": "נתוןמספרירובהעיזבונותבישראלמגיעיםבליצווא",
+      "name": "נתון מספרי: רוב העיזבונות בישראל מגיעים בלי צוואה",
+      "url": "https://www.ynet.co.il/economy/article/sypknaahr"
     }
   ],
   "runs": [
@@ -3369,6 +3471,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-11-01T10:57:34.097Z",
+      "mode": "full",
+      "total": 17,
+      "actionable": 16,
+      "sent": true,
+      "partners": 9,
+      "opportunities": 1,
+      "intel": 7
     }
   ]
 }
