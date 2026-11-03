@@ -3495,6 +3495,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-11-03T11:31:47.451Z",
+      "mode": "daily",
+      "total": 0,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 0
     }
   ]
 }
