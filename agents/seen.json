@@ -2203,6 +2203,24 @@
       "nameKey": "עיתוניבמתהשרוןלוחמודעות",
       "name": "עיתוני \"במת השרון\" — לוח מודעות",
       "url": "https://sites.google.com/bamathasharon.com/ram/%D7%9C%D7%95%D7%97-%D7%9E%D7%95%D7%93%D7%A2%D7%95%D7%AA-%D7%91%D7%9E%D7%AA-%D7%94%D7%A9%D7%A8%D7%95%D7%9F"
+    },
+    {
+      "key": "giventake.net/listings/143880",
+      "nameKey": "giventake",
+      "name": "GiveNtake",
+      "url": "https://www.giventake.net/listings/143880"
+    },
+    {
+      "key": "maariv.co.il/hamekomon/ramatgan/article-1384730",
+      "nameKey": "maariv",
+      "name": "Maariv",
+      "url": "https://www.maariv.co.il/hamekomon/ramatgan/article-1384730"
+    },
+    {
+      "key": "ice.co.il/culture/news/article/1115722",
+      "nameKey": "ice",
+      "name": "ice",
+      "url": "https://www.ice.co.il/culture/news/article/1115722"
     }
   ],
   "intel": [
@@ -3503,6 +3521,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 0
+    },
+    {
+      "at": "2026-11-04T11:47:49.936Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
