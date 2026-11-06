@@ -2221,6 +2221,18 @@
       "nameKey": "ice",
       "name": "ice",
       "url": "https://www.ice.co.il/culture/news/article/1115722"
+    },
+    {
+      "key": "adtiny.com/%d7%a2%d7%a0%d7%aa%d7%99%d7%a7%d7%95%d7%aa/%d7%9e%d7%a1%d7%a4%d7%a8-%d7%a8%d7%94%d7%99%d7%98%d7%99-%d7%95%d7%99%d7%a0%d7%98%d7%92'-%d7%9c%d7%9e%d7%9b%d7%99%d7%a8%d7%94-%d7%9e%d7%a1%d7%99%d7%a8%d7%94-%d7%92%d7%9e%d7%99%d7%a9",
+      "nameKey": "adtiny",
+      "name": "adtiny",
+      "url": "https://www.adtiny.com/ענתיקות/מספר-רהיטי-וינטג'-למכירה-מסירה-גמיש/"
+    },
+    {
+      "key": "electra-service.co.il/antique-selling-checklist",
+      "nameKey": "תוכןממומןבדומייניםלאקשוריםelectraservice",
+      "name": "תוכן ממומן בדומיינים לא קשורים (electra-service.co.il, 3dpuzzles.co.il, kadishanet.co.il, selectblog.co.il, vtol.co.il)",
+      "url": "https://electra-service.co.il/antique-selling-checklist/"
     }
   ],
   "intel": [
@@ -3537,6 +3549,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 0
+    },
+    {
+      "at": "2026-11-06T11:43:08.475Z",
+      "mode": "daily",
+      "total": 2,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 2
     }
   ]
 }
