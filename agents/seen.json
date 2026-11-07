@@ -2233,6 +2233,24 @@
       "nameKey": "תוכןממומןבדומייניםלאקשוריםelectraservice",
       "name": "תוכן ממומן בדומיינים לא קשורים (electra-service.co.il, 3dpuzzles.co.il, kadishanet.co.il, selectblog.co.il, vtol.co.il)",
       "url": "https://electra-service.co.il/antique-selling-checklist/"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,923966.aspx",
+      "nameKey": "homelessyad2",
+      "name": "Homeless (yad2)",
+      "url": "https://www.homeless.co.il/yad2/viewad,923966.aspx"
+    },
+    {
+      "key": "תוצאות חיפוש — עסקי גראג' סייל",
+      "nameKey": "תוצאותחיפושעסקיגראגסייל",
+      "name": "תוצאות חיפוש — עסקי גראג' סייל",
+      "url": ""
+    },
+    {
+      "key": "be106.net/255/163884",
+      "nameKey": "be106חדשותמקומיותתלאביביפו",
+      "name": "BE106 (חדשות מקומיות תל אביב–יפו)",
+      "url": "https://www.be106.net/255/163884"
     }
   ],
   "intel": [
@@ -3557,6 +3575,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 2
+    },
+    {
+      "at": "2026-11-07T10:50:12.264Z",
+      "mode": "daily",
+      "total": 3,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 3
     }
   ]
 }
