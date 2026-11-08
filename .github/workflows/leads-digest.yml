@@ -19,13 +19,10 @@ name: Leads digest
 #   * a guard so only the FIRST success on a given day actually runs
 #
 # CADENCE
-#   Sunday (start of the Israeli work week) → FULL run: partners + opportunities
-#                                             + market intel. Always emails,
-#                                             even when empty, so a quiet week
-#                                             is never confused with a dead cron.
-#   Mon-Sat                                 → DAILY run: opportunities only.
-#                                             Emails only when there is
-#                                             something new.
+#   Every day → DAILY run: opportunities only. Emails only when there is
+#               something new. The Sunday full report (partners + market
+#               intel) was retired on 2026-11-08; `full` remains a manual
+#               workflow_dispatch option.
 on:
   schedule:
     - cron: '0 4 * * *'    # 07:00 IDT / 06:00 IST
@@ -103,14 +100,9 @@ jobs:
             exit 0
           fi
 
-          # Sunday (local) gets the full three-track report; the rest of the
-          # week gets the cheap, time-sensitive opportunities scan only.
-          DOW=$(TZ="$TZ_NAME" date +%u)   # 1=Mon … 7=Sun
-          if [ "$DOW" -eq 7 ]; then
-            echo "Sunday — full run"; echo "mode=full" >> "$GITHUB_OUTPUT"
-          else
-            echo "weekday — daily run"; echo "mode=daily" >> "$GITHUB_OUTPUT"
-          fi
+          # Scheduled runs are always the daily opportunities scan. The weekly
+          # full report was retired 2026-11-08 (manual dispatch still offers it).
+          echo "mode=daily" >> "$GITHUB_OUTPUT"
           echo "run=true" >> "$GITHUB_OUTPUT"
 
   digest:

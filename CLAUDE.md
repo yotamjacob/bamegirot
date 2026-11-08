@@ -85,14 +85,16 @@ referral prospects and live opportunities in the Haifa–Be'er Sheva band.
 agents/digest.js    tracks, dedup, rendering, Resend delivery
 agents/prompts.js   the three research prompts — tune wording here
 agents/seen.json    dedup state, COMMITTED (CI pushes it back)
-.github/workflows/leads-digest.yml   Sunday = full run, Mon-Sat = daily scan
+.github/workflows/leads-digest.yml   daily scan, every day
 ```
 
 The daily scan emails only when at least one opportunity comes back with
 `actionable: true` — a scan that surfaces five candidates and rejects all five
 has found nothing worth the reader's morning. Rejected items are still written
-to `seen.json` so they aren't re-researched tomorrow. The Sunday run always
-sends, so a quiet week never looks like a dead cron.
+to `seen.json` so they aren't re-researched tomorrow. The Sunday full
+report was retired on request (2026-11-08); a full run is now manual-only
+(`workflow_dispatch` → `full`), so a silent inbox can mean a quiet week or a
+dead cron — check the Actions run history to tell them apart.
 
 ```sh
 cd agents && npm install

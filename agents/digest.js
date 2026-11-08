@@ -596,8 +596,8 @@ async function main() {
   // Silence policy. The gate is ACTIONABLE items, not new ones: a scan that
   // surfaces five candidates and correctly rejects all five has found nothing
   // worth your morning, and sending it anyway is how a digest gets ignored.
-  // The weekly run always sends, so a quiet week is never confused with a
-  // broken cron.
+  // A full run (manual only since the weekly schedule was retired) always
+  // sends.
   //
   // Rejected items are still recorded — otherwise the same dead listings would
   // resurface and be re-researched every single day.
