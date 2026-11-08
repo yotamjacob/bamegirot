@@ -773,6 +773,60 @@
       "nameKey": "kerenorcare",
       "name": "kerenor.care",
       "url": "https://www.kerenor.care/"
+    },
+    {
+      "key": "maavarimdesign.co.il",
+      "nameKey": "ניריתדורוןמעבריםייעוץתכנוןועיצובלגילהזהב",
+      "name": "נירית דורון — \"מעברים: ייעוץ, תכנון ועיצוב לגיל הזהב\"",
+      "url": "https://www.maavarimdesign.co.il/"
+    },
+    {
+      "key": "nahafoch.co.il/%d7%a1%d7%99%d7%93%d7%95%d7%a8-%d7%95%d7%90%d7%a8%d7%92%d7%95%d7%9f-%d7%91%d7%aa%d7%99%d7%9d",
+      "nameKey": "נהפוךהואסידורוארגוןבתים",
+      "name": "\"נהפוך הוא\" — סידור וארגון בתים",
+      "url": "http://nahafoch.co.il/סידור-וארגון-בתים/"
+    },
+    {
+      "key": "pro.co.il/moving-companies/business-id-17490",
+      "nameKey": "מרליאוןהובלות",
+      "name": "מרליאון הובלות בע\"מ",
+      "url": "https://www.pro.co.il/moving-companies/business-id-17490"
+    },
+    {
+      "key": "d.co.il/h-c3700-e0-p0-l0",
+      "nameKey": "הפיותסידורבתים",
+      "name": "\"הפיות — סידור בתים\"",
+      "url": "https://www.d.co.il/h-c3700-e0-p0-l0/"
+    },
+    {
+      "key": "avia2000.co.il",
+      "nameKey": "אביהאחסנהavia2000coil",
+      "name": "אביה אחסנה (avia2000.co.il)",
+      "url": "https://www.avia2000.co.il/"
+    },
+    {
+      "key": "il.bidspirit.com/ui/houses/shamay",
+      "nameKey": "ביתהמכירותשמאי",
+      "name": "בית המכירות שמאי",
+      "url": "https://il.bidspirit.com/ui/houses/shamay"
+    },
+    {
+      "key": "israelphilately.org.il/info.asp",
+      "nameKey": "רשימתסוחריבוליםומטבעותהאיגודהישראלילבולא",
+      "name": "רשימת סוחרי בולים ומטבעות — האיגוד הישראלי לבולאות",
+      "url": "http://israelphilately.org.il/info.asp?item=40"
+    },
+    {
+      "key": "m-s-d.co.il",
+      "nameKey": "מסדסיעוד",
+      "name": "מסד שירותי סיעוד",
+      "url": "https://www.m-s-d.co.il/"
+    },
+    {
+      "key": "צ'לו פינויים",
+      "nameKey": "צלופינויים",
+      "name": "צ'לו פינויים",
+      "url": ""
     }
   ],
   "opportunities": [
@@ -2251,6 +2305,18 @@
       "nameKey": "be106חדשותמקומיותתלאביביפו",
       "name": "BE106 (חדשות מקומיות תל אביב–יפו)",
       "url": "https://www.be106.net/255/163884"
+    },
+    {
+      "key": "ad.co.il/ad/15567885",
+      "nameKey": "adcoilלוחריהוטידשנייהקטגורייתתכולתדירה",
+      "name": "ad.co.il (לוח ריהוט יד שנייה, קטגוריית תכולת דירה)",
+      "url": "https://www.ad.co.il/ad/15567885"
+    },
+    {
+      "key": "kfarsaba.mynet.co.il/local_news/article/ryeci11gcjx",
+      "nameKey": "mynetכפרסבא",
+      "name": "mynet כפר סבא",
+      "url": "https://kfarsaba.mynet.co.il/local_news/article/ryeci11gcjx"
     }
   ],
   "intel": [
@@ -2841,6 +2907,42 @@
       "nameKey": "נתוןמספרירובהעיזבונותבישראלמגיעיםבליצווא",
       "name": "נתון מספרי: רוב העיזבונות בישראל מגיעים בלי צוואה",
       "url": "https://www.ynet.co.il/economy/article/sypknaahr"
+    },
+    {
+      "key": "calcalist.co.il/local_news/article/rkfjcru2ml",
+      "nameKey": "עוגןחדשותימטבעאגורהשברשיאוהשאילתההמשפחתי",
+      "name": "עוגן חדשותי: מטבע אגורה שבר שיא, והשאילתה המשפחתית תפוסה בידי סוחר",
+      "url": "https://www.calcalist.co.il/local_news/article/rkfjcru2ml"
+    },
+    {
+      "key": "esteem.co.il/%d7%90%d7%99%d7%9a-%d7%99%d7%95%d7%93%d7%a2%d7%99%d7%9d-%d7%9b%d7%9e%d7%94-%d7%a9%d7%95%d7%95%d7%94-%d7%aa%d7%9b%d7%a9%d7%99%d7%98-%d7%99%d7%a9%d7%9f-%d7%95%d7%94%d7%90%d7%9d-%d7%9b%d7%93%d7%90%d7%99",
+      "nameKey": "נראותהשאילתההאנושיתביותרנעניתודבןעשורוהת",
+      "name": "נראות: השאילתה האנושית ביותר נענית בעמוד בן עשור, והתכשיטים בידי הקונים",
+      "url": "https://www.esteem.co.il/איך-יודעים-כמה-שווה-תכשיט-ישן-והאם-כדאי/"
+    },
+    {
+      "key": "mlpinui.co.il/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%90%d7%92%d7%a8%d7%a0%d7%95%d7%aa-%d7%9b%d7%a4%d7%99%d7%99%d7%aa%d7%99%d7%aa/%d7%a4%d7%99%d7%a0%d7%95%d7%99-%d7%93%d7%99%d7%a8%d7%94-%d7%9c%d7%90%d7%97%d7%a8-%d7%a4%d7%98%d7%99%d7%a8%d7%94-%d7%a9%d7%9c-%d7%90%d7%92%d7%a8%d7%9f-%d7%9b%d7%a4%d7%99%d7%99%d7%aa%d7%99",
+      "nameKey": "פערתוכןעםביקושמוכחדירתהאגרןומישמחזיקהיום",
+      "name": "פער תוכן עם ביקוש מוכח: דירת האגרן ומי שמחזיק היום את הצומת",
+      "url": "https://mlpinui.co.il/פינוי-אגרנות-כפייתית/פינוי-דירה-לאחר-פטירה-של-אגרן-כפייתי/"
+    },
+    {
+      "key": "plancha.co.il",
+      "nameKey": "ערוץהפצהפלנצהפלטפורמהישראליתלמכירותחצרוי",
+      "name": "ערוץ הפצה: פלנצ'ה, פלטפורמה ישראלית למכירות חצר וירטואליות",
+      "url": "https://plancha.co.il/"
+    },
+    {
+      "key": "givatayim.muni.il/events/5050",
+      "nameKey": "ערוץהמחלקהלאזרחיםותיקיםבגבעתייםעםתקדיםמד",
+      "name": "ערוץ: המחלקה לאזרחים ותיקים בגבעתיים, עם תקדים מדויק להרצאה שלה",
+      "url": "https://www.givatayim.muni.il/events/5050/"
+    },
+    {
+      "key": "hasharon-post.co.il",
+      "nameKey": "עיתונותמקומיתפעילהבלבקהלהיעדהשרון",
+      "name": "עיתונות מקומית פעילה בלב קהל היעד — השרון",
+      "url": "https://hasharon-post.co.il/"
     }
   ],
   "runs": [
@@ -3583,6 +3685,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 3
+    },
+    {
+      "at": "2026-11-08T10:58:17.591Z",
+      "mode": "full",
+      "total": 17,
+      "actionable": 15,
+      "sent": true,
+      "partners": 9,
+      "opportunities": 2,
+      "intel": 6
     }
   ]
 }
