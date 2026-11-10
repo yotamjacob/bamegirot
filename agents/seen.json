@@ -2317,6 +2317,30 @@
       "nameKey": "mynetכפרסבא",
       "name": "mynet כפר סבא",
       "url": "https://kfarsaba.mynet.co.il/local_news/article/ryeci11gcjx"
+    },
+    {
+      "key": "askp.co.il/question/124645",
+      "nameKey": "askpeopleaskpcoil",
+      "name": "AskPeople (askp.co.il)",
+      "url": "https://www.askp.co.il/question/124645"
+    },
+    {
+      "key": "m.homeless.co.il/yad2/viewad,897429.aspx",
+      "nameKey": "homelesscoilיד2",
+      "name": "homeless.co.il (יד2)",
+      "url": "https://m.homeless.co.il/yad2/viewad,897429.aspx"
+    },
+    {
+      "key": "mako.co.il/finances-law/law-general/article-d17942b4764c1a1027.htm",
+      "nameKey": "mako",
+      "name": "mako",
+      "url": "https://www.mako.co.il/finances-law/law-general/Article-d17942b4764c1a1027.htm"
+    },
+    {
+      "key": "antique-tak.com",
+      "nameKey": "סקירתתחרותאורגנית",
+      "name": "סקירת תחרות אורגנית",
+      "url": "https://antique-tak.com"
     }
   ],
   "intel": [
@@ -3695,6 +3719,14 @@
       "partners": 9,
       "opportunities": 2,
       "intel": 6
+    },
+    {
+      "at": "2026-11-10T11:59:47.529Z",
+      "mode": "daily",
+      "total": 4,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 4
     }
   ]
 }
