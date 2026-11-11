@@ -2341,6 +2341,12 @@
       "nameKey": "סקירתתחרותאורגנית",
       "name": "סקירת תחרות אורגנית",
       "url": "https://antique-tak.com"
+    },
+    {
+      "key": "homeless.co.il/yad2/inumber3=46",
+      "nameKey": "homelessפידחי",
+      "name": "Homeless — פיד חי",
+      "url": "https://www.homeless.co.il/yad2/inumber3=46"
     }
   ],
   "intel": [
@@ -3727,6 +3733,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 4
+    },
+    {
+      "at": "2026-11-11T11:38:11.210Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
