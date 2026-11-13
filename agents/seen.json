@@ -2347,6 +2347,36 @@
       "nameKey": "homelessפידחי",
       "name": "Homeless — פיד חי",
       "url": "https://www.homeless.co.il/yad2/inumber3=46"
+    },
+    {
+      "key": "tapuz.co.il/forums/viewmsg/485/131366764",
+      "nameKey": "tapuzפורומים",
+      "name": "Tapuz פורומים",
+      "url": "https://www.tapuz.co.il/forums/viewmsg/485/131366764/"
+    },
+    {
+      "key": "פורומים (hasolidit, prog, fxp)",
+      "nameKey": "פורומיםhasoliditprogfxp",
+      "name": "פורומים (hasolidit, prog, FXP)",
+      "url": ""
+    },
+    {
+      "key": "maariv.co.il/lifestyle/signon-maariv/article-1384432",
+      "nameKey": "מעריב",
+      "name": "מעריב",
+      "url": "https://www.maariv.co.il/lifestyle/signon-maariv/article-1384432"
+    },
+    {
+      "key": "myavne.co.il/%d7%9e%d7%9b%d7%99%d7%a8%d7%aa-%d7%aa%d7%9b%d7%95%d7%9c%d7%aa-%d7%91%d7%99%d7%aa-%d7%9c%d7%96%d7%9b%d7%a8-%d7%a9%d7%95%d7%a9-%d7%95%d7%97%d7%99%d7%99%d7%9d-%d7%a9%d7%92%d7%91-%d7%96%d7%9c",
+      "nameKey": "פורטליבנהשליmyavnecoil",
+      "name": "פורטל יבנה שלי (myavne.co.il)",
+      "url": "https://www.myavne.co.il/מכירת-תכולת-בית-לזכר-שוש-וחיים-שגב-זל"
+    },
+    {
+      "key": "סקירת ערים — פערי כיסוי",
+      "nameKey": "סקירתעריםפעריכיסוי",
+      "name": "סקירת ערים — פערי כיסוי",
+      "url": ""
     }
   ],
   "intel": [
@@ -3741,6 +3771,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 1
+    },
+    {
+      "at": "2026-11-13T11:46:54.092Z",
+      "mode": "daily",
+      "total": 5,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 5
     }
   ]
 }
