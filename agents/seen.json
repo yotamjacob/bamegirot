@@ -2377,6 +2377,54 @@
       "nameKey": "סקירתעריםפעריכיסוי",
       "name": "סקירת ערים — פערי כיסוי",
       "url": ""
+    },
+    {
+      "key": "לוח מודעות עתיקות (קטגוריית homeless)",
+      "nameKey": "לוחמודעותעתיקותקטגורייתhomeless",
+      "name": "לוח מודעות עתיקות (קטגוריית Homeless)",
+      "url": ""
+    },
+    {
+      "key": "agora.co.il/cache/2026-02/3136189_o.asp",
+      "nameKey": "agoraמודעה3136189",
+      "name": "Agora — מודעה 3136189",
+      "url": "https://www.agora.co.il/cache/2026-02/3136189_o.asp"
+    },
+    {
+      "key": "be106.net/207/151411",
+      "nameKey": "be106",
+      "name": "BE106",
+      "url": "https://www.be106.net/207/151411"
+    },
+    {
+      "key": "bidspirit / גל אספנות",
+      "nameKey": "bidspiritגלאספנות",
+      "name": "Bidspirit / גל אספנות",
+      "url": ""
+    },
+    {
+      "key": "מתנ\"ס רמות חיפה — דף אירוע מכירת חצר קהילתית",
+      "nameKey": "מתנסרמותחיפהדףאירועמכירתחצרקהילתית",
+      "name": "מתנ\"ס רמות חיפה — דף אירוע מכירת חצר קהילתית",
+      "url": ""
+    },
+    {
+      "key": "חברות פינוי וקוני עתיקות מסחריים (aviram-goldy, avivpinuy, drorpinuiem, pinuidirot, bestclearing, yosefus, antique-tak, antiqueclick, atikot, egozigallery, goldonline, gbl, acrogold, konehagun, antique.org.il, meshumashim)",
+      "nameKey": "חברותפינויוקוניעתיקותמסחרייםaviramgoldya",
+      "name": "חברות פינוי וקוני עתיקות מסחריים (aviram-goldy, avivpinuy, drorpinuiem, pinuidirot, bestclearing, yosefus, antique-tak, antiqueclick, atikot, egozigallery, goldonline, gbl, acrogold, konehagun, antique.org.il, meshumashim)",
+      "url": ""
+    },
+    {
+      "key": "לוחות קהילתיים ועירוניים (gedera hayom, חפציונה נס ציונה, רמות חיפה, kfarsaba.news)",
+      "nameKey": "לוחותקהילתייםועירונייםgederahayomחפציונה",
+      "name": "לוחות קהילתיים ועירוניים (Gedera Hayom, חפציונה נס ציונה, רמות חיפה, KfarSaba.news)",
+      "url": ""
+    },
+    {
+      "key": "hommi.co.il/2026/08/02/antique-furniture-appraisal",
+      "nameKey": "hommicoil",
+      "name": "hommi.co.il",
+      "url": "https://www.hommi.co.il/2026/08/02/antique-furniture-appraisal/"
     }
   ],
   "intel": [
@@ -3779,6 +3827,14 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 5
+    },
+    {
+      "at": "2026-11-14T11:08:38.316Z",
+      "mode": "daily",
+      "total": 8,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 8
     }
   ]
 }
