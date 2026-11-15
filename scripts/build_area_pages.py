@@ -555,7 +555,7 @@ GUIDE_TITLES = {
     "before-clearance-checklist": "לפני שמזמינים פינוי דירה: הצ'קליסט המלא",
     "is-it-valuable-signs": "10 סימנים שאולי ירשתם משהו ששווה כסף",
     "dividing-contents-between-heirs": "איך מחלקים תכולת דירה בין יורשים בלי ריב?",
-    "silver-and-metalware-value": "כלי כסף או ציפוי? איך לקרוא את החותמות",
+    "silver-and-metalware-value": "הערכת כלי כסף: כסף או ציפוי, ואיך יודעים כמה זה שווה",
     "crystal-and-glass-value": "כמה שווה קריסטל ישן?",
     "how-to-sell-apartment-contents": "איך מוכרים תכולת דירה? ברשת, בבית פתוח או במכירה פומבית",
     "inherited-library-books": "ירשתם ספרייה? מה עושים עם ספרים ישנים",
