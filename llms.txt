@@ -10,6 +10,10 @@
 
 - [דף הבית](https://www.bamegirot.com/): השירות, איך זה עובד, למי זה מתאים, שאלות נפוצות
 - [כל המדריכים](https://www.bamegirot.com/guides/): מדריכים למשפחה שעומדת מול דירה מלאה
+- [קצת עליי: ליאור בוכשטב](https://www.bamegirot.com/about/): מי מעריכה, במה היא מתמחה, ולמה היא לא קונה את התכולה
+- [אזורי שירות](https://www.bamegirot.com/areas/): עמוד לכל עיר מתל אביב ועד חיפה
+- [English summary](https://www.bamegirot.com/en/): the service in English
+- [כל התוכן בקובץ אחד](https://www.bamegirot.com/llms-full.txt): הטקסט המלא של כל העמודים
 
 ## מדריכים
 
@@ -30,13 +34,27 @@
 - [איך מחלקים תכולת דירה בין אחים ויורשים בלי ריב?](https://www.bamegirot.com/guides/dividing-contents-between-heirs/)
 - [ירשתם ספרייה שלמה? מה עושים עם ספרים ישנים של ההורים](https://www.bamegirot.com/guides/inherited-library-books/)
 - [כמה זמן לוקח למכור תכולת דירה? לוח זמנים ריאלי לפי ערוץ](https://www.bamegirot.com/guides/how-long-does-selling-contents-take/)
+- [כמה עולה הערכת תכולת דירה? מי גובה מה, ועל מה](https://www.bamegirot.com/guides/how-much-does-contents-appraisal-cost/)
+
+## אזורי שירות
+
+- [הערכת תכולת דירה בתל אביב](https://www.bamegirot.com/areas/tel-aviv/)
+- [הערכת תכולת דירה ברמת השרון](https://www.bamegirot.com/areas/ramat-hasharon/)
+- [הערכת תכולת דירה בהרצליה](https://www.bamegirot.com/areas/herzliya/)
+- [הערכת תכולת דירה ברעננה](https://www.bamegirot.com/areas/raanana/)
+- [הערכת תכולת דירה בכפר סבא](https://www.bamegirot.com/areas/kfar-saba/)
+- [הערכת תכולת דירה בהוד השרון](https://www.bamegirot.com/areas/hod-hasharon/)
+- [הערכת תכולת דירה בנתניה](https://www.bamegirot.com/areas/netanya/)
+- [הערכת תכולת דירה בחדרה](https://www.bamegirot.com/areas/hadera/)
+- [הערכת תכולת דירה בזכרון יעקב](https://www.bamegirot.com/areas/zichron-yaakov/)
+- [הערכת תכולת דירה בחיפה](https://www.bamegirot.com/areas/haifa/)
 
 ## מקור המידע ועדכניות
 
 - כל התוכן נכתב על ידי ליאור בוכשטב מתוך עבודת ההערכה שלה בדירות ובעזבונות; הצילומים בעמודי סוגי הפריטים הם פריטים אמיתיים מעזבונות שהיא טיפלה בהם.
 - האתר אינו מפרסם מחירונים: ערך של פריט נקבע לפי מצב, נדירות, מקור, ביקוש ושלמות, ולכן כל הערכה נעשית על הפריט עצמו.
 - בכל מדריך מופיע תאריך "עודכן ב..." גלוי, והוא זהה ל-dateModified בסכמה ול-lastmod במפת האתר (sitemap.xml).
-- עודכן לאחרונה: 2026-10-30
+- עודכן לאחרונה: 2026-11-15
 
 ## פרופילים
 

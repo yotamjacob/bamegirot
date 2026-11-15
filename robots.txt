@@ -39,6 +39,11 @@ Allow: /
 Disallow: /.git/
 Disallow: /.vercel/
 
+User-agent: Perplexity-User
+Allow: /
+Disallow: /.git/
+Disallow: /.vercel/
+
 User-agent: ClaudeBot
 Allow: /
 Disallow: /.git/

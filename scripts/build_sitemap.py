@@ -5,8 +5,11 @@ Source of truth for a page's date is the ``dateModified`` of its main JSON-LD
 entity (Article / CollectionPage / WebSite). From it this script derives:
 
   * the <lastmod> of that page in sitemap.xml;
-  * the visible "עודכן ב<חודש> <שנה>" <time> in the page byline (guides + hub);
-  * the "עודכן לאחרונה" line in llms.txt (newest page date).
+  * the visible "עודכן ב<חודש> <שנה>" <time> in the page byline (guides + hub)
+    and the article:modified_time meta tag;
+  * the "עודכן לאחרונה" line in llms.txt (newest page date);
+  * llms-full.txt: the readable text of every page, for AI crawlers that
+    prefer one plain file over many HTML pages.
 
 Images listed under each sitemap URL are the gallery photos the page itself
 shows (images/item-NN.webp), in document order.
@@ -35,7 +38,7 @@ HEBREW_MONTHS = {
     1: "ינואר", 2: "פברואר", 3: "מרץ", 4: "אפריל", 5: "מאי", 6: "יוני",
     7: "יולי", 8: "אוגוסט", 9: "ספטמבר", 10: "אוקטובר", 11: "נובמבר", 12: "דצמבר",
 }
-MAIN_TYPES = ("Article", "CollectionPage", "WebSite")
+MAIN_TYPES = ("Article", "CollectionPage", "WebSite", "ProfilePage", "WebPage")
 DATE_RE = re.compile(r'"dateModified": "(\d{4}-\d{2}-\d{2})"')
 TIME_RE = re.compile(r'<time datetime="\d{4}-\d{2}-\d{2}">[^<]*</time>')
 IMG_RE = re.compile(r'<img[^>]*\ssrc="/?(images/item-\d+\.webp)"')
@@ -44,8 +47,11 @@ LLMS_RE = re.compile(r"^(- )?עודכן לאחרונה: \d{4}-\d{2}-\d{2}$", re.
 
 def pages() -> list[pathlib.Path]:
     return (
-        [ROOT / "index.html", ROOT / "guides" / "index.html"]
+        [ROOT / "index.html", ROOT / "about" / "index.html", ROOT / "en" / "index.html",
+         ROOT / "guides" / "index.html"]
         + sorted(ROOT.glob("guides/*/index.html"))
+        + [ROOT / "areas" / "index.html"]
+        + sorted(ROOT.glob("areas/*/index.html"))
         + sorted(ROOT.glob("events/*/index.html"))
     )
 
@@ -70,8 +76,12 @@ def visible_label(date: str) -> str:
     return f'<time datetime="{date}">עודכן ב{HEBREW_MONTHS[d.month]} {d.year}</time>'
 
 
+MODTIME_RE = re.compile(r'(<meta property="article:modified_time" content=")\d{4}-\d{2}-\d{2}(")')
+
+
 def synced_page(source: str, date: str) -> str:
-    """Return the page with its visible <time> matching ``date`` (no-op if none)."""
+    """Return the page with its visible <time> and article:modified_time matching ``date``."""
+    source = MODTIME_RE.sub(lambda m: f"{m.group(1)}{date}{m.group(2)}", source, count=1)
     return TIME_RE.sub(visible_label(date), source, count=1)
 
 
@@ -90,21 +100,58 @@ def render_sitemap(entries: list[tuple[str, str, list[str]]]) -> str:
     return "\n".join(out) + "\n"
 
 
+BLOCK_RE = re.compile(r"<(h[1-3]|p|li|blockquote|figcaption)\b[^>]*>(.*?)</\1>", re.S)
+
+
+def page_text(source: str) -> str:
+    """Plain-text rendering of a page's <main>: headings, paragraphs, list items."""
+    import html as html_lib
+
+    main = re.search(r"<main\b[^>]*>(.*?)</main>", source, re.S)
+    body = re.sub(r"(?s)<(script|style|svg)\b.*?</\1>", "", main.group(1) if main else "")
+    body = re.sub(r"(?s)<blockquote\b[^>]*>(.*?)</blockquote>", lambda m: "<p>" + re.sub(r"</?(p|cite)\b[^>]*>", " ", m.group(1)) + "</p>", body)
+    lines = []
+    for tag, inner in BLOCK_RE.findall(body):
+        text = " ".join(html_lib.unescape(re.sub(r"<[^>]+>", " ", inner)).split())
+        if not text:
+            continue
+        prefix = {"h1": "# ", "h2": "## ", "h3": "### ", "li": "- "}.get(tag, "")
+        lines.append(prefix + text)
+    return "\n\n".join(lines)
+
+
+def render_llms_full(rendered: list[tuple[str, str, str]]) -> str:
+    out = [
+        "# במגירות (bamegirot.com): כל התוכן",
+        "",
+        "> הטקסט המלא של כל עמודי האתר, לקריאה על ידי מנועי תשובות. נוצר אוטומטית מתוך העמודים; תקציר ומפת אתר נמצאים ב-https://www.bamegirot.com/llms.txt",
+    ]
+    for url, date, text in rendered:
+        out += ["", "---", "", f"URL: {url}", f"עודכן: {date}", "", text]
+    return "\n".join(out) + "\n"
+
+
 def build() -> tuple[str, str, dict[pathlib.Path, str]]:
     """Return (sitemap.xml, llms.txt, {page: synced source}) as they should be."""
-    entries, synced = [], {}
+    entries, synced, rendered = [], {}, []
     for page in pages():
         source = page.read_text(encoding="utf-8")
         date = date_of(source, page)
         images = list(dict.fromkeys(IMG_RE.findall(source)))
         entries.append((url_for(page), date, images))
         synced[page] = synced_page(source, date)
+        rendered.append((url_for(page), date, page_text(synced[page])))
+    global LLMS_FULL
+    LLMS_FULL = render_llms_full(rendered)
     newest = max(date for _, date, _ in entries)
     llms = (ROOT / "llms.txt").read_text(encoding="utf-8")
     if not LLMS_RE.search(llms):
         raise SystemExit("llms.txt is missing its 'עודכן לאחרונה: YYYY-MM-DD' line")
     llms = LLMS_RE.sub(lambda m: f"{m.group(1) or ''}עודכן לאחרונה: {newest}", llms)
     return render_sitemap(entries), llms, synced
+
+
+LLMS_FULL = ""
 
 
 def touch(targets: list[str]) -> None:
@@ -123,7 +170,7 @@ def touch(targets: list[str]) -> None:
 def dirty_pages() -> list[pathlib.Path]:
     try:
         out = subprocess.run(
-            ["git", "status", "--porcelain", "--", *[str(p.relative_to(ROOT)) for p in pages()]],
+            ["git", "status", "--porcelain", "-uall", "--", *[str(p.relative_to(ROOT)) for p in pages()]],
             cwd=ROOT, capture_output=True, text=True, check=True,
         ).stdout
     except (OSError, subprocess.CalledProcessError):
@@ -150,6 +197,9 @@ def check() -> list[str]:
         errors.append("sitemap.xml is stale — run: python3 scripts/build_sitemap.py")
     if (ROOT / "llms.txt").read_text(encoding="utf-8") != llms:
         errors.append("llms.txt 'עודכן לאחרונה' is stale — run: python3 scripts/build_sitemap.py")
+    full = ROOT / "llms-full.txt"
+    if not full.exists() or full.read_text(encoding="utf-8") != LLMS_FULL:
+        errors.append("llms-full.txt is stale — run: python3 scripts/build_sitemap.py")
     for page, source in synced.items():
         if page.read_text(encoding="utf-8") != source:
             errors.append(f"{page.relative_to(ROOT)}: visible <time> does not match dateModified — run: python3 scripts/build_sitemap.py")
@@ -174,6 +224,7 @@ def main(argv: list[str]) -> int:
     sitemap, llms, synced = build()
     (ROOT / "sitemap.xml").write_text(sitemap, encoding="utf-8")
     (ROOT / "llms.txt").write_text(llms, encoding="utf-8")
+    (ROOT / "llms-full.txt").write_text(LLMS_FULL, encoding="utf-8")
     for page, source in synced.items():
         if page.read_text(encoding="utf-8") != source:
             page.write_text(source, encoding="utf-8")
