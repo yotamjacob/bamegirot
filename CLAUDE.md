@@ -186,8 +186,9 @@ paintings have no photography, which is why that page does not exist despite
 the site claiming the category; build it when Lior supplies photos, not before.
 
 **Judaica is not offered and must not appear anywhere on the site** (standing
-decision, 2026-10-30). `check_site.py` fails on the word יודאיקה in any
-production HTML or in `llms.txt`.
+decision, 2026-10-30), and that includes Jewish ritual objects and holy books
+(2026-11-15: they bring the wrong enquiries). `check_site.py` fails on the
+terms in `JUDAICA_TERMS` in any production HTML, `llms.txt` or `llms-full.txt`.
 
 Copy is shipped without Lior's review (user's standing decision, 2026-08-09).
 Keep it accurate to the positioning: she appraises and accompanies the sale,

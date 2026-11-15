@@ -100,6 +100,11 @@ class SiteParser(HTMLParser):
         )
 
 
+# Judaica and Jewish ritual objects are not offered (standing decisions
+# 2026-10-30 and 2026-11-15: they attract the wrong enquiries).
+JUDAICA_TERMS = ("יודאיקה", "ייעוד יהודי", "ספרי קודש", "חנוכי", "קידוש", "קופסאות בשמים", "Judaica")
+
+
 def normalized_text(value: str) -> str:
     without_tags = re.sub(r"<[^>]+>", "", value)
     return " ".join(html_lib.unescape(without_tags).split())
@@ -533,8 +538,10 @@ def main() -> int:
         *ROOT.glob("*.html"),
         *[p for folder in ("guides", "areas", "about", "en") for p in ROOT.glob(f"{folder}/**/*.html")],
     ]:
-        if "יודאיקה" in path.read_text(encoding="utf-8"):
-            errors.append(f"{path.relative_to(ROOT)}: mentions יודאיקה, which the site does not offer")
+        text = path.read_text(encoding="utf-8")
+        for term in JUDAICA_TERMS:
+            if term in text:
+                errors.append(f"{path.relative_to(ROOT)}: mentions {term} (Judaica / Jewish ritual items are not offered)")
 
     # IndexNow proves ownership by serving <key>.txt from the site root; the
     # GitHub Action finds the key by that file name.
