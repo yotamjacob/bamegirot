@@ -827,6 +827,48 @@
       "nameKey": "צלופינויים",
       "name": "צ'לו פינויים",
       "url": ""
+    },
+    {
+      "key": "spaceandorder.co",
+      "nameKey": "spaceorder",
+      "name": "Space & Order",
+      "url": "https://www.spaceandorder.co/"
+    },
+    {
+      "key": "pillu.co.il/index.html",
+      "nameKey": "פילונדלןנועםדרסה",
+      "name": "פילו נדל\"ן — נועם דרסה",
+      "url": "https://pillu.co.il/index.html"
+    },
+    {
+      "key": "will-b-beseder.co.il/senior-housing",
+      "nameKey": "יהיהבסדרשרון",
+      "name": "יהיה בסדר — שרון",
+      "url": "https://www.will-b-beseder.co.il/senior-housing"
+    },
+    {
+      "key": "il.bidspirit.com/ui/houses",
+      "nameKey": "רומנוביתמכירותבוליםושטרות",
+      "name": "רומנו — בית מכירות בולים ושטרות בע\"מ",
+      "url": "https://il.bidspirit.com/ui/houses?lang=he"
+    },
+    {
+      "key": "hakolbeseder.co.il",
+      "nameKey": "הכולבסדר",
+      "name": "הכול ב-סדר",
+      "url": "https://hakolbeseder.co.il/"
+    },
+    {
+      "key": "jacobtwena.co.il/home-staging",
+      "nameKey": "גלרייתיעקבטוינההוםסטייגינג",
+      "name": "גלריית יעקב טוינה — הום סטייג'ינג",
+      "url": "https://jacobtwena.co.il/home-staging/"
+    },
+    {
+      "key": "il.bidspirit.com/ui/houses/deutsch,false",
+      "nameKey": "מרכזארכיאולוגידררוברטדויטש",
+      "name": "מרכז ארכיאולוגי — ד\"ר רוברט דויטש",
+      "url": "https://il.bidspirit.com/ui/houses/deutsch,false?lang=he"
     }
   ],
   "opportunities": [
@@ -2425,6 +2467,36 @@
       "nameKey": "hommicoil",
       "name": "hommi.co.il",
       "url": "https://www.hommi.co.il/2026/08/02/antique-furniture-appraisal/"
+    },
+    {
+      "key": "homeless.co.il/yad2/inumber1=5$$inumber3=46",
+      "nameKey": "homelessפידתכולהאשדודאשקלון",
+      "name": "Homeless — פיד תכולה אשדוד/אשקלון",
+      "url": "https://www.homeless.co.il/yad2/inumber1=5$$inumber3=46"
+    },
+    {
+      "key": "t.me/s/nesszionamuni",
+      "nameKey": "telegramעדכוניעירייתנסציונה",
+      "name": "Telegram — עדכוני עיריית נס ציונה",
+      "url": "https://t.me/s/nesszionamuni"
+    },
+    {
+      "key": "ksn.co.il/%d7%9e%d7%9b%d7%99%d7%a8%d7%aa-%d7%94%d7%97%d7%a6%d7%a8-%d7%a9%d7%9c-%d7%a7%d7%a8%d7%99%d7%99%d7%aa-%d7%94%d7%a9%d7%a8%d7%95%d7%9f-%d7%97%d7%95%d7%96%d7%a8%d7%aa",
+      "nameKey": "netanyaonlineksncoil",
+      "name": "Netanya Online (ksn.co.il)",
+      "url": "https://www.ksn.co.il/מכירת-החצר-של-קריית-השרון-חוזרת/"
+    },
+    {
+      "key": "homeless.co.il/yad2/viewad,834977.aspx",
+      "nameKey": "homelessמודעותסוחרים",
+      "name": "Homeless — מודעות סוחרים",
+      "url": "https://www.homeless.co.il/yad2/viewad,834977.aspx"
+    },
+    {
+      "key": "antique-tak.com/contents/inheritance",
+      "nameKey": "antiquetak",
+      "name": "Antique-tak",
+      "url": "https://www.antique-tak.com/contents/inheritance/"
     }
   ],
   "intel": [
@@ -3051,6 +3123,48 @@
       "nameKey": "עיתונותמקומיתפעילהבלבקהלהיעדהשרון",
       "name": "עיתונות מקומית פעילה בלב קהל היעד — השרון",
       "url": "https://hasharon-post.co.il/"
+    },
+    {
+      "key": "yadvashem.org/he/gathering-fragments",
+      "nameKey": "פערתוכןובידולאתיפריטישואהבדירהומבצעלאסוף",
+      "name": "פער תוכן ובידול אתי: פריטי שואה בדירה ומבצע \"לאסוף את השברים\" של יד ושם",
+      "url": "https://www.yadvashem.org/he/gathering-fragments"
+    },
+    {
+      "key": "habaytashop.co.il/%d7%90%d7%99%d7%9a-%d7%aa%d7%92%d7%9c%d7%95-%d7%90%d7%95%d7%a6%d7%a8%d7%95%d7%aa-%d7%99%d7%a7%d7%a8%d7%99-%d7%a2%d7%a8%d7%9a-%d7%90%d7%a6%d7%9c%d7%9b%d7%9d-%d7%91%d7%91%d7%99%d7%aa",
+      "nameKey": "מתחרהותיקהבטקטיקהחדשהאוצרותמהביתשותלתתוכ",
+      "name": "מתחרה ותיקה בטקטיקה חדשה: \"אוצרות מהבית\" שותלת תוכן חתום בשמה בדומיינים חיצוניים",
+      "url": "https://www.habaytashop.co.il/איך-תגלו-אוצרות-יקרי-ערך-אצלכם-בבית/"
+    },
+    {
+      "key": "ynet.co.il/architecture/article/bjumj9zaje",
+      "nameKey": "נראותוערוץעיתונותדסקהעיצובשלynetהפךאתהסר",
+      "name": "נראות וערוץ עיתונות: דסק העיצוב של ynet הפך את \"הסרוויס של סבתא\" לסדרה",
+      "url": "https://www.ynet.co.il/architecture/article/bjumj9zaje"
+    },
+    {
+      "key": "hommi.co.il/2026/08/02/antique-furniture-appraisal",
+      "nameKey": "נראותגלמדריכיהערכהגנרייםעלדומייניםלא־קשו",
+      "name": "נראות: גל \"מדריכי הערכה\" גנריים על דומיינים לא־קשורים תפס את שאילתות הליבה",
+      "url": "https://www.hommi.co.il/2026/08/02/antique-furniture-appraisal/"
+    },
+    {
+      "key": "capitax.co.il/content/1/2321",
+      "nameKey": "פערתוכןאםנמכוראתהחפציםנצטרךלשלםמסאיןתשוב",
+      "name": "פער תוכן: \"אם נמכור את החפצים — נצטרך לשלם מס?\" אין תשובה בעברית פשוטה",
+      "url": "https://www.capitax.co.il/content/1/2321"
+    },
+    {
+      "key": "vinyl-record.co.il/%d7%a7%d7%95%d7%a0%d7%99%d7%9d-%d7%aa%d7%a7%d7%9c%d7%99%d7%98%d7%99-%d7%95%d7%99%d7%a0%d7%99%d7%9c-%d7%91%d7%9e%d7%96%d7%95%d7%9e%d7%9f-%d7%94%d7%a4%d7%aa%d7%a8%d7%95%d7%9f-%d7%94%d7%9e%d7%95%d7%a9",
+      "nameKey": "פערתוכןקטןונקיתקליטיםהשאילתהכולהבידיקוני",
+      "name": "פער תוכן קטן ונקי: תקליטים — השאילתה כולה בידי קונים, ו־mynet כבר מסקרת אוספים מקומיים",
+      "url": "https://vinyl-record.co.il/קונים-תקליטי-ויניל-במזומן-הפתרון-המוש/"
+    },
+    {
+      "key": "לא אומת בסבב זה: יד שרה כיעד תרומה לציוד רפואי וסיעודי שנשאר בדירה",
+      "nameKey": "לאאומתבסבבזהידשרהכיעדתרומהלציודרפואיוסיע",
+      "name": "לא אומת בסבב זה: יד שרה כיעד תרומה לציוד רפואי וסיעודי שנשאר בדירה",
+      "url": ""
     }
   ],
   "runs": [
@@ -3835,6 +3949,16 @@
       "actionable": 0,
       "sent": false,
       "opportunities": 8
+    },
+    {
+      "at": "2026-11-15T11:42:05.182Z",
+      "mode": "full",
+      "total": 19,
+      "actionable": 14,
+      "sent": true,
+      "partners": 7,
+      "opportunities": 5,
+      "intel": 7
     }
   ]
 }
