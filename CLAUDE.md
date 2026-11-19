@@ -140,8 +140,10 @@ review. Keep all four rules if you rewrite the prompts.
 ```
 
 The user's standing preference is to deploy after an edit session. AGENTS.md
-says never deploy unless explicitly requested. **Resolution: ask once at the
-end of a session that changed production files, then deploy.** Do not deploy
+says never deploy unless explicitly requested. **Resolution (updated 2026-11-19): do
+not ask. When an edit is finished and the checks pass, merge it to `main`
+(that deploys).** In cloud sessions: open a PR from the working branch and
+squash-merge it. Do not deploy
 mid-task, and never touch DNS, the Google Ads tag (`AW-10933411346`), or the
 conversion label as part of an ordinary edit.
 
