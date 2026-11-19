@@ -73,7 +73,9 @@ Treat these as fixed unless the user explicitly changes them:
 - Never deploy, modify DNS, change analytics IDs, or alter live ad tracking
   unless explicitly requested.
 - Keep one self-referencing canonical, one metadata set, and one JSON-LD
-  `@graph`. Do not describe the business as directly buying contents.
+  `@graph`. Never claim Lior does not buy contents or that the appraisal is
+  "independent" because she does not buy: she does buy items (standing
+  decision, 2026-11-19). `check_site.py` enforces this via `NOT_A_BUYER_TERMS`.
 
 ## Fast workflow
 

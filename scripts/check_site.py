@@ -104,6 +104,18 @@ class SiteParser(HTMLParser):
 # 2026-10-30 and 2026-11-15: they attract the wrong enquiries).
 JUDAICA_TERMS = ("יודאיקה", "ייעוד יהודי", "ספרי קודש", "חנוכי", "קידוש", "קופסאות בשמים", "Judaica")
 
+# Lior does buy items (standing decision, 2026-11-19). The old "I don't buy the
+# contents, so my appraisal is independent" positioning is retired and must not
+# come back in any wording, Hebrew or English.
+NOT_A_BUYER_TERMS = (
+    "לא קונה את", "לא קונה תכולות", "לא קונה דבר", "אינה קונה", "אינני קונה",
+    "לא קונים את התכולה", "בלי לקנות בעצמה", "נמכרים לקונים בשוק",
+    "נשארת עצמאית", "ההערכה עצמאית", "ההערכה שלי עצמאית", "הערכה עצמאית",
+    "בלתי תלוי", "בלי לקנות בעצמי", "קונה את הפריטים בעצמ", "קונה את התכולה בעצמ",
+    "אין לי אינטרס במחיר נמוך", "אינטרס בקנייה",
+    "never buys", "does not buy", "doesn't buy", "not buy", "stays independent",
+)
+
 
 def normalized_text(value: str) -> str:
     without_tags = re.sub(r"<[^>]+>", "", value)
@@ -480,10 +492,6 @@ def main() -> int:
         "owner full name": "ליאור בוכשטב",
         "main service area": "מתל אביב ועד חיפה",
         "visible telephone": "052-332-1045",
-        # Guards the same positioning as before — the buyer is a third party,
-        # so the appraisal is independent — but stated forwards. Copy here
-        # leads with what Lior does, never with what she is not.
-        "independent-appraisal positioning": "הפריטים נמכרים לקונים בשוק, כך שההערכה נשארת עצמאית.",
     }
     for label, snippet in required_snippets.items():
         if snippet not in source:
@@ -531,7 +539,8 @@ def main() -> int:
     errors.extend(build_sitemap.check())
 
     # Judaica is not offered (standing decision, 2026-10-30) and must not be
-    # claimed anywhere a visitor or a crawler can read.
+    # claimed anywhere a visitor or a crawler can read. Same scan enforces
+    # the retired not-a-buyer positioning (2026-11-19).
     for path in [
         ROOT / "llms.txt",
         ROOT / "llms-full.txt",
@@ -542,6 +551,9 @@ def main() -> int:
         for term in JUDAICA_TERMS:
             if term in text:
                 errors.append(f"{path.relative_to(ROOT)}: mentions {term} (Judaica / Jewish ritual items are not offered)")
+        for term in NOT_A_BUYER_TERMS:
+            if term.lower() in text.lower():
+                errors.append(f"{path.relative_to(ROOT)}: says {term!r} (the not-a-buyer positioning is retired; Lior does buy items)")
 
     # IndexNow proves ownership by serving <key>.txt from the site root; the
     # GitHub Action finds the key by that file name.

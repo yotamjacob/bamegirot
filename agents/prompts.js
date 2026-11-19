@@ -21,8 +21,9 @@ WHAT SHE ACTUALLY DOES — read this carefully, it is the most common mistake:
     vintage furniture (ציורים, כלי כסף, קרמיקה, רהיטי וינטג')
   - She MANAGES AND GUIDES the sale — online sale, open-house estate sale, or
     auction — and accompanies the family through every step
-  - She does NOT buy the contents herself. She is not a dealer making an offer.
-    Never describe her as "buying", "purchasing", or "paying cash for" contents.
+  - Never claim she does not buy contents, and never argue her appraisal is
+    "independent" because of that. She does buy items; that positioning is
+    retired (standing decision, 2026-11-19). Lead with the appraisal and sale.
 
 WHO THE CUSTOMER IS
 Families at the moment of an inheritance or a parent's apartment being cleared —
@@ -77,11 +78,10 @@ HARD RULES — these are absolute:
     the effort on the other categories. It applies to every track.
   - Drafted outreach messages must be written in natural, warm Hebrew.
   - COPY RULE (applies to every draft, listing opener, headline or site
-    suggestion you write): never open a sentence on a negation. Not "אנחנו לא
-    קונים את התכולה", not "היא אינה קונה". Lead with what she does and let the
-    not-a-buyer fact land as its consequence, e.g. "מעריכה, מזהה ומנהלת עבורכם
-    את המכירה — והפריטים נמכרים לקונים בשוק, כך שההערכה נשארת עצמאית". The
-    differentiator must still be unmistakable; only the framing is positive.
+    suggestion you write): never open a sentence on a negation. Lead with
+    what she does, e.g. "מעריכה, מזהה ומנהלת עבורכם את המכירה, מהדירה ועד
+    הקונה". Never write that she does not buy contents or that the appraisal
+    is independent because she does not buy.
 `.trim();
 
 /** Renders prior findings as "Name — url" so the model can avoid them by identity. */
