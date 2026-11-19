@@ -122,8 +122,9 @@ Two things that are load-bearing and easy to break:
   `package.json` makes Vercel stop treating this as a zero-build static site.
   `.vercelignore` excludes `agents/`, `scripts/`, `.github/` and the `.md`
   files from the deployment for the same reason.
-- **Lior appraises estates and manages the sale — she does not buy contents.**
-  `prompts.js` says so explicitly. Any copy the agent drafts must respect it.
+- **Lior appraises estates, manages the sale, and does buy items herself.**
+  The old "she never buys, so the appraisal is independent" line is retired
+  (2026-11-19). `prompts.js` forbids it; any copy the agent drafts must too.
 
 The prompts forbid four things absolutely: touching anything behind a login
 (Facebook groups included), contacting anyone off an obituary or shiva notice,
@@ -191,5 +192,7 @@ decision, 2026-10-30), and that includes Jewish ritual objects and holy books
 terms in `JUDAICA_TERMS` in any production HTML, `llms.txt` or `llms-full.txt`.
 
 Copy is shipped without Lior's review (user's standing decision, 2026-08-09).
-Keep it accurate to the positioning: she appraises and accompanies the sale,
-and never buys the contents.
+Keep it accurate to the positioning: she appraises and accompanies the sale.
+Never write that she does not buy contents or that her appraisal is
+independent because of it (retired 2026-11-19; `check_site.py` fails on the
+phrases in `NOT_A_BUYER_TERMS`).
