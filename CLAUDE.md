@@ -195,4 +195,5 @@ Copy is shipped without Lior's review (user's standing decision, 2026-08-09).
 Keep it accurate to the positioning: she appraises and accompanies the sale.
 Never write that she does not buy contents or that her appraisal is
 independent because of it (retired 2026-11-19; `check_site.py` fails on the
-phrases in `NOT_A_BUYER_TERMS`).
+phrases in `NOT_A_BUYER_TERMS`). No generic service filler such as "ליווי אישי"
+or "לאורך כל התהליך" (2026-11-19); the checker fails on `FILLER_TERMS`.
