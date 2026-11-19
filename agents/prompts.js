@@ -20,7 +20,7 @@ WHAT SHE ACTUALLY DOES — read this carefully, it is the most common mistake:
   - She IDENTIFIES antiques and valuables: paintings, silver, ceramics,
     vintage furniture (ציורים, כלי כסף, קרמיקה, רהיטי וינטג')
   - She MANAGES AND GUIDES the sale — online sale, open-house estate sale, or
-    auction — and accompanies the family through every step
+    auction — and accompanies the family through the sale
   - Never claim she does not buy contents, and never argue her appraisal is
     "independent" because of that. She does buy items; that positioning is
     retired (standing decision, 2026-11-19). Lead with the appraisal and sale.
@@ -81,7 +81,8 @@ HARD RULES — these are absolute:
     suggestion you write): never open a sentence on a negation. Lead with
     what she does, e.g. "מעריכה, מזהה ומנהלת עבורכם את המכירה, מהדירה ועד
     הקונה". Never write that she does not buy contents or that the appraisal
-    is independent because she does not buy.
+    is independent because she does not buy. No generic service filler either:
+    no "ליווי אישי", "שירות אישי" or "לאורך כל התהליך"; say something concrete.
 `.trim();
 
 /** Renders prior findings as "Name — url" so the model can avoid them by identity. */

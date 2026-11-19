@@ -140,8 +140,10 @@ review. Keep all four rules if you rewrite the prompts.
 ```
 
 The user's standing preference is to deploy after an edit session. AGENTS.md
-says never deploy unless explicitly requested. **Resolution: ask once at the
-end of a session that changed production files, then deploy.** Do not deploy
+says never deploy unless explicitly requested. **Resolution (updated 2026-11-19): do
+not ask. When an edit is finished and the checks pass, merge it to `main`
+(that deploys).** In cloud sessions: open a PR from the working branch and
+squash-merge it. Do not deploy
 mid-task, and never touch DNS, the Google Ads tag (`AW-10933411346`), or the
 conversion label as part of an ordinary edit.
 
@@ -195,4 +197,5 @@ Copy is shipped without Lior's review (user's standing decision, 2026-08-09).
 Keep it accurate to the positioning: she appraises and accompanies the sale.
 Never write that she does not buy contents or that her appraisal is
 independent because of it (retired 2026-11-19; `check_site.py` fails on the
-phrases in `NOT_A_BUYER_TERMS`).
+phrases in `NOT_A_BUYER_TERMS`). No generic service filler such as "ליווי אישי"
+or "לאורך כל התהליך" (2026-11-19); the checker fails on `FILLER_TERMS`.

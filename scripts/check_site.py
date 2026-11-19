@@ -117,6 +117,10 @@ NOT_A_BUYER_TERMS = (
 )
 
 
+# Generic "personal service" filler is not wanted (user decision, 2026-11-19):
+# say something concrete (experience, area, what she checks) instead.
+FILLER_TERMS = ("ליווי אישי", "שירות אישי", "לאורך כל התהליך", "לאורך כל הדרך", "ליווי צמוד", "יד ביד")
+
 def normalized_text(value: str) -> str:
     without_tags = re.sub(r"<[^>]+>", "", value)
     return " ".join(html_lib.unescape(without_tags).split())
@@ -551,6 +555,9 @@ def main() -> int:
         for term in JUDAICA_TERMS:
             if term in text:
                 errors.append(f"{path.relative_to(ROOT)}: mentions {term} (Judaica / Jewish ritual items are not offered)")
+        for term in FILLER_TERMS:
+            if term in text:
+                errors.append(f"{path.relative_to(ROOT)}: says {term!r} (generic personal-service filler is not wanted)")
         for term in NOT_A_BUYER_TERMS:
             if term.lower() in text.lower():
                 errors.append(f"{path.relative_to(ROOT)}: says {term!r} (the not-a-buyer positioning is retired; Lior does buy items)")
