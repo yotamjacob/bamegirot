@@ -624,7 +624,42 @@
       margin-bottom: 1.25rem;
       text-shadow: 0 1px 6px rgba(0,0,0,0.55), 0 2px 18px rgba(0,0,0,0.35);
     }
-    .hero-lede { font-weight: 600; margin-bottom: 0.75rem; }
+    /* The gold eyebrow is the page H1: keep the pill look, not the H1 size. */
+    .hero h1.eyebrow {
+      font-family: var(--font-body);
+      font-size: 0.9rem;
+      line-height: 1.5;
+      color: #2a1a00;
+      margin-bottom: 1.5rem;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.25);
+      border-radius: 1.25rem;
+    }
+    .hero-hook {
+      font-size: clamp(1.45rem, 4vw, 2.1rem);
+      font-weight: 600;
+      color: #fff;
+      line-height: 1.4;
+      max-width: 40rem;
+      margin-bottom: 2rem;
+    }
+    .hero-offer { margin-bottom: 2rem; }
+    .hero-offer h2 {
+      font-size: clamp(1.3rem, 3vw, 1.6rem);
+      color: #fff;
+      margin-bottom: 0.9rem;
+      text-shadow: 0 1px 6px rgba(0,0,0,0.5);
+    }
+    .hero-offer ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.75rem; }
+    @media (min-width: 700px) { .hero-offer ul { grid-template-columns: repeat(2, 1fr); } }
+    .hero-offer li {
+      background: rgba(26, 22, 18, 0.55);
+      border: 1px solid rgba(245, 239, 230, 0.2);
+      border-radius: var(--radius-lg);
+      padding: 0.95rem 1.1rem;
+      backdrop-filter: blur(3px);
+    }
+    .hero-offer h3 { font-size: 1.05rem; color: #f5d078; margin-bottom: 0.3rem; }
+    .hero-offer p { font-size: 0.95rem; color: rgba(245, 239, 230, 0.88); line-height: 1.5; }
     .hero-sub {
       font-size: clamp(1.1rem, 2.5vw, 1.3rem);
       color: rgba(245, 239, 230, 0.88);
@@ -1305,19 +1340,35 @@
     </div>
     <div class="container">
       <div class="hero-content">
-        <span class="eyebrow reveal">מומחית לוינטאג׳ ישראלי ובינלאומי · הערכת ומכירת עזבונות ותכולות בתים</span>
+        <h1 class="eyebrow reveal">מומחית לוינטאג׳ ישראלי ובינלאומי · קניית, מכירת והערכת עזבונות ותכולות בתים</h1>
 
-        <h1 class="reveal reveal-delay-1">הערכת ומכירת תכולת דירה ועזבונות, עתיקות ופריטי וינטג׳</h1>
-
-        <p class="hero-sub reveal reveal-delay-2">
+        <p class="hero-sub hero-hook reveal reveal-delay-1">
           ירשתם בית שלם של זכרונות? יש לכם חפצים שאתם לא יודעים מה לעשות איתם?
           אצלי תמצאו אוזן קשבת, עין מקצועית, ותשובה כנה — בלי לחץ ובלי הפתעות.
           מגיעה אליכם הביתה, מתל אביב ועד חיפה.
         </p>
 
-        <p class="hero-sub hero-lede reveal reveal-delay-2">
-          במגירות היא שירות הערכת ומכירת תכולת דירה ועזבונות של ליאור בוכשטב: אני מעריכה, ממליצה איפה ואיך למכור, ומלווה את המכירה עד הסוף.
-        </p>
+        <div class="hero-offer reveal reveal-delay-2" id="services">
+          <h2>מה אני מציעה?</h2>
+          <ul>
+            <li>
+              <h3>מכירת רהיטי התכולה עבורכם</h3>
+              <p>אני מצלמת, מתמחרת ומפרסמת את הרהיטים, ומתאמת מול הקונים עד שהם יוצאים מהדירה.</p>
+            </li>
+            <li>
+              <h3>קניית תכולת בית חלקית או מלאה</h3>
+              <p>כשצריך לסיים מהר, אני קונה את התכולה, כולה או רק חלק ממנה, וחוסכת לכם את תהליך המכירה.</p>
+            </li>
+            <li>
+              <h3>הערכת אמנות וחפצי ערך, וטיפול במכירתם לאספנים ובתי מכירות פומביות</h3>
+              <p>ציורים, כלי כסף, קרמיקה, פורצלן וקריסטל, ישראליים ובינלאומיים. אני מזהה חתימות, חותמות ותקופה, ומביאה כל פריט לאספנים או לבית המכירות שמתאים לו.</p>
+            </li>
+            <li>
+              <h3>הערכה מלאה של תכולת הבית כתהליך נפרד</h3>
+              <p>רוצים קודם לדעת מה יש? אני עוברת על כל הבית, כולל מחסן ובוידעם, ואומרת מה שווה ומה לא, כשירות בפני עצמו.</p>
+            </li>
+          </ul>
+        </div>
 
         <div class="hero-ctas reveal reveal-delay-3">
           <a class="btn btn-whatsapp btn-lg"
@@ -1351,37 +1402,6 @@
             מגיעה אליכם הביתה, מתל אביב ועד חיפה
           </span>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ============================================= -->
-  <!-- WHAT I OFFER                                    -->
-  <!-- ============================================= -->
-  <section class="section" id="services">
-    <div class="container">
-      <div class="section-header">
-        <span class="section-eyebrow">השירותים שלי</span>
-        <h2 class="section-title">מה אני מציעה?</h2>
-      </div>
-
-      <div class="expertise-grid">
-        <article class="expertise-item">
-          <h3>מכירת רהיטי התכולה עבורכם</h3>
-          <p>אני מצלמת, מתמחרת ומפרסמת את הרהיטים, ומתאמת מול הקונים עד שהם יוצאים מהדירה.</p>
-        </article>
-        <article class="expertise-item">
-          <h3>קניית תכולת בית חלקית או מלאה</h3>
-          <p>כשצריך לסיים מהר, אני קונה את התכולה, כולה או רק חלק ממנה, וחוסכת לכם את תהליך המכירה.</p>
-        </article>
-        <article class="expertise-item">
-          <h3>הערכת אמנות וחפצי ערך, וטיפול במכירתם לאספנים ובתי מכירות פומביות</h3>
-          <p>ציורים, כלי כסף, קרמיקה, פורצלן וקריסטל, ישראליים ובינלאומיים. אני מזהה חתימות, חותמות ותקופה, ומביאה כל פריט לאספנים או לבית המכירות שמתאים לו.</p>
-        </article>
-        <article class="expertise-item">
-          <h3>הערכה מלאה של תכולת הבית כתהליך נפרד</h3>
-          <p>רוצים קודם לדעת מה יש? אני עוברת על כל הבית, כולל מחסן ובוידעם, ואומרת מה שווה ומה לא, כשירות בפני עצמו.</p>
-        </article>
       </div>
     </div>
   </section>
