@@ -2497,6 +2497,12 @@
       "nameKey": "antiquetak",
       "name": "Antique-tak",
       "url": "https://www.antique-tak.com/contents/inheritance/"
+    },
+    {
+      "key": "תצפית מבנית — תוצאות החיפוש המסחריות",
+      "nameKey": "תצפיתמבניתתוצאותהחיפושהמסחריות",
+      "name": "תצפית מבנית — תוצאות החיפוש המסחריות",
+      "url": ""
     }
   ],
   "intel": [
@@ -3959,6 +3965,14 @@
       "partners": 7,
       "opportunities": 5,
       "intel": 7
+    },
+    {
+      "at": "2026-11-21T11:58:09.209Z",
+      "mode": "daily",
+      "total": 1,
+      "actionable": 0,
+      "sent": false,
+      "opportunities": 1
     }
   ]
 }
